@@ -1013,8 +1013,8 @@ public final class ItemDef {
                 itemDef.modelOffsetY = itemDef18.modelOffsetY;
                 itemDef.modelZoom = itemDef18.modelZoom;
                 break;
-        case 15355:
-                itemDef.name = "$10 Scroll";
+        case 607:
+                itemDef.name = "@red@$10 Scroll";
                 itemDef.actions = new String[5];
                 itemDef.actions[4] = "Drop";
                 itemDef.actions[0] = "Claim";
@@ -1025,8 +1025,8 @@ public final class ItemDef {
                 itemDef.modelOffsetY = itemDef19.modelOffsetY;
                 itemDef.modelZoom = itemDef19.modelZoom;
                 break;
-         case 15359:
-                itemDef.name = "$25 Scroll";
+         case 608:
+                itemDef.name = "@gre@$25 Scroll";
                 itemDef.actions = new String[5];
                 itemDef.actions[4] = "Drop";
                 itemDef.actions[0] = "Claim";
@@ -1037,8 +1037,8 @@ public final class ItemDef {
                 itemDef.modelOffsetY = itemDef20.modelOffsetY;
                 itemDef.modelZoom = itemDef20.modelZoom;
                 break;
-         case 15358:
-                itemDef.name = "$50 Scroll";
+         case 786:
+                itemDef.name = "@whi@$50 Scroll";
                 itemDef.actions = new String[5];
                 itemDef.actions[4] = "Drop";
                 itemDef.actions[0] = "Claim";

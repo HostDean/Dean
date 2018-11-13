@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 27844986,
+  "total-play-time-ms": 30778820,
   "username": "Dean",
   "password": "deanpro",
   "email": "null",
@@ -9,26 +9,26 @@
   "morytania-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3088,
-    "y": 3497,
+    "x": 3092,
+    "y": 3491,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": false,
   "money-pouch": 1961761544,
-  "donated": 95,
+  "donated": 195,
   "minutes-bonus-exp": -1,
   "total-gained-exp": 1472441539,
   "prestige-points": 0,
   "achievement-points": 100,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 9388,
-  "total-loyalty-points": 9386.5,
+  "loyalty-points": 10201,
+  "total-loyalty-points": 10199.5,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
-  "donation-points": 100015,
+  "donation-points": 100115,
   "trivia-points": 10,
   "cluescompleted": 0,
   "player-kills": 0,
@@ -48,7 +48,7 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1541892575276,
+  "last-veng": 1541893191430,
   "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -276,18 +276,18 @@
   },
   "inventory": [
     {
-      "id": -1,
-      "amount": 0,
+      "id": 786,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 608,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 607,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -587,6 +587,11 @@
     {
       "id": 18892,
       "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 607,
+      "amount": 9,
       "slot": 0
     }
   ],

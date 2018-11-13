@@ -89,24 +89,21 @@ case "20007":
 	
 case "19509":
 	player.getInventory().add(6199, 1);
-case "19744":
-	player.getInventory().add(15356, 1);
-break;
 case "19749":
-	player.getInventory().add(15355, 1);
+	player.getInventory().add(607, 1);
 break;
 case "19934":
-	player.getInventory().add(15359, 1);
+	player.getInventory().add(608, 1);
 break;
 //50$scroll
 case "19935":
-	player.getInventory().add(15358, 1);
+	player.getInventory().add(786, 1);
 break;
 case "19936":
-	player.getInventory().add(15358, 2);
+	player.getInventory().add(786, 2);
 break;
 case "19975":
-	player.getInventory().add(15358, 5);
+	player.getInventory().add(786, 5);
 break;
 
 case "20134":

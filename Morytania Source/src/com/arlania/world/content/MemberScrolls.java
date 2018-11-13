@@ -35,10 +35,10 @@ public class MemberScrolls {
 	public static boolean handleScroll(Player player, int item) {
 		switch(item) {
 		case 15356:
-		case 15355:
-		case 15359:
-		case 15358:
-			int funds = item == 15356 ? 5 : item == 15355 ? 10 : item == 15359 ? 25 : item == 15358 ? 50 : -1;
+		case 607:
+		case 608:
+		case 786:
+			int funds = item == 15356 ? 5 : item == 607 ? 10 : item == 608 ? 25 : item == 786 ? 50 : -1;
 			player.getInventory().delete(item, 1);
 			player.incrementAmountDonated(funds);
 			player.getPointsHandler().incrementDonationPoints(funds);
