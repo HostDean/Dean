@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 26262362,
+  "total-play-time-ms": 27844986,
   "username": "Dean",
   "password": "deanpro",
   "email": "null",
@@ -9,13 +9,13 @@
   "morytania-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3089,
-    "y": 3501,
+    "x": 3088,
+    "y": 3497,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": false,
-  "money-pouch": 3961761544,
+  "money-pouch": 1961761544,
   "donated": 95,
   "minutes-bonus-exp": -1,
   "total-gained-exp": 1472441539,
@@ -23,12 +23,12 @@
   "achievement-points": 100,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 8951,
-  "total-loyalty-points": 8949.5,
+  "loyalty-points": 9388,
+  "total-loyalty-points": 9386.5,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
-  "donation-points": 100095,
+  "donation-points": 100015,
   "trivia-points": 10,
   "cluescompleted": 0,
   "player-kills": 0,
@@ -48,7 +48,7 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1541891639710,
+  "last-veng": 1541892575276,
   "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -78,7 +78,7 @@
   "autocast-spell": -1,
   "dfs-charges": 0,
   "coins-gambled": 0,
-  "slayer-master": "VANNAKA",
+  "slayer-master": "SUMONA",
   "slayer-task": "NO_TASK",
   "prev-slayer-task": "NO_TASK",
   "task-amount": 0,
@@ -463,8 +463,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 7673,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -550,11 +550,6 @@
       "slot": 0
     },
     {
-      "id": 18892,
-      "amount": 2,
-      "slot": 0
-    },
-    {
       "id": 18891,
       "amount": 1,
       "slot": 0
@@ -582,6 +577,16 @@
     {
       "id": 21001,
       "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 18016,
+      "amount": 80000000,
+      "slot": 0
+    },
+    {
+      "id": 18892,
+      "amount": 2,
       "slot": 0
     }
   ],

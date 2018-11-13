@@ -417,6 +417,7 @@ public final class NPCDef {
 			npc.actions = new String[] {"Talk-to", null, "Check Total", "Teleport", null};
 			break;
 		case 364:
+			npc.name = "Loyalty & Vote Store";
 			npc.actions = new String[] {"Talk-to", null, "Vote Rewards", "Loyalty Titles", null};
 			break;
 		case 8591:
@@ -604,7 +605,7 @@ public final class NPCDef {
 			break;
 		case 2292:
 			npc.actions = new String[] {"Trade", null, null, null, null};
-			npc.name = "Merchant";
+			npc.name = "Stall Merchant";
 			break;
 		case 2676:
 			npc.actions = new String[] {"Makeover", null, null, null, null};
