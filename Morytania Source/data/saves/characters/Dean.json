@@ -1,34 +1,34 @@
 {
-  "total-play-time-ms": 16406679,
+  "total-play-time-ms": 19032436,
   "username": "Dean",
   "password": "deanpro",
   "email": "null",
   "staff-rights": "DEVELOPER",
   "game-mode": "NORMAL",
-  "boss-points": 1,
+  "boss-points": 3,
   "morytania-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3089,
+    "x": 3087,
     "y": 3496,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": false,
-  "money-pouch": 3961904864,
-  "donated": 0,
+  "money-pouch": 3961748044,
+  "donated": 95,
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 19010943,
+  "total-gained-exp": 20368492,
   "prestige-points": 0,
   "achievement-points": 100,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 5016,
-  "total-loyalty-points": 5014.5,
+  "loyalty-points": 5987,
+  "total-loyalty-points": 5985.5,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
-  "donation-points": 100000,
+  "donation-points": 100095,
   "trivia-points": 10,
   "cluescompleted": 0,
   "player-kills": 0,
@@ -48,8 +48,8 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 226659048,
-  "fight-type": "WARHAMMER_PUMMEL",
+  "last-veng": 1541841099253,
+  "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -60,7 +60,7 @@
   "fire-damage-mod": 0,
   "prayer-renewal-timer": 0,
   "teleblock-timer": 0,
-  "special-amount": 750,
+  "special-amount": 100,
   "entered-gwd-room": false,
   "gwd-altar-delay": 0,
   "gwd-killcount": [
@@ -196,7 +196,7 @@
       99,
       99,
       99,
-      990,
+      1193,
       99,
       990,
       99,
@@ -249,8 +249,8 @@
     "experience": [
       13034431,
       13034431,
-      22041391,
-      22809361,
+      22868557,
+      23339744,
       13034431,
       13034431,
       13034431,
@@ -276,83 +276,23 @@
   },
   "inventory": [
     {
-      "id": 15464,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 14044,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 14484,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 14044,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 15084,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 299,
-      "amount": 990,
-      "slot": 0
-    },
-    {
-      "id": 14044,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 662,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 14022,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 4565,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 14019,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 19780,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 18349,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 20072,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 11694,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 18359,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -376,8 +316,68 @@
       "slot": 0
     },
     {
-      "id": 1249,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -433,7 +433,7 @@
       "slot": 0
     },
     {
-      "id": 18353,
+      "id": 5718,
       "amount": 1,
       "slot": 0
     },
@@ -490,142 +490,42 @@
   ],
   "bank-0": [
     {
-      "id": 10350,
+      "id": 1153,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 10352,
+      "id": 1095,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 14044,
-      "amount": 7,
-      "slot": 0
-    },
-    {
-      "id": 15084,
+      "id": 1129,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 299,
-      "amount": 110,
-      "slot": 0
-    },
-    {
-      "id": 1038,
+      "id": 1478,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 10348,
+      "id": 579,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 15449,
+      "id": 577,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 10346,
+      "id": 1011,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 4151,
-      "amount": 6,
-      "slot": 0
-    },
-    {
-      "id": 1127,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 2572,
-      "amount": 9,
-      "slot": 0
-    },
-    {
-      "id": 11613,
-      "amount": 3,
-      "slot": 0
-    },
-    {
-      "id": 6585,
-      "amount": 7,
-      "slot": 0
-    },
-    {
-      "id": 11696,
-      "amount": 3,
-      "slot": 0
-    },
-    {
-      "id": 18357,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 4097,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 2581,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 18351,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 18349,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 19780,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 3753,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 11700,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 861,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 65262,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 1042,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 4084,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 1351,
+      "id": 1169,
       "amount": 1,
       "slot": 0
     }
@@ -705,6 +605,11 @@
       "npcName": "Glacor",
       "amount": 1,
       "boss": true
+    },
+    {
+      "npcName": "Corporeal Beast",
+      "amount": 2,
+      "boss": true
     }
   ],
   "drops": [
@@ -765,7 +670,7 @@
     },
     {
       "item": 12158,
-      "amount": 5,
+      "amount": 18,
       "rareDrop": false
     },
     {
@@ -781,6 +686,31 @@
     {
       "item": 218,
       "amount": 14,
+      "rareDrop": false
+    },
+    {
+      "item": 18891,
+      "amount": 2,
+      "rareDrop": true
+    },
+    {
+      "item": 1247,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 566,
+      "amount": 100,
+      "rareDrop": false
+    },
+    {
+      "item": 5105,
+      "amount": 1200,
+      "rareDrop": false
+    },
+    {
+      "item": 2,
+      "amount": 2500,
       "rareDrop": false
     }
   ],
