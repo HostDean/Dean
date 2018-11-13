@@ -1,30 +1,30 @@
 {
-  "total-play-time-ms": 19032436,
+  "total-play-time-ms": 20197899,
   "username": "Dean",
   "password": "deanpro",
   "email": "null",
   "staff-rights": "DEVELOPER",
   "game-mode": "NORMAL",
-  "boss-points": 3,
+  "boss-points": 8,
   "morytania-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3087,
+    "x": 3086,
     "y": 3496,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": false,
-  "money-pouch": 3961748044,
+  "money-pouch": 3961761544,
   "donated": 95,
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 20368492,
+  "total-gained-exp": 5767408837,
   "prestige-points": 0,
   "achievement-points": 100,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 5987,
-  "total-loyalty-points": 5985.5,
+  "loyalty-points": 6309,
+  "total-loyalty-points": 6307.5,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -48,7 +48,7 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1541841099253,
+  "last-veng": 231586051,
   "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -196,9 +196,9 @@
       99,
       99,
       99,
-      1193,
+      932,
       99,
-      990,
+      396,
       99,
       99,
       99,
@@ -249,8 +249,8 @@
     "experience": [
       13034431,
       13034431,
-      22868557,
-      23339744,
+      22868551,
+      1000000000,
       13034431,
       13034431,
       13034431,
@@ -418,7 +418,7 @@
   ],
   "equipment": [
     {
-      "id": 14008,
+      "id": 18891,
       "amount": 1,
       "slot": 0
     },
@@ -438,7 +438,7 @@
       "slot": 0
     },
     {
-      "id": 14009,
+      "id": 18892,
       "amount": 1,
       "slot": 0
     },
@@ -453,7 +453,7 @@
       "slot": 0
     },
     {
-      "id": 14010,
+      "id": 18893,
       "amount": 1,
       "slot": 0
     },
@@ -528,6 +528,41 @@
       "id": 1169,
       "amount": 1,
       "slot": 0
+    },
+    {
+      "id": 14010,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 14009,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 14008,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 18893,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 18892,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 18891,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 557,
+      "amount": 2163,
+      "slot": 0
     }
   ],
   "bank-1": [],
@@ -598,7 +633,7 @@
     },
     {
       "npcName": "Slash Bash",
-      "amount": 1,
+      "amount": 2,
       "boss": true
     },
     {
@@ -608,7 +643,7 @@
     },
     {
       "npcName": "Corporeal Beast",
-      "amount": 2,
+      "amount": 7,
       "boss": true
     }
   ],
@@ -630,7 +665,7 @@
     },
     {
       "item": 995,
-      "amount": 142000,
+      "amount": 155500,
       "rareDrop": false
     },
     {
@@ -640,7 +675,7 @@
     },
     {
       "item": 12159,
-      "amount": 2,
+      "amount": 6,
       "rareDrop": false
     },
     {
@@ -670,7 +705,7 @@
     },
     {
       "item": 12158,
-      "amount": 18,
+      "amount": 70,
       "rareDrop": false
     },
     {
@@ -690,7 +725,7 @@
     },
     {
       "item": 18891,
-      "amount": 2,
+      "amount": 4,
       "rareDrop": true
     },
     {
@@ -700,17 +735,62 @@
     },
     {
       "item": 566,
-      "amount": 100,
+      "amount": 200,
       "rareDrop": false
     },
     {
       "item": 5105,
-      "amount": 1200,
+      "amount": 3600,
       "rareDrop": false
     },
     {
       "item": 2,
-      "amount": 2500,
+      "amount": 5000,
+      "rareDrop": false
+    },
+    {
+      "item": 554,
+      "amount": 500,
+      "rareDrop": false
+    },
+    {
+      "item": 18892,
+      "amount": 3,
+      "rareDrop": true
+    },
+    {
+      "item": 18893,
+      "amount": 3,
+      "rareDrop": true
+    },
+    {
+      "item": 7061,
+      "amount": 30,
+      "rareDrop": false
+    },
+    {
+      "item": 1462,
+      "amount": 3,
+      "rareDrop": false
+    },
+    {
+      "item": 270,
+      "amount": 270,
+      "rareDrop": false
+    },
+    {
+      "item": 8781,
+      "amount": 100,
+      "rareDrop": false
+    },
+    {
+      "item": 4093,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 384,
+      "amount": 700,
       "rareDrop": false
     }
   ],
