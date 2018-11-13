@@ -822,7 +822,8 @@ public class CustomObjects {
 	//Objects that are handled by the server on regionchange
 	private static final int[][] CUSTOM_OBJECTS_SPAWNS = {
 			{2079, 2576, 9876, 0, 0},
-			{6420, 3091, 3500, 0, 0}, //key chest			
+			{6420, 3091, 3500, 0, 0}, //key chest	
+			{13291, 3090, 3499, 0, 1}, //Boss key chest
 			
 			
 			/**

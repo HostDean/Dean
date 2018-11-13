@@ -23,6 +23,7 @@ public class KeysEvent {
 	
 	//useless, just needed to write down object id
 	public static int chest = 6420;
+	
 
 	public static int rareLoots[] = {15606, 15608, 15610, 15612, 15614, 15616, 15618, 15620, 15622, 7671, 7673, 10840, 989, 989, 989, 989, 19335, 6739, 15259, 11720, 11722, 11724, 11726, 18782, 18782, 18782, 18782, };
 	

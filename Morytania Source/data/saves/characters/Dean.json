@@ -1,16 +1,16 @@
 {
-  "total-play-time-ms": 20197899,
+  "total-play-time-ms": 26262362,
   "username": "Dean",
   "password": "deanpro",
   "email": "null",
   "staff-rights": "DEVELOPER",
   "game-mode": "NORMAL",
-  "boss-points": 9,
+  "boss-points": 10,
   "morytania-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3094,
-    "y": 3491,
+    "x": 3089,
+    "y": 3501,
     "z": 0
   },
   "online-status": "ON",
@@ -18,13 +18,13 @@
   "money-pouch": 3961761544,
   "donated": 95,
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 3619925188,
+  "total-gained-exp": 1472441539,
   "prestige-points": 0,
   "achievement-points": 100,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 6525,
-  "total-loyalty-points": 6523.5,
+  "loyalty-points": 8951,
+  "total-loyalty-points": 8949.5,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -48,7 +48,7 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1541884236228,
+  "last-veng": 1541891639710,
   "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -196,9 +196,9 @@
       99,
       99,
       99,
-      939,
+      990,
       99,
-      319,
+      990,
       99,
       99,
       99,
@@ -249,7 +249,7 @@
     "experience": [
       13034431,
       13034431,
-      -2124615098,
+      22868549,
       1000000000,
       13034431,
       13034431,
@@ -276,13 +276,13 @@
   },
   "inventory": [
     {
-      "id": 2677,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 952,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -423,7 +423,7 @@
       "slot": 0
     },
     {
-      "id": 6570,
+      "id": 1052,
       "amount": 1,
       "slot": 0
     },
@@ -563,6 +563,26 @@
       "id": 557,
       "amount": 2163,
       "slot": 0
+    },
+    {
+      "id": 2677,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 952,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 15134,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 21001,
+      "amount": 1,
+      "slot": 0
     }
   ],
   "bank-1": [],
@@ -643,7 +663,7 @@
     },
     {
       "npcName": "Corporeal Beast",
-      "amount": 8,
+      "amount": 9,
       "boss": true
     }
   ],
@@ -801,6 +821,21 @@
     {
       "item": 564,
       "amount": 2500,
+      "rareDrop": false
+    },
+    {
+      "item": 1623,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 15134,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 9144,
+      "amount": 1250,
       "rareDrop": false
     }
   ],

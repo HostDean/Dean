@@ -27,6 +27,7 @@ import com.arlania.util.Misc;
 import com.arlania.util.RandomUtility;
 import com.arlania.world.World;
 import com.arlania.world.clip.region.RegionClipping;
+import com.arlania.world.content.BossKeyEvent;
 import com.arlania.world.content.CrystalChest;
 import com.arlania.world.content.CustomObjects;
 import com.arlania.world.content.EvilTrees;
@@ -201,6 +202,9 @@ public class ObjectActionPacketListener implements PacketListener {
 					break;
 				case 6420:
 					   KeysEvent.openChest(player);
+					   break;
+				case 13291:
+					   BossKeyEvent.openChest(player);
 					   break;
 				
 				case 38700:

@@ -261,6 +261,10 @@ public final class ObjectDef {
 			objectDef.actions = new String[5];
 			objectDef.actions[0] = "Activate";
 		}
+		if(i == 13291)
+		{
+			objectDef.name = "@red@Boss Chest";
+		}
 		if(i == 8702) {
 			objectDef.name = "Rocktail Barrel";
 			objectDef.actions = new String[5];

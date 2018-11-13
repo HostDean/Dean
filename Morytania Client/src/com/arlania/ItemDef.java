@@ -2895,6 +2895,9 @@ public final class ItemDef {
                 itemDef.groundActions = new String[] { null, null, "Take", null, null };
                 itemDef.actions = new String[] { null, "Wear", null, null, "Drop" };
                 break;
+            case 2944:
+                itemDef.name = "@red@Boss Key";
+                break;
             /*case 14207:
                 itemDef.name = "Potion flask";
                 itemDef.modelZoom = 804;
