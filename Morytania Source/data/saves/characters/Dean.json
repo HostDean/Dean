@@ -5,12 +5,12 @@
   "email": "null",
   "staff-rights": "DEVELOPER",
   "game-mode": "NORMAL",
-  "boss-points": 8,
+  "boss-points": 9,
   "morytania-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3086,
-    "y": 3496,
+    "x": 3094,
+    "y": 3491,
     "z": 0
   },
   "online-status": "ON",
@@ -18,13 +18,13 @@
   "money-pouch": 3961761544,
   "donated": 95,
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 5767408837,
+  "total-gained-exp": 3619925188,
   "prestige-points": 0,
   "achievement-points": 100,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 6309,
-  "total-loyalty-points": 6307.5,
+  "loyalty-points": 6525,
+  "total-loyalty-points": 6523.5,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -48,7 +48,7 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 231586051,
+  "last-veng": 1541884236228,
   "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -196,9 +196,9 @@
       99,
       99,
       99,
-      932,
+      939,
       99,
-      396,
+      319,
       99,
       99,
       99,
@@ -249,7 +249,7 @@
     "experience": [
       13034431,
       13034431,
-      22868551,
+      -2124615098,
       1000000000,
       13034431,
       13034431,
@@ -276,13 +276,13 @@
   },
   "inventory": [
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2677,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 952,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -643,7 +643,7 @@
     },
     {
       "npcName": "Corporeal Beast",
-      "amount": 7,
+      "amount": 8,
       "boss": true
     }
   ],
@@ -705,7 +705,7 @@
     },
     {
       "item": 12158,
-      "amount": 70,
+      "amount": 96,
       "rareDrop": false
     },
     {
@@ -791,6 +791,16 @@
     {
       "item": 384,
       "amount": 700,
+      "rareDrop": false
+    },
+    {
+      "item": 2362,
+      "amount": 160,
+      "rareDrop": false
+    },
+    {
+      "item": 564,
+      "amount": 2500,
       "rareDrop": false
     }
   ],

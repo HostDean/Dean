@@ -3196,6 +3196,11 @@
     "interface": "WARHAMMER"
   },
   {
+    "hash": 21001,
+    "item-id": 21001,
+    "interface": "BATTLEAXE"
+  },
+  {
     "hash": 11716,
     "item-id": 11716,
     "interface": "SPEAR"

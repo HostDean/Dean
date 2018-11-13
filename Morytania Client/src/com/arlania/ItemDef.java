@@ -2881,6 +2881,20 @@ public final class ItemDef {
                 itemDef.actions[2] = "Check-charges";
                 itemDef.actions[4] = "Drop";
                 break;
+            case 21001:
+                itemDef.modelID = 62719;
+                itemDef.name = "@red@Fury Smiter";
+                itemDef.description = "Smithed within the Wilderness Volcano.";
+                itemDef.modelZoom = 848;
+                itemDef.rotationY = 324;
+                itemDef.rotationX = 1808;
+                itemDef.modelOffset1 = 5;
+                itemDef.modelOffsetY = 38;
+                itemDef.maleEquip1 = 62719;
+                itemDef.femaleEquip1 = 62719;
+                itemDef.groundActions = new String[] { null, null, "Take", null, null };
+                itemDef.actions = new String[] { null, "Wear", null, null, "Drop" };
+                break;
             /*case 14207:
                 itemDef.name = "Potion flask";
                 itemDef.modelZoom = 804;

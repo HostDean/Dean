@@ -1,0 +1,1182 @@
+{
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+  "total-play-time-ms": 20197899,
+  "username": "Dean",
+  "password": "deanpro",
+  "email": "null",
+  "staff-rights": "DEVELOPER",
+  "game-mode": "NORMAL",
+  "boss-points": 8,
+  "morytania-points": 0,
+  "loyalty-title": "NONE",
+  "position": {
+    "x": 3086,
+    "y": 3496,
+=======
+  "total-play-time-ms": 14602009,
+  "username": "Dan",
+  "password": "123",
+  "email": "null",
+  "staff-rights": "DEVELOPER",
+  "game-mode": "NORMAL",
+  "boss-points": 0,
+  "morytania-points": 0,
+  "loyalty-title": "NONE",
+  "position": {
+    "x": 3094,
+    "y": 3491,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+    "z": 0
+  },
+  "online-status": "ON",
+  "given-starter": false,
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+  "money-pouch": 3961761544,
+  "donated": 95,
+  "minutes-bonus-exp": -1,
+  "total-gained-exp": 5767408837,
+=======
+  "money-pouch": 4113904864,
+  "donated": 0,
+  "minutes-bonus-exp": -1,
+  "total-gained-exp": 229053,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+  "prestige-points": 0,
+  "achievement-points": 3,
+  "dung-tokens": 0,
+  "commendations": 0,
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+  "loyalty-points": 6309,
+  "total-loyalty-points": 6307.5,
+  "voting-points": 0,
+  "slayer-points": 0,
+  "pk-points": 0,
+  "donation-points": 100095,
+=======
+  "loyalty-points": 4517,
+  "total-loyalty-points": 4515.5,
+  "voting-points": 0,
+  "slayer-points": 0,
+  "pk-points": 0,
+  "donation-points": 0,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+  "trivia-points": 10,
+  "cluescompleted": 0,
+  "player-kills": 0,
+  "player-killstreak": 0,
+  "player-deaths": 0,
+  "target-percentage": 0,
+  "bh-rank": -1,
+  "gender": "MALE",
+  "spell-book": "LUNAR",
+  "shop-updated": false,
+  "shop-earnings": 0,
+  "prayer-book": "CURSES",
+  "running": true,
+  "run-energy": 100,
+  "music": false,
+  "sounds": false,
+  "auto-retaliate": false,
+  "xp-locked": false,
+  "veng-cast": false,
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+  "last-veng": 231586051,
+  "fight-type": "UNARMED_KICK",
+=======
+  "last-veng": 331831207,
+  "fight-type": "UNARMED_PUNCH",
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+  "sol-effect": 0,
+  "skull-timer": 0,
+  "accept-aid": false,
+  "poison-damage": 0,
+  "poison-immunity": 0,
+  "overload-timer": 0,
+  "fire-immunity": 0,
+  "fire-damage-mod": 0,
+  "prayer-renewal-timer": 0,
+  "teleblock-timer": 0,
+  "special-amount": 100,
+  "entered-gwd-room": false,
+  "gwd-altar-delay": 0,
+  "gwd-killcount": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "effigy": 0,
+  "summon-npc": -1,
+  "summon-death": -1,
+  "process-farming": false,
+  "clanchat": "Help",
+  "autocast": false,
+  "autocast-spell": -1,
+  "dfs-charges": 0,
+  "coins-gambled": 0,
+  "slayer-master": "VANNAKA",
+  "slayer-task": "NO_TASK",
+  "prev-slayer-task": "NO_TASK",
+  "task-amount": 0,
+  "task-streak": 0,
+  "duo-partner": "null",
+  "double-slay-xp": false,
+  "recoil-deg": 0,
+  "brawler-deg": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "killed-players": [],
+  "killed-gods": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "barrows-brother": [
+    [
+      2030,
+      0
+    ],
+    [
+      2029,
+      0
+    ],
+    [
+      2028,
+      0
+    ],
+    [
+      2027,
+      0
+    ],
+    [
+      2026,
+      0
+    ],
+    [
+      2025,
+      0
+    ]
+  ],
+  "random-coffin": 0,
+  "barrows-killcount": 0,
+  "nomad": [
+    false,
+    false
+  ],
+  "recipe-for-disaster": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "recipe-for-disaster-wave": 0,
+  "dung-items-bound": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "rune-ess": 0,
+  "pure-ess": 0,
+  "has-bank-pin": false,
+  "last-pin-attempt": 0,
+  "invalid-pin-attempts": 0,
+  "bank-pin": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "appearance": [
+    0,
+    0,
+    18,
+    26,
+    33,
+    36,
+    42,
+    10,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "agility-obj": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "skills": {
+    "level": [
+      99,
+      99,
+      99,
+      932,
+      99,
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      396,
+=======
+      99,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99
+    ],
+    "maxLevel": [
+      99,
+      99,
+      99,
+      990,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99
+    ],
+    "experience": [
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      13034431,
+      13034431,
+      22868551,
+      1000000000,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431
+=======
+      92528,
+      0,
+      0,
+      59894,
+      0,
+      0,
+      0,
+      0,
+      21928,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      55887,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+    ]
+  },
+  "inventory": [
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+=======
+      "id": 4565,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 21001,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 15464,
+      "amount": 1,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": -1,
+      "amount": 0,
+=======
+      "id": 299,
+      "amount": 991,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "equipment": [
+    {
+      "id": 18891,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 6570,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 5718,
+      "amount": 1,
+=======
+      "id": -1,
+      "amount": 0,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "slot": 0
+    },
+    {
+      "id": 18892,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": 18893,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": 2572,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "bank-0": [
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 1153,
+=======
+      "id": 13239,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 10350,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 10352,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 14044,
+      "amount": 7,
+      "slot": 0
+    },
+    {
+      "id": 15084,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 299,
+      "amount": 110,
+      "slot": 0
+    },
+    {
+      "id": 1038,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 10348,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 15449,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 10346,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 1095,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 1129,
+=======
+      "id": 2572,
+      "amount": 9,
+      "slot": 0
+    },
+    {
+      "id": 11613,
+      "amount": 3,
+      "slot": 0
+    },
+    {
+      "id": 6585,
+      "amount": 8,
+      "slot": 0
+    },
+    {
+      "id": 11696,
+      "amount": 3,
+      "slot": 0
+    },
+    {
+      "id": 18357,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "amount": 1,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 1478,
+=======
+      "id": 18359,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 4097,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 579,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 577,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 1011,
+=======
+      "id": 14484,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "amount": 1,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 1169,
+=======
+      "id": 18349,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 19780,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 14010,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 14009,
+=======
+      "id": 18353,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "amount": 1,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 14008,
+=======
+      "id": 11700,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "amount": 1,
+      "slot": 0
+    },
+    {
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+      "id": 18893,
+      "amount": 2,
+=======
+      "id": 861,
+      "amount": 1,
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+      "slot": 0
+    },
+    {
+      "id": 18892,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 18891,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 557,
+      "amount": 2163,
+      "slot": 0
+    }
+  ],
+  "bank-1": [],
+  "bank-2": [],
+  "bank-3": [],
+  "bank-4": [],
+  "bank-5": [],
+  "bank-6": [],
+  "bank-7": [],
+  "bank-8": [],
+  "ge-slots": [
+    {
+      "state": "EMPTY"
+    },
+    {
+      "state": "EMPTY"
+    },
+    {
+      "state": "PENDING_SALE",
+      "offer": {
+        "owner": "Dean",
+        "index": 2,
+        "pricePerItem": 500000000,
+        "box": 2,
+        "type": "SELLING",
+        "totalCost": 1500000000,
+        "amountFinished": 0,
+        "coinsCollect": 0,
+        "itemCollect": 0,
+        "failedAttempts": 0,
+        "id": 14044,
+        "amount": 3,
+        "slot": 0
+      }
+    },
+    {
+      "state": "EMPTY"
+    },
+    {
+      "state": "EMPTY"
+    },
+    {
+      "state": "EMPTY"
+    }
+  ],
+  "charm-imp": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "friends": [],
+  "ignores": [],
+  "loyalty-titles": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+<<<<<<< HEAD:Morytania Source/data/saves/characters/Dean.json
+  "kills": [
+    {
+      "npcName": "Chicken",
+      "amount": 5,
+      "boss": false
+    },
+    {
+      "npcName": "Guard dog",
+      "amount": 9,
+      "boss": false
+    },
+    {
+      "npcName": "Dust devil",
+      "amount": 7,
+      "boss": false
+    },
+    {
+      "npcName": "Slash Bash",
+      "amount": 2,
+      "boss": true
+    },
+    {
+      "npcName": "Glacor",
+      "amount": 1,
+      "boss": true
+    },
+    {
+      "npcName": "Corporeal Beast",
+      "amount": 7,
+      "boss": true
+    }
+  ],
+  "drops": [
+    {
+      "item": 526,
+      "amount": 12,
+      "rareDrop": false
+    },
+    {
+      "item": 2138,
+      "amount": 5,
+      "rareDrop": false
+    },
+    {
+      "item": 314,
+      "amount": 30,
+      "rareDrop": false
+    },
+    {
+      "item": 995,
+      "amount": 155500,
+      "rareDrop": false
+    },
+    {
+      "item": 12160,
+      "amount": 3,
+      "rareDrop": false
+    },
+    {
+      "item": 12159,
+      "amount": 6,
+      "rareDrop": false
+    },
+    {
+      "item": 209,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1213,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 201,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1249,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1399,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 12158,
+      "amount": 70,
+      "rareDrop": false
+    },
+    {
+      "item": 2366,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 560,
+      "amount": 149,
+      "rareDrop": false
+    },
+    {
+      "item": 218,
+      "amount": 14,
+      "rareDrop": false
+    },
+    {
+      "item": 18891,
+      "amount": 4,
+      "rareDrop": true
+    },
+    {
+      "item": 1247,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 566,
+      "amount": 200,
+      "rareDrop": false
+    },
+    {
+      "item": 5105,
+      "amount": 3600,
+      "rareDrop": false
+    },
+    {
+      "item": 2,
+      "amount": 5000,
+      "rareDrop": false
+    },
+    {
+      "item": 554,
+      "amount": 500,
+      "rareDrop": false
+    },
+    {
+      "item": 18892,
+      "amount": 3,
+      "rareDrop": true
+    },
+    {
+      "item": 18893,
+      "amount": 3,
+      "rareDrop": true
+    },
+    {
+      "item": 7061,
+      "amount": 30,
+      "rareDrop": false
+    },
+    {
+      "item": 1462,
+      "amount": 3,
+      "rareDrop": false
+    },
+    {
+      "item": 270,
+      "amount": 270,
+      "rareDrop": false
+    },
+    {
+      "item": 8781,
+      "amount": 100,
+      "rareDrop": false
+    },
+    {
+      "item": 4093,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 384,
+      "amount": 700,
+      "rareDrop": false
+    }
+  ],
+=======
+  "kills": [],
+  "drops": [],
+>>>>>>> af19632599b7f45690e269cac98f0c12409fae8c:Morytania Source/data/saves/characters/Dan.json
+  "achievements-completion": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "achievements-progress": [
+    149,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    149,
+    0,
+    0,
+    0,
+    200000000,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    149,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "max-cape-colors": [
+    65214,
+    65200,
+    65186,
+    62995
+  ],
+  "player-title": "@or2@SKILLER"
+}
