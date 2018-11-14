@@ -1621,6 +1621,9 @@ public final class ItemDef {
     			itemDef.modelOffset1 = 0;
     			itemDef.modelOffsetY = 0;
     			break;
+            case 5718:
+    			itemDef.name = "@bla@Dev Spear";
+    			break;
             case 11989:
     			itemDef.name = "Pet Phoenix";
     			itemDef.groundActions = new String[] { null, null, "Take", null, null };

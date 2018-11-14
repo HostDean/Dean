@@ -191,9 +191,9 @@ public class PlayerDeathTask extends Task {
 			return "There is no escape, " + Misc.formatText(name)
 					+ "...";
 		case 1:
-			return "Muahahahaha!";
+			return "I'm taking you downtown," + Misc.formatText(name);
 		case 2:
-			return "You belong to me!";
+			return "Your Soul is mine!";
 		case 3:
 			return "Beware mortals, " + Misc.formatText(name)
 					+ " travels with me!";
@@ -213,6 +213,10 @@ public class PlayerDeathTask extends Task {
 		case 9:
 			return "I have come for you, " + Misc.formatText(name)
 					+ "!";
+		case 10:
+			return "It's just a flesh wound.";
+		case 11:
+			return "To die will be an awfully big adventure.";
 		}
 		return "";
 	}

@@ -10,6 +10,7 @@ import com.arlania.model.Item;
 import com.arlania.model.Position;
 import com.arlania.util.Misc;
 import com.arlania.world.World;
+import com.arlania.world.content.Sounds.Sound;
 import com.arlania.world.content.transportation.TeleportHandler;
 import com.arlania.world.entity.impl.GroundItemManager;
 import com.arlania.world.entity.impl.player.Player;
@@ -25,13 +26,13 @@ public class BossKeyEvent {
 	public static int chest = 13291;
 	
 
-	public static int rareLoots[] = {15606, 15608, 15610, 15612, 15614, 15616, 15618, 15620, 15622, 7671, 7673, 10840, 989, 989, 989, 989, 19335, 6739, 15259, 11720, 11722, 11724, 11726, 18782, 18782, 18782, 18782, };
+	public static int rareLoots[] = {4716, 4718, 4720, 4722, 4724, 4726, 4728, 4730, 4732, 4734, 4736, 4738, 4708, 4710, 4712, 4714, 4753, 4755, 4757, 4759, 4745, 4747, 4749, 4751};
 	
-	public static int ultraLoots[] = {9470, 4084, 4084, 9921, 9922, 9923, 9924, 9925, 15352, 5607, 4565, 10330, 10332, 10334, 10336, 10338, 10340, 10342, 10344, 10346, 10348, 10350, 10352};
+	public static int ultraLoots[] = {11696, 11724, 11726, 11728, 11720, 11722, 11718, 11716, 11846, 11848, 11850, 11852, 11854, 11856};
 	
-	public static int amazingLoots[] = {1038, 1040, 1042, 1044, 1046, 1048, 1050, 1051, 10735, 14052, 14049, 14051, 14046, 14045, 14048, 14047, };
+	public static int amazingLoots[] = {4453, 20555, 18891, 18892, 18893, 18899, 14484, 607, 12601, 13740, 13742, 13738, 13744, 4450, 14008, 14009, 14010, 14011, 14012, 14013, 14014, 14015, 14016, 13239, 12708, 13235};
 	
-	public static int commonLoots[] = {4151, 6585, 11732, 536, 2577, 2581, 6328, 6916, 6918, 6920, 6922, 6924, 4724, 4726, 4728, 4730, 4732, 4734, 4736, 4738, 4753, 4755, 4757, 4759, 4747, 4749, 4745, 4751, 10025, 6570};
+	public static int commonLoots[] = {4151, 7158, 1215, 5680, 1377, 6524, 10828, 1434, 4153, 4131, 11126, 6528, 13734, 13736, 2503, 2497, 2491};
 	/*
 	 * Start methods below
 	 */
@@ -56,8 +57,8 @@ public class BossKeyEvent {
 			TaskManager.submit(new Task(2, player, false) {
 			@Override
 			public void execute() {
-				player.performAnimation(new Animation(6387));
-				player.getPacketSender().sendMessage("Opening Chest...");
+				player.performAnimation(new Animation(7271));
+				player.getPacketSender().sendMessage("@gre@Opening Chest, Good Luck...");
 				player.getInventory().delete(2944, 1);
 				giveReward(player);
 				this.stop();
@@ -81,7 +82,7 @@ public class BossKeyEvent {
 			int ultraDrops = getRandomItem(ultraLoots);
 			player.getInventory().add(ultraDrops, 1);
 		} else if (Misc.getRandom(400) == 388) {//Amazing items
-			World.sendMessage("@or3@[Red Key Chest]@bla@ "+player.getUsername()+ " has recieved a Legendary Reward from the chest!!");
+			World.sendMessage("@or3@[Red Key Chest]@bla@ "+player.getUsername()+ " has recieved a Legendary Reward from the chest, Congrats!");
 			int amazingDrops = getRandomItem(amazingLoots);
 			player.getInventory().add(amazingDrops, 1);
 		} else {//Common items

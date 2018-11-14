@@ -11633,21 +11633,21 @@
       "count": [
         1
       ],
-         "chance": 7
+         "chance": 9
     },
     {
       "id": 18892,
       "count": [
         1
       ],
-         "chance": 7
+         "chance": 9
     },
      {
       "id": 18893,
       "count": [
         1
       ],
-         "chance": 7
+         "chance": 9
     },
     {
       "id": 13750,
@@ -11872,6 +11872,13 @@
         1205
       ],
       "chance": 4
+    },
+    {
+      "id": 2944,
+      "count": [
+        1
+      ],
+      "chance": 2
     },
     {
       "id": 2,
