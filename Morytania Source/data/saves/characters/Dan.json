@@ -1,30 +1,30 @@
 {
-  "total-play-time-ms": 6000,
+  "total-play-time-ms": 5972590,
   "username": "Dan",
   "password": "123",
   "email": "null",
-  "staff-rights": "PLAYER",
+  "staff-rights": "DEVELOPER",
   "game-mode": "NORMAL",
-  "boss-points": 0,
+  "boss-points": 7,
   "morytania-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3088,
-    "y": 3502,
+    "x": 3089,
+    "y": 3499,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": false,
   "money-pouch": 0,
-  "donated": 0,
+  "donated": 260,
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 0,
+  "total-gained-exp": -1621570369,
   "prestige-points": 0,
-  "achievement-points": 0,
+  "achievement-points": 7,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 1,
-  "total-loyalty-points": 1.0,
+  "loyalty-points": 2136,
+  "total-loyalty-points": 2136.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -48,8 +48,8 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1542229343879,
-  "fight-type": "UNARMED_PUNCH",
+  "last-veng": 1542232037900,
+  "fight-type": "DART_RAPID",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -60,7 +60,7 @@
   "fire-damage-mod": 0,
   "prayer-renewal-timer": 0,
   "teleblock-timer": 0,
-  "special-amount": 100,
+  "special-amount": 780,
   "entered-gwd-room": false,
   "gwd-altar-delay": 0,
   "gwd-killcount": [
@@ -193,206 +193,206 @@
   ],
   "skills": {
     "level": [
-      1,
-      1,
-      1,
-      100,
-      1,
-      10,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
+      99,
+      99,
+      99,
+      990,
+      99,
+      990,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99
     ],
     "maxLevel": [
-      1,
-      1,
-      1,
-      100,
-      1,
-      10,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
+      99,
+      99,
+      99,
+      990,
+      99,
+      990,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99
     ],
     "experience": [
-      0,
-      0,
-      0,
-      1184,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      13034431,
+      -2134449226,
+      13514152,
+      538339883,
+      13162546,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431
     ]
   },
   "inventory": [
     {
-      "id": -1,
-      "amount": 0,
+      "id": 607,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 13742,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 13051,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 11694,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 19780,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 14484,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 4450,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 20555,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 4453,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 5718,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 14013,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 14012,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 14011,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 14010,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 4153,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2944,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -433,8 +433,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 12926,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -523,6 +523,8 @@
     0,
     0
   ],
+  "blowpipe-charge-item": 11230,
+  "blowpipe-charge-amount": 99998,
   "friends": [],
   "ignores": [],
   "loyalty-titles": [
@@ -539,8 +541,105 @@
     false,
     false
   ],
-  "kills": [],
-  "drops": [],
+  "kills": [
+    {
+      "npcName": "Corporeal Beast",
+      "amount": 7,
+      "boss": true
+    },
+    {
+      "npcName": "Lizard man",
+      "amount": 9,
+      "boss": false
+    }
+  ],
+  "drops": [
+    {
+      "item": 18891,
+      "amount": 1,
+      "rareDrop": true
+    },
+    {
+      "item": 450,
+      "amount": 650,
+      "rareDrop": false
+    },
+    {
+      "item": 533,
+      "amount": 3000,
+      "rareDrop": false
+    },
+    {
+      "item": 9144,
+      "amount": 2500,
+      "rareDrop": false
+    },
+    {
+      "item": 5105,
+      "amount": 4800,
+      "rareDrop": false
+    },
+    {
+      "item": 11133,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 566,
+      "amount": 200,
+      "rareDrop": false
+    },
+    {
+      "item": 4093,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1249,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 985,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1405,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1407,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1462,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1617,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1621,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 2944,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 12158,
+      "amount": 39,
+      "rareDrop": false
+    }
+  ],
   "achievements-completion": [
     false,
     false,
@@ -563,9 +662,13 @@
     false,
     false,
     false,
+    true,
+    true,
     false,
+    true,
     false,
     false,
+    true,
     false,
     false,
     false,
@@ -588,6 +691,7 @@
     false,
     false,
     false,
+    true,
     false,
     false,
     false,
@@ -616,6 +720,7 @@
     false,
     false,
     false,
+    true,
     false,
     false,
     false,
@@ -624,13 +729,7 @@
     false,
     false,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
+    true,
     false,
     false,
     false,
@@ -645,6 +744,29 @@
   ],
   "achievements-progress": [
     0,
+    365,
+    439,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    365,
+    439,
     0,
     0,
     0,
@@ -665,36 +787,13 @@
     0,
     0,
     0,
+    365,
+    439,
     0,
+    2,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    16,
+    7,
     0,
     0
   ],
