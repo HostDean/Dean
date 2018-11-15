@@ -277,7 +277,7 @@ public final class NPCDef {
 			npc.name = "Decanter";
 			break;
 		case 4902:
-			npc.name = "Expert Miner";
+			npc.name = "Stardust Store";
 			npc.actions = new String[]{"Talk-To", null, "Trade", null, null};
 			break;
 		case 5417:

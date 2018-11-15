@@ -22,7 +22,7 @@ public class PlayerPanel {
 
 		player.getPacketSender().sendString(counter++, "");
 
-		player.getPacketSender().sendString(counter++, "@or3@-@whi@ Worldwide Information");
+		player.getPacketSender().sendString(counter++, "@or3@-@whi@ Global Information");
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Evil Tree: @yel@"+(EvilTrees.getLocation() != null ? EvilTrees.getLocation().playerPanelFrame : "N/A"));
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Well of Goodwill: @yel@"+(WellOfGoodwill.isActive() ? WellOfGoodwill.getMinutesRemaining() + " mins" : "N/A"));
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Crashed Star: @yel@"+(ShootingStar.getLocation() != null ?ShootingStar.getLocation().playerPanelFrame : "N/A"));
@@ -40,17 +40,17 @@ public class PlayerPanel {
 		
 		player.getPacketSender().sendString(counter++, "");
 		
-		player.getPacketSender().sendString(counter++, "@or3@-@whi@ Player Statistics");
+		player.getPacketSender().sendString(counter++, "@whi@"+player.getUsername()+"'s Statistics");
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Loyalty Points:@yel@ "+player.getPointsHandler().getLoyaltyPoints());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Donation Points:@yel@ "+player.getPointsHandler().getDonationPoints());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Voting Points:@yel@ "+player.getPointsHandler().getVotingPoints());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Trivia Points:@yel@ "+player.getPointsHandler().getTriviaPoints());
-		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Donation Points:@yel@ "+player.getPointsHandler().getDonationPoints());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Commendations:@yel@ "+player.getPointsHandler().getCommendations());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Dung. Tokens:@yel@ "+player.getPointsHandler().getDungeoneeringTokens());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Boss Points:@yel@ "+player.getBossPoints());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Slayer Points:@yel@ "+player.getPointsHandler().getSlayerPoints());
-		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Pk Points:@yel@ "+player.getPointsHandler().getPkPoints());
+		
+		
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Wilderness Killstreak:@yel@ "+player.getPlayerKillingAttributes().getPlayerKillStreak());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Wilderness Kills:@yel@ "+player.getPlayerKillingAttributes().getPlayerKills());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Wilderness Deaths:@yel@ "+player.getPlayerKillingAttributes().getPlayerDeaths());

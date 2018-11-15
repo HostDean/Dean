@@ -75,15 +75,21 @@ public class BossKeyEvent {
 	public static void giveReward(Player player) {
 		if (Misc.getRandom(20) == 5) { //Rare Item
 			int rareDrops = getRandomItem(rareLoots);
+			player.performAnimation(new Animation(862));
+			player.performGraphic(new Graphic(1322));
 			player.getInventory().add(rareDrops, 1);
-			World.sendMessage("@or3@[Red Key Chest]@bla@ "+player.getUsername()+ " has recieved a Rare from the chest!");
+			World.sendMessage("<img=10>@or3@[Boss Key Chest]@bla@ "+player.getUsername()+ " has recieved a Rare from the chest!");
 		} else if (Misc.getRandom(225) == 147) {//Ultra Rare items
-			World.sendMessage("@or3@[Red Key Chest]@bla@ "+player.getUsername()+ " has recieved an Ultra Rare from the chest!");
+			World.sendMessage("<img=10>@or3@[Boss Key Chest]@bla@ "+player.getUsername()+ " has recieved an Ultra Rare from the chest!");
 			int ultraDrops = getRandomItem(ultraLoots);
+			player.performAnimation(new Animation(862));
+			player.performGraphic(new Graphic(1322));
 			player.getInventory().add(ultraDrops, 1);
 		} else if (Misc.getRandom(400) == 388) {//Amazing items
-			World.sendMessage("@or3@[Red Key Chest]@bla@ "+player.getUsername()+ " has recieved a Legendary Reward from the chest, Congrats!");
+			World.sendMessage("<img=10>@or3@[Boss Key Chest]@bla@ "+player.getUsername()+ " has recieved a Legendary Reward from the chest, Congrats!");
 			int amazingDrops = getRandomItem(amazingLoots);
+			player.performAnimation(new Animation(862));
+			player.performGraphic(new Graphic(1322));
 			player.getInventory().add(amazingDrops, 1);
 		} else {//Common items
 			int commonDrops = getRandomItem(commonLoots);

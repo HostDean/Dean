@@ -1,30 +1,30 @@
 {
-  "total-play-time-ms": 5947604,
+  "total-play-time-ms": 24461834,
   "username": "Dean",
   "password": "deanpro",
   "email": "null",
   "staff-rights": "DEVELOPER",
   "game-mode": "NORMAL",
-  "boss-points": 7,
+  "boss-points": 12,
   "morytania-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3090,
-    "y": 3500,
+    "x": 3093,
+    "y": 3503,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": false,
-  "money-pouch": 0,
-  "donated": 0,
+  "money-pouch": 3999964449,
+  "donated": 10,
   "minutes-bonus-exp": -1,
-  "total-gained-exp": -1622645317,
+  "total-gained-exp": -1369800582,
   "prestige-points": 0,
-  "achievement-points": 5,
+  "achievement-points": 7,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 1891,
-  "total-loyalty-points": 1891.0,
+  "loyalty-points": 7017,
+  "total-loyalty-points": 7017.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -34,21 +34,21 @@
   "player-kills": 0,
   "player-killstreak": 0,
   "player-deaths": 0,
-  "target-percentage": 0,
-  "bh-rank": -1,
+  "target-percentage": 48,
+  "bh-rank": 0,
   "gender": "MALE",
-  "spell-book": "NORMAL",
+  "spell-book": "ANCIENT",
   "shop-updated": false,
   "shop-earnings": 0,
-  "prayer-book": "NORMAL",
+  "prayer-book": "CURSES",
   "running": true,
   "run-energy": 100,
-  "music": false,
+  "music": true,
   "sounds": false,
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1542231020352,
+  "last-veng": 1542244805564,
   "fight-type": "UNARMED_BLOCK",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -61,7 +61,7 @@
   "prayer-renewal-timer": 0,
   "teleblock-timer": 0,
   "special-amount": 100,
-  "entered-gwd-room": false,
+  "entered-gwd-room": true,
   "gwd-altar-delay": 0,
   "gwd-killcount": [
     0,
@@ -103,7 +103,7 @@
     false,
     false,
     false,
-    false
+    true
   ],
   "barrows-brother": [
     [
@@ -158,13 +158,13 @@
   ],
   "rune-ess": 0,
   "pure-ess": 0,
-  "has-bank-pin": false,
+  "has-bank-pin": true,
   "last-pin-attempt": 0,
   "invalid-pin-attempts": 0,
   "bank-pin": [
-    0,
-    0,
-    0,
+    1,
+    6,
+    1,
     0
   ],
   "appearance": [
@@ -172,14 +172,14 @@
     3,
     18,
     26,
-    34,
-    38,
+    33,
+    36,
     42,
-    14,
+    10,
     2,
-    14,
-    5,
-    4,
+    1,
+    1,
+    0,
     0
   ],
   "agility-obj": [
@@ -196,7 +196,7 @@
       99,
       99,
       99,
-      990,
+      975,
       99,
       990,
       99,
@@ -248,11 +248,9 @@
     ],
     "experience": [
       13034431,
-      -2134449224,
+      1000000000,
       13034431,
-      537872769,
-      13034431,
-      13034431,
+      1000000000,
       13034431,
       13034431,
       13034431,
@@ -263,12 +261,14 @@
       13034431,
       13034431,
       13034431,
+      13517865,
       13034431,
       13034431,
       13034431,
       13034431,
       13034431,
       13034431,
+      13053781,
       13034431,
       13034431,
       13034431
@@ -418,13 +418,13 @@
   ],
   "equipment": [
     {
-      "id": -1,
-      "amount": 0,
+      "id": 14051,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 14022,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -488,7 +488,28 @@
       "slot": 0
     }
   ],
-  "bank-0": [],
+  "bank-0": [
+    {
+      "id": 3054,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 14050,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 4720,
+      "amount": 11,
+      "slot": 0
+    },
+    {
+      "id": 15701,
+      "amount": 1,
+      "slot": 0
+    }
+  ],
   "bank-1": [],
   "bank-2": [],
   "bank-3": [],
@@ -523,7 +544,9 @@
     0,
     0
   ],
-  "friends": [],
+  "friends": [
+    392652743416
+  ],
   "ignores": [],
   "loyalty-titles": [
     false,
@@ -542,14 +565,49 @@
   "kills": [
     {
       "npcName": "Corporeal Beast",
-      "amount": 7,
+      "amount": 10,
+      "boss": true
+    },
+    {
+      "npcName": "Nex",
+      "amount": 1,
+      "boss": true
+    },
+    {
+      "npcName": "Slash Bash",
+      "amount": 1,
+      "boss": true
+    },
+    {
+      "npcName": "Thermonuclear Smoke Devil",
+      "amount": 1,
       "boss": true
     }
   ],
   "drops": [
     {
-      "item": 12158,
-      "amount": 39,
+      "item": 18891,
+      "amount": 1,
+      "rareDrop": true
+    },
+    {
+      "item": 2364,
+      "amount": 150,
+      "rareDrop": false
+    },
+    {
+      "item": 450,
+      "amount": 715,
+      "rareDrop": false
+    },
+    {
+      "item": 533,
+      "amount": 3000,
+      "rareDrop": false
+    },
+    {
+      "item": 9144,
+      "amount": 2500,
       "rareDrop": false
     },
     {
@@ -558,12 +616,67 @@
       "rareDrop": false
     },
     {
+      "item": 1080,
+      "amount": 8,
+      "rareDrop": false
+    },
+    {
+      "item": 3025,
+      "amount": 30,
+      "rareDrop": false
+    },
+    {
+      "item": 995,
+      "amount": 190000,
+      "rareDrop": false
+    },
+    {
+      "item": 246,
+      "amount": 20,
+      "rareDrop": false
+    },
+    {
+      "item": 11133,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 2368,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 4675,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 557,
+      "amount": 1500,
+      "rareDrop": false
+    },
+    {
+      "item": 1149,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
       "item": 566,
       "amount": 200,
       "rareDrop": false
     },
     {
-      "item": 1617,
+      "item": 1405,
+      "amount": 2,
+      "rareDrop": false
+    },
+    {
+      "item": 4093,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 2366,
       "amount": 1,
       "rareDrop": false
     },
@@ -573,28 +686,8 @@
       "rareDrop": false
     },
     {
-      "item": 18891,
-      "amount": 1,
-      "rareDrop": true
-    },
-    {
-      "item": 11133,
-      "amount": 1,
-      "rareDrop": false
-    },
-    {
-      "item": 1621,
-      "amount": 1,
-      "rareDrop": false
-    },
-    {
-      "item": 9144,
-      "amount": 2500,
-      "rareDrop": false
-    },
-    {
-      "item": 450,
-      "amount": 650,
+      "item": 1620,
+      "amount": 30,
       "rareDrop": false
     },
     {
@@ -608,17 +701,12 @@
       "rareDrop": false
     },
     {
-      "item": 4093,
+      "item": 1303,
       "amount": 1,
       "rareDrop": false
     },
     {
-      "item": 2944,
-      "amount": 1,
-      "rareDrop": false
-    },
-    {
-      "item": 1405,
+      "item": 1215,
       "amount": 1,
       "rareDrop": false
     },
@@ -628,8 +716,38 @@
       "rareDrop": false
     },
     {
-      "item": 533,
-      "amount": 3000,
+      "item": 1617,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1247,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1621,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 2944,
+      "amount": 3,
+      "rareDrop": false
+    },
+    {
+      "item": 12160,
+      "amount": 13,
+      "rareDrop": false
+    },
+    {
+      "item": 5667,
+      "amount": 40,
+      "rareDrop": false
+    },
+    {
+      "item": 12158,
+      "amount": 39,
       "rareDrop": false
     }
   ],
@@ -723,12 +841,12 @@
     false,
     false,
     true,
+    true,
     false,
     false,
     false,
     false,
-    false,
-    false,
+    true,
     false,
     false,
     false,
@@ -783,10 +901,10 @@
     0,
     0,
     0,
-    2,
+    3,
     0,
-    7,
-    7,
+    13,
+    13,
     0,
     0
   ],
@@ -796,5 +914,5 @@
     65186,
     62995
   ],
-  "player-title": ""
+  "player-title": "@or2@Dev"
 }

@@ -253,7 +253,9 @@ public final class ObjectDef {
 			objectDef.name = "Grand Exchange";
 			objectDef.hasActions = true;
 			objectDef.actions = new String[5];
-			objectDef.actions[0] = "Access";
+			objectDef.actions[0] = "Use";
+			//objectDef.actions = new String[5];
+			//objectDef.actions[0] = "Access";
 		}
 		if(i == 47180)
 		{

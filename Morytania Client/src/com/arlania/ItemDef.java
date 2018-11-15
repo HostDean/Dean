@@ -1205,6 +1205,24 @@ public final class ItemDef {
 		      itemDef.name = "Black santa hat";
 		      itemDef.description = "It's a Black santa hat.";
 		      break;
+		    case 14051: 
+			      itemDef.actions = new String[5];
+			      itemDef.actions[1] = "Wear";
+			      itemDef.newModelColor = new int[1];
+			      itemDef.editedModelColor = new int[1];
+			      itemDef.newModelColor[0] = 450;
+			      itemDef.editedModelColor[0] = 933;
+			      itemDef.modelID = 2537;
+			      itemDef.modelZoom = 540;
+			      itemDef.rotationX = 72;
+			      itemDef.rotationY = 136;
+			      itemDef.modelOffset1 = 0;
+			      itemDef.modelOffsetY = 0;
+			      itemDef.maleEquip1 = 189;
+			      itemDef.femaleEquip1 = 366;
+			      itemDef.name = "Peach santa hat";
+			      itemDef.description = "It's a Peach santa hat.";
+			      break;
 		    case 12284: 
 		      itemDef.name = "Toxic staff of the dead";
 		      itemDef.modelID = 19224;
