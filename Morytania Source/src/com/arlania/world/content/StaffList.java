@@ -95,7 +95,7 @@ public class StaffList {
 		case MODERATOR:
 			crown = "<img=1>";
 			break;
-		case SUPPORT:
+		case HELPER:
 			crown = "<img=10>";
 			break;
 		case ADMINISTRATOR:

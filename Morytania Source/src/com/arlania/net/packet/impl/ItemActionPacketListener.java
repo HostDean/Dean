@@ -487,7 +487,7 @@ public class ItemActionPacketListener implements PacketListener {
 					player.getInventory().delete(7956, 1);
 				}
 			}
-			if (player.getRights() == PlayerRights.SUPER_DONATOR || player.getRights() == PlayerRights.SUPPORT) {
+			if (player.getRights() == PlayerRights.SUPER_DONATOR || player.getRights() == PlayerRights.HELPER) {
 				if (Misc.getRandom(12) == 5) {
 					player.getPacketSender().sendMessage("Casket has been saved as a donator benefit");
 				} else {
@@ -508,7 +508,7 @@ public class ItemActionPacketListener implements PacketListener {
 					player.getInventory().delete(7956, 1);
 				}
 			}
-			if (player.getRights() == PlayerRights.UBER_DONATOR || player.getRights() == PlayerRights.DEVELOPER) {
+			if (player.getRights() == PlayerRights.SUPPORTER_DONATOR || player.getRights() == PlayerRights.DEVELOPER) {
 				if (Misc.getRandom(3) == 2) {
 					player.getPacketSender().sendMessage("Casket has been saved as a donator benefit");
 				} else {
@@ -646,12 +646,57 @@ public class ItemActionPacketListener implements PacketListener {
 		case 292:
 			IngridientsBook.readBook(player, 0, false);
 			break;
+			
+			// RARE MBOX
+		case 6855:
+			int rewardsRareMbox[][] = {
+					{6857, 6859, 6861, 6863, 9470, 9471, 9816, 10394, 9473, 9946, 19747, 7673, 7671, 6858, 6859, 6860, 6861, 10840, 10839, 10838, 10837, 10836}, //Common, 0
+					{981, 1961, 1959}, //Uncommon, 1
+					{14051, 4083, 14050, 4565, 14044, 1042, 1048, 1038, 1046, 1040, 1044, 962, 1053, 1055, 1057, 1050} //Rare, 2
+			};
+		
+			double RarenumGen = Math.random();
+			/** Chances
+			 *  50% chance of Common Rares
+			 *  40% chance of Uncommon Rares
+			 *  10% chance of Rarest 
+			 */
+			int RarerewardGrade = RarenumGen >= 0.5 ? 0 : RarenumGen >= 0.10 ? 1 : 2;
+			rewardPos = RandomUtility.getRandom(rewardsRareMbox[RarerewardGrade].length-1);
+			player.getInventory().delete(6855, 1);
+			player.getInventory().add(rewardsRareMbox[RarerewardGrade][rewardPos], 1).refreshItems();
+			break;
+			
+			
+			// Pet Box
+			case 6852:
+				int rewardsPetbox[][] = {
+						{20079, 20080, 20081, 20082, 20085, 20086, 14914, 14916, 20086}, //Common, 0
+						{20090, 20089, 20088, 20087, 11997}, //Uncommon, 1
+						{11995, 20089, 11978, 12001, 21050} //Rare, 2
+				};
+			
+				double PetnumGen = Math.random();
+				/** Chances
+				 *  50% chance of Common Rares
+				 *  40% chance of Uncommon Rares
+				 *  10% chance of Rarest 
+				 */
+				int PetrewardGrade = PetnumGen >= 0.5 ? 0 : PetnumGen >= 0.10 ? 1 : 2;
+				rewardPos = RandomUtility.getRandom(rewardsPetbox[PetrewardGrade].length-1);
+				player.getInventory().delete(6852, 1);
+				player.getInventory().add(rewardsPetbox[PetrewardGrade][rewardPos], 1).refreshItems();
+				player.performGraphic(new Graphic(610));
+				break;
+			
+			//NORMAL MBOX
 		case 6199:
 			int rewards2[][] = {
 					{3749, 3753, 10828, 1215, 4587, 4091, 4093, 4095, 4097, 1079, 1127, 1093, 15332, 3024, 15272, 6685, 1434, 2, 536, 534, 1149, 1305, 1377, 1434, 1615, 3000, 3204, 2941, 2947, 2503, 15272, 2503, 10499, 6199, 6326, 861, 1163, 1201, 6111, 544, 6199, 542, 5574, 5575, 5576, 1215, 3105, 13734, 7400, 2572, 11118}, //Common, 0
 					{15501, 11133, 15126, 10828, 6199, 3751, 3753, 11884, 10589, 18782, 6739, 6739, 2577, 2581, 18782, 15332, 15332, 15332, 11732, 6199, 10564, 6809, 4587, 1249, 3204, 1305, 1377, 1434, 6528, 7158, 4153, 6, 8, 10, 12, 4675, 6914, 6889, 4716, 4718, 4720, 4722, 4745, 4747, 4749, 4751, 4708, 4710, 4712, 4714, 4732, 4734, 4736, 4738, 4724, 4726, 4728, 4730, 4151, 11732, 6585, 2577, 2581, 6737, 11235, 4675, 4087, 1187, 6914, 6889, 3140, 6916, 6918, 6920, 6922, 6924, 6731, 6735, 6733}, //Uncommon, 1
 					{3749, 3753, 10828, 1215, 4587, 4091, 4093, 4095, 4097, 1079, 1127,6739, 15259, 15332, 15126, 11856, 11854, 11852, 11846, 11850, 11732, 11848,  2577, 2581, 2572, 15501, 18782, 6920, 6922, 11335, 15241, 15243, 6585, 4151, 11696, 11724, 11726, 11728, 11694, 11718, 11720, 11722, 11700, 11716, 11698, 11730, 11283, 18349, 18351, 18353, 18355, 18357, 18359, 11484, 2527, 12601, 15486, 15018, 15019, 15020, 15220} //Rare, 2
 			};
+		
 			double numGen = Math.random();
 			/** Chances
 			 *  50% chance of Common Items - cheap gear, high-end consumables

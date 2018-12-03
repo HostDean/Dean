@@ -93,7 +93,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					DialogueManager.start(player, 138);
 					player.setDialogueActionId(77);
 					break;
-					case 541:
+					case 705:
 						ShopManager.getShops().get(5).open(player);
 						break;
 					case 2633:
@@ -108,7 +108,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					case 5441:
 						ShopManager.getShops().get(51).open(player);
 						break;
-					case 461:
+					case 4707:
 						ShopManager.getShops().get(1).open(player);
 						break;
 						
@@ -117,7 +117,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					case 278:
 						ShopManager.getShops().get(6).open(player);
 						break;
-					case 4902:
+					case 2207:
 						
 						DialogueManager.start(player, 157);
 						player.setDialogueActionId(-1);
@@ -145,7 +145,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					EnergyHandler.rest(player);
 					break;
 			
-				case 947:
+				case 2540:
 					player.getPlayerOwnedShopManager().options();
 					break;
 					
@@ -165,7 +165,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					DialogueManager.start(player, 107);
 					player.setDialogueActionId(69);
 					break;
-				case 683:
+				case 1861:
 					ShopManager.getShops().get(3).open(player);
 					break;
 				case 2622:
@@ -184,7 +184,7 @@ public class NPCOptionPacketListener implements PacketListener {
 				case 9085:
 				case 7780:
 					if(npc.getId() != player.getSlayer().getSlayerMaster().getNpcId()) {
-						player.getPacketSender().sendMessage("This is not your current Slayer master.");
+						player.getPacketSender().sendMessage("@red@This is not your current Slayer master @blu@- Press the slayer skill to change.");
 						return;
 					}
 					DialogueManager.start(player, SlayerDialogues.dialogue(player));
@@ -259,7 +259,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					player.setDialogueActionId(10);
 					DialogueManager.start(player, 19);
 					break;
-				case 4249:
+				case 409:
 					player.setDialogueActionId(9);
 					DialogueManager.start(player, 64);
 					break;
@@ -438,13 +438,13 @@ public class NPCOptionPacketListener implements PacketListener {
 					player.getPacketSender().sendInterfaceRemoval();
 					player.moveTo(new Position(3651, 3486));
 					break;
-				case 947:
+				case 2540:
 					player.getPlayerOwnedShopManager().open();
 					break;
 				case 2622:
 					ShopManager.getShops().get(43).open(player);
 					break;
-				case 4902:
+				case 2207:
 					ShopManager.getShops().get(55).open(player);
 					break;
 				case 462:
@@ -470,7 +470,7 @@ public class NPCOptionPacketListener implements PacketListener {
 				case 9085:
 				case 7780:
 					if(npc.getId() != player.getSlayer().getSlayerMaster().getNpcId()) {
-						player.getPacketSender().sendMessage("This is not your current Slayer master.");
+						player.getPacketSender().sendMessage("@red@This is not your current Slayer master @blu@- Press the slayer skill to change.");
 						return;
 					}
 					if(player.getSlayer().getSlayerTask() == SlayerTasks.NO_TASK)
@@ -500,7 +500,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					break;
 				
 				
-				case 683:
+				case 1861:
 					ShopManager.getShops().get(3).open(player);
 					break;
 				case 705:
@@ -554,7 +554,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					}
 					TeleportHandler.teleportPlayer(player, new Position(3363, 9638), player.getSpellbook().getTeleportType());
 					break;
-				case 947:
+				case 2540:
 					player.getPlayerOwnedShopManager().openEditor();
 					break;
 				case 946:
@@ -564,8 +564,9 @@ public class NPCOptionPacketListener implements PacketListener {
 					ShopManager.getShops().get(2).open(player);
 					break;
 				case 961:
+				case 2800:
 					if(player.getRights() == PlayerRights.PLAYER) {
-						player.getPacketSender().sendMessage("This feature is currently only available for members.");
+						player.getPacketSender().sendMessage("This feature is currently only available for Donators.");
 						return;
 					}
 					boolean restore = player.getSpecialPercentage() < 100;
@@ -620,7 +621,7 @@ public class NPCOptionPacketListener implements PacketListener {
 					}
 					TeleportHandler.teleportPlayer(player, new Position(3363, 9638), player.getSpellbook().getTeleportType());
 					break;
-				case 947:
+				case 2540:
 					player.getPlayerOwnedShopManager().claimEarnings();
 					break;
 				case 705:

@@ -214,7 +214,7 @@ public class Barrows {
 				player.getInventory().add(randomRunes(),  25 + Misc.getRandom(70));
 				if (Misc.getRandom(100) >= 84) {
 					int b = randomBarrows();
-					if (player.getRights() == PlayerRights.UBER_DONATOR || player.getRights() == PlayerRights.SUPPORT || player.getRights() == PlayerRights.MODERATOR || player.getRights() == PlayerRights.ADMINISTRATOR || player.getRights() == PlayerRights.OWNER || player.getRights() == PlayerRights.DEVELOPER ) {
+					if (player.getRights() == PlayerRights.SUPPORTER_DONATOR || player.getRights() == PlayerRights.HELPER || player.getRights() == PlayerRights.MODERATOR || player.getRights() == PlayerRights.ADMINISTRATOR || player.getRights() == PlayerRights.OWNER || player.getRights() == PlayerRights.DEVELOPER ) {
 						player.getInventory().add(b, 2);
 					}
 					if (player.getRights() == PlayerRights.PLAYER || player.getRights() == PlayerRights.YOUTUBER) {

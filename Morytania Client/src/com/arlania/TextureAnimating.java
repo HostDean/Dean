@@ -2,7 +2,7 @@ package com.arlania;
 
 public class TextureAnimating {
 
-	private static final int[] Animated_Textures = { 17, 24, 34, 40, 1};
+	private static final int[] Animated_Textures = {17, 49, 39, 24, 0, 27, 34, 40, 1};
 	
 	private static byte[] pixels = new byte[16384];
 	private static int[] hdPixels = new int[16384];

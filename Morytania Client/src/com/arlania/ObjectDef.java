@@ -174,6 +174,9 @@ public final class ObjectDef {
 			objectDef.actions = new String[] {"Investigate", "Contribute", null, null, null};
 			objectDef.name = "Well of Goodwill";
 		}
+		if(i == 13389) {
+			objectDef.name = "Red Key Chest";
+		}
 		if(i == 25014 || i == 25026 || i == 25020 || i == 25019 || i == 25024 || i == 25025 || i == 25016 || i == 5167 || i == 5168) {
 			objectDef.actions = new String[5];
 		}

@@ -26,9 +26,9 @@ public class GameServer {
 			loader.init();
 			loader.finish();
 			logger.info("The loader has finished loading utility tasks.");
-			logger.info("Morytania is now online on port "+GameSettings.GAME_PORT+"!");
+			logger.info("Aragma is now online on port "+GameSettings.GAME_PORT+"!");
 		} catch (Exception ex) {
-			logger.log(Level.SEVERE, "Could not start Morytania! Program terminated.", ex);
+			logger.log(Level.SEVERE, "Could not start Aragma! Program terminated.", ex);
 			System.exit(1);
 		}
 	}

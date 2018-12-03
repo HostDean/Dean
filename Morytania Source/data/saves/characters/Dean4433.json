@@ -1,41 +1,41 @@
 {
-  "total-play-time-ms": 3125391,
-  "username": "Deantest",
+  "total-play-time-ms": 12600,
+  "username": "Dean4433",
   "password": "deanpro",
   "email": "null",
-  "staff-rights": "YOUTUBER",
+  "staff-rights": "PLAYER",
   "game-mode": "NORMAL",
   "boss-points": 0,
-  "morytania-points": 0,
+  "Aragma-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3090,
-    "y": 3490,
+    "x": 3088,
+    "y": 3501,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": true,
   "money-pouch": 0,
-  "donated": 1080,
+  "donated": 0,
   "minutes-bonus-exp": -1,
   "total-gained-exp": 0,
   "prestige-points": 0,
   "achievement-points": 0,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 872,
-  "total-loyalty-points": 872.0,
+  "loyalty-points": 3,
+  "total-loyalty-points": 3.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
-  "donation-points": 330,
+  "donation-points": 0,
   "trivia-points": 0,
   "cluescompleted": 0,
   "player-kills": 0,
   "player-killstreak": 0,
   "player-deaths": 0,
-  "target-percentage": 38,
-  "bh-rank": 0,
+  "target-percentage": 0,
+  "bh-rank": -1,
   "gender": "MALE",
   "spell-book": "NORMAL",
   "shop-updated": false,
@@ -48,7 +48,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1542243303240,
+  "last-veng": 1543351537449,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -276,241 +276,27 @@
   },
   "inventory": [
     {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 607,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    }
-  ],
-  "equipment": [
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    }
-  ],
-  "bank-0": [
-    {
-      "id": 2440,
+      "id": 2441,
       "amount": 10,
       "slot": 0
     },
     {
-      "id": 2436,
+      "id": 2437,
       "amount": 10,
       "slot": 0
     },
     {
-      "id": 2442,
+      "id": 2443,
       "amount": 10,
       "slot": 0
     },
     {
-      "id": 3024,
+      "id": 3025,
       "amount": 10,
       "slot": 0
     },
     {
-      "id": 391,
+      "id": 392,
       "amount": 200,
       "slot": 0
     },
@@ -618,8 +404,91 @@
       "id": 554,
       "amount": 1000,
       "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
     }
   ],
+  "equipment": [
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "bank-0": [],
   "bank-1": [],
   "bank-2": [],
   "bank-3": [],

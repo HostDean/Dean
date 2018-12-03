@@ -18,6 +18,7 @@ import com.arlania.model.Prayerbook;
 import com.arlania.model.Skill;
 import com.arlania.model.Locations.Location;
 import com.arlania.model.container.impl.Equipment;
+import com.arlania.model.container.impl.Shop.ShopManager;
 import com.arlania.model.definitions.GameObjectDefinition;
 import com.arlania.model.input.impl.DonateToWell;
 import com.arlania.model.input.impl.EnterAmountOfLogsToAdd;
@@ -32,6 +33,7 @@ import com.arlania.world.content.CrystalChest;
 import com.arlania.world.content.CustomObjects;
 import com.arlania.world.content.EvilTrees;
 import com.arlania.world.content.KeysEvent;
+import com.arlania.world.content.LoyaltyProgramme;
 import com.arlania.world.content.ShootingStar;
 import com.arlania.world.content.TrioBosses;
 import com.arlania.world.content.WildernessObelisks;
@@ -200,7 +202,7 @@ public class ObjectActionPacketListener implements PacketListener {
 				case 21507:
 					player.moveTo(new Position(2329, 3804));
 					break;
-				case 6420:
+				case 13389:
 					   KeysEvent.openChest(player);
 					   break;
 				case 13291:
@@ -253,7 +255,6 @@ public class ObjectActionPacketListener implements PacketListener {
 					player.getPacketSender().sendMessage("You step through the portal..");
 					break;
 				case 47180:
-					
 					player.getPacketSender().sendMessage("You activate the device..");
 					player.moveTo(new Position(2586, 3912));
 					break;
@@ -363,7 +364,7 @@ public class ObjectActionPacketListener implements PacketListener {
 						index = 3;
 						movePos = new Position(2925, leaveRoom ? 5332 : 5331, 2);
 					}
-					if(!leaveRoom && (player.getRights() != PlayerRights.ADMINISTRATOR && player.getRights() != PlayerRights.OWNER && player.getRights() != PlayerRights.UBER_DONATOR && player.getRights() != PlayerRights.LEGENDARY_DONATOR && player.getRights() != PlayerRights.EXTREME_DONATOR && player.getRights() != PlayerRights.SUPER_DONATOR && player.getRights() != PlayerRights.MODERATOR && player.getRights() != PlayerRights.SUPPORT && player.getRights() != PlayerRights.DEVELOPER && player.getMinigameAttributes().getGodwarsDungeonAttributes().getKillcount()[index] < 20)) {
+					if(!leaveRoom && (player.getRights() != PlayerRights.ADMINISTRATOR && player.getRights() != PlayerRights.OWNER && player.getRights() != PlayerRights.SUPPORTER_DONATOR && player.getRights() != PlayerRights.LEGENDARY_DONATOR && player.getRights() != PlayerRights.EXTREME_DONATOR && player.getRights() != PlayerRights.SUPER_DONATOR && player.getRights() != PlayerRights.MODERATOR && player.getRights() != PlayerRights.HELPER && player.getRights() != PlayerRights.DEVELOPER && player.getMinigameAttributes().getGodwarsDungeonAttributes().getKillcount()[index] < 20)) {
 						player.getPacketSender().sendMessage("You need "+Misc.anOrA(bossRoom)+" "+bossRoom+" killcount of at least 20 to enter this room.");
 						return;
 					}
@@ -476,6 +477,7 @@ public class ObjectActionPacketListener implements PacketListener {
 						}
 					});
 					break;
+				
 				case 26303:
 					if(!player.getClickDelay().elapsed(1200))
 						return;
@@ -939,6 +941,7 @@ public class ObjectActionPacketListener implements PacketListener {
 				case 172:
 					CrystalChest.handleChest(player, gameObject);
 					break;
+				
 				case 6910:
 				case 4483:
 				case 3193:

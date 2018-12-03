@@ -90,10 +90,10 @@ public class SpriteLoader {
 	 */
 	public static void createSprite(SpriteLoader sprite, boolean second) {
 
-			/*	File directory = new File(signlink.findcachedir() + "dump"); if
-		(!directory.exists()) { directory.mkdir(); } FileOperations.WriteFile(directory.getAbsolutePath() +
-				System.getProperty("file.separator") + sprite.id + ".png",
-				sprite.spriteData); */
+			//	File directory = new File(signlink.findcachedir() + "dump"); if
+		//(!directory.exists()) { directory.mkdir(); } FileOperations.WriteFile(directory.getAbsolutePath() +
+				//System.getProperty("file.separator") + sprite.id + ".png",
+				//sprite.spriteData); 
 		 
 		if(!second) {
 			sprites[sprite.id] = new Sprite(sprite.spriteData);

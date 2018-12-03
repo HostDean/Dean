@@ -872,11 +872,19 @@ public class Shop extends ItemContainer {
 				case 15259:	
 				case 13661:
 					return new Object[] { 350, "stardust" };
-				case 2417:
-				case 2415:
-				case 2416:
+				case 10933:
+				case 10939:
+				case 10940:
+				case 10941:
 					return new Object[] { 500, "stardust" };
-				
+				case 450:
+					return new Object[] { 25, "stardust" };
+				case 452:
+					return new Object[] { 35, "stardust" };
+				case 2944:
+					return new Object[] { 100, "stardust" };
+					
+					
 				case 11704:
 				case 11706:
 				case 11708:
@@ -1031,6 +1039,22 @@ public class Shop extends ItemContainer {
 					return new Object[] { 25, "Donation Points" };
 				case 13742://Elysian
 					return new Object[] { 30, "Donation Points" };
+				case 1042://blue phat
+					return new Object[] { 60, "Donation Points" };
+				case 1048://white phat
+					return new Object[] { 60, "Donation Points" };
+				case 1040://white phat
+					return new Object[] { 45, "Donation Points" };
+				case 1044://white phat
+					return new Object[] { 45, "Donation Points" };
+				case 1046://white phat
+					return new Object[] { 45, "Donation Points" };
+				case 1038://white phat
+					return new Object[] { 50, "Donation Points" };
+				case 1050://white phat
+					return new Object[] { 25, "Donation Points" };
+				case 14044://white phat
+					return new Object[] { 100, "Donation Points" };
 				case 13740://Divine
 				case 4450:
 				case 4453:
@@ -1061,6 +1085,10 @@ public class Shop extends ItemContainer {
 				return new Object[] { 100, "Donation Points" };
 			} else if (shop == DONATOR_STORE_2) {
 				switch (item) {
+				case 6855://RareMbox
+					return new Object[] { 25, "Donation Points" };
+				case 6852://Pet Box
+					return new Object[] { 15, "Donation Points" };
 				case 15352://Web Cloak
 				case 9925://Skele Mask
 				case 9924://Skele Shirt
@@ -1069,12 +1097,17 @@ public class Shop extends ItemContainer {
 				case 9921://Skele Boots	
 					return new Object[] { 10, "Donation Points" };
 				case 4084://Sled
+					return new Object[] { 100, "Donation Points" };
 				case 5607://Grain
+					return new Object[] { 15, "Donation Points" };
 				case 10735://Scythe
+					return new Object[] { 100, "Donation Points" };
 				case 1038://Red Partyhat
+					return new Object[] { 50, "Donation Points" };
 				case 1040://Yellow Partyhat
+					return new Object[] { 45, "Donation Points" };
 				case 1046://Purple Partyhat
-					return new Object[] { 30, "Donation Points" };
+					return new Object[] { 45, "Donation Points" };
 				//case 19018://Rainbow Santa
 				case 14046://Pink Partyhat
 				case 14045://Lime Partyhat
@@ -1085,19 +1118,27 @@ public class Shop extends ItemContainer {
 				case 14052://Lava Santa Hat
 				case 11860://3rd Range
 				case 1042://Blue Partyhat
+					return new Object[] { 60, "Donation Points" };
 				case 1048://White Partyhat
+					return new Object[] { 50, "Donation Points" };
 				case 1044://Green Partyhat
-					return new Object[] { 45, "Donation Points" };
+					return new Object[] { 50, "Donation Points" };
 				case 11862://3rd Mage
 					return new Object[] { 60, "Donation Points" };
 				case 18933://Red Spirit Shield
 					return new Object[] { 75, "Donation Points" };
 				case 15449://Attacker
+					return new Object[] { 100, "Donation Points" };
 				case 15454://Collector
+					return new Object[] { 100, "Donation Points" };
 				case 15459://Defender
+					return new Object[] { 100, "Donation Points" };
 				case 15464://Healer
+					return new Object[] { 100, "Donation Points" };
 				case 14044://Black Partyhat
+					return new Object[] { 80, "Donation Points" };
 				case 14050://Black Santa Hat
+					return new Object[] { 60, "Donation Points" };
 				case 11858://3rd Melee
 					return new Object[] { 80, "Donation Points" };
 				}

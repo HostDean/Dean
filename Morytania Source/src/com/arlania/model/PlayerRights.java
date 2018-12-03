@@ -44,12 +44,13 @@ public enum PlayerRights {
 	SUPER_DONATOR(40, "<col=787878>", 1.5, 1.2),
  	EXTREME_DONATOR(20, "<col=D9D919>", 2, 1.3),
 	LEGENDARY_DONATOR(10, "<shad=697998>", 2.5, 1.4),
-	UBER_DONATOR(0, "<col=0EBFE9>", 3, 1.5),
+	SUPPORTER_DONATOR(0, "<col=0EBFE9>", 3, 1.5),
 
 	/*
 	 * A member who has the ability to help people better.
 	 */
-	SUPPORT(-1, "@blu@", 1, 1.5),
+	HELPER(-1, "@blu@", 1, 1.5),
+	TRUSTED_HOST(-1, "@yel@", 1, 1.5),
 
 	/*
 	 * A member who has been with the server for a long time.
@@ -63,8 +64,8 @@ public enum PlayerRights {
 		this.experienceGainModifier = experienceGainModifier;
 	}
 	
-	private static final ImmutableSet<PlayerRights> STAFF = Sets.immutableEnumSet(SUPPORT, MODERATOR, ADMINISTRATOR, OWNER, DEVELOPER);
-	private static final ImmutableSet<PlayerRights> MEMBERS = Sets.immutableEnumSet(DONATOR, SUPER_DONATOR, EXTREME_DONATOR, LEGENDARY_DONATOR, UBER_DONATOR);
+	private static final ImmutableSet<PlayerRights> STAFF = Sets.immutableEnumSet(HELPER, MODERATOR, ADMINISTRATOR, OWNER, DEVELOPER);
+	private static final ImmutableSet<PlayerRights> MEMBERS = Sets.immutableEnumSet(DONATOR, SUPER_DONATOR, EXTREME_DONATOR, LEGENDARY_DONATOR, SUPPORTER_DONATOR);
 	
 	/*
 	 * The yell delay for the rank

@@ -131,7 +131,7 @@
         "line1": "Lottery! Lottery over here!",
         "line2": "Come get rich!!! Lotteryyy!!",
         "next": 15,
-        "npcId": 4249
+        "npcId": 409
     },
     {
         "id": 15,
@@ -155,7 +155,7 @@
         "line3": "of the pot of gold and another lottery will begin. If",
         "line4": "you have any questions, feel free to ask other contesters.",
         "next": 15,
-        "npcId": 4249
+        "npcId": 409
     },
     {
         "id": 17,
@@ -166,7 +166,7 @@
         "line2": "lottery.",
         "line3": "The winner is announced every Friday.",
         "next": 15,
-        "npcId": 4249
+        "npcId": 409
     },
     {
         "id": 18,
@@ -178,7 +178,7 @@
         "line3": "The winner is announced every Friday.",
         "line4": "Good luck!",
         "next": 15,
-        "npcId": 4249
+        "npcId": 409
     },
     {
         "id": 19,
@@ -1292,7 +1292,7 @@
         "line1": "Mine those shooting stars and get some star dust!",
         "line2": "Spend your start dust on my shop/sell it to the general store!",
         "next": -1,
-        "npcId": 4902
+        "npcId": 2207
     },
      {
         "id": 159,

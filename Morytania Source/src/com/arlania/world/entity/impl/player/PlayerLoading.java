@@ -88,8 +88,8 @@ public class PlayerLoading {
 			if (reader.has("boss-points")) {
 				player.setBossPoints(reader.get("boss-points").getAsInt());
 			}
-			if (reader.has("morytania-points")) {
-				player.setMorytaniaPoints(reader.get("morytania-points").getAsInt());
+			if (reader.has("Aragma-points")) {
+				player.setMorytaniaPoints(reader.get("Aragma-points").getAsInt());
 			}
 			if (reader.has("email")) {
 				player.setEmailAddress(reader.get("email").getAsString());

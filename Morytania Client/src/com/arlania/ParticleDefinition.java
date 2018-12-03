@@ -48,6 +48,20 @@ public class ParticleDefinition {
              setColorStep(0x000000); }
 		},
 		new ParticleDefinition() { {
+			//blood rapier
+				 setStartVelocity(new ParticleVector(0, -3, 0));
+	             setEndVelocity(new ParticleVector(0, -3, 0));
+	             setGravity(new ParticleVector(0, 2 / 4, 0));
+	             setLifeSpan(19);
+	             setStartColor(0xff1c1c);
+	             setSpawnRate(4);
+	             setStartSize(1.4f);
+	             setEndSize(0);
+	             setStartAlpha(0.035f);
+	             updateSteps();
+	             setColorStep(0x000000); }
+			},
+		new ParticleDefinition() { {
 			//Trimmed Completionist Cape
 			setStartVelocity(new ParticleVector(0, -3, 0));
             setEndVelocity(new ParticleVector(0, -3, 0));

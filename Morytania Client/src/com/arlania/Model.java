@@ -1320,6 +1320,9 @@ public class Model extends Animable {
 		}
 
 	}
+	
+	
+
 
 	public void method471_2(int mixingData[], int j, int frameId, int frameId2) {
 		if (frameId == -1)

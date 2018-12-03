@@ -35,7 +35,7 @@ public class PlayerPanel {
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Time Played: @yel@"+Misc.getHoursPlayed((player.getTotalPlayTime() + player.getRecordedLogin().elapsed())));
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Username: @yel@"+player.getUsername());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Rank: @yel@"+player.getRights().toString());
-		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Donated: @yel@"+player.getAmountDonated());
+		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Donated: @yel@$"+player.getAmountDonated());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Exp Lock: @yel@"+(player.experienceLocked() ? "Locked" : "Unlocked"));
 		
 		player.getPacketSender().sendString(counter++, "");

@@ -77,6 +77,8 @@ public class SkillManager {
 	return false;
 	}*/
 
+	
+	 
 	/**
 	 * Adds experience to {@code skill} by the {@code experience} amount.
 	 * @param skill			The skill to add experience to.
@@ -99,11 +101,17 @@ public class SkillManager {
 		if(WellOfGoodwill.isActive())
 			experience *= 1.3;
 		if(player.getGameMode() != GameMode.NORMAL) {
-			experience *= 0.6;
+			experience *= 0.3;
+		}
+		else {
+			experience *= 0.3;
 		}
 
 		if(GameSettings.BONUS_EXP) {
 			experience *= 1.15; //15
+		}
+		if(GameSettings.EXTBONUS_EXP) {
+			experience *= 1.3; //15
 		}
 
 		if(player.getMinutesBonusExp() != -1) {

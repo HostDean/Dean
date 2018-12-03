@@ -538,7 +538,7 @@ public class Tutorial {
 					p.getAppearance().setCanChangeAppearance(true);
 					p.setPlayerLocked(false);
 					ClanChatManager.join(p, "help");
-					World.sendMessage("<img=10> <col=6600CC>[New Player]: "+p.getUsername()+" has logged into Morytania for the first time!");
+					World.sendMessage("<col=6600CC> <img=15> [New Player]: "+p.getUsername()+" has logged in for the first time!");
 
 					//reset interface?
 					//resetInterface(player);

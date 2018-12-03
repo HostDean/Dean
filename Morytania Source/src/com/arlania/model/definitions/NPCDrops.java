@@ -359,7 +359,7 @@ public class NPCDrops {
 		case LEGENDARY_DONATOR:
 			random -= (random / 10) * 6;//540 
 			break;
-		case UBER_DONATOR:
+		case SUPPORTER_DONATOR:
 			random -= (random / 10) * 5;//450
 			break;
 		case ADMINISTRATOR:
@@ -426,9 +426,24 @@ public class NPCDrops {
 		}
 		
 		if (itemId == 6731 ||  itemId == 6914 || itemId == 7158 ||  itemId == 6889 || itemId == 6733 || itemId == 15019 || itemId == 11235 || itemId == 15020 || itemId == 15018 || itemId == 15220 || itemId == 6735 || itemId == 6737 || itemId == 6585 || itemId == 4151 || itemId == 4087 || itemId == 2577 || itemId == 2581 || itemId == 11732 || itemId == 18782 ) {
-			player.getPacketSender().sendMessage("@red@ YOU HAVE RECIEVED A MEDIUM DROP, CHECK THE GROUND!");
+			player.getPacketSender().sendMessage("@yel@ <shad=3000000> YOU HAVE RECIEVED A MEDIUM DROP, CHECK THE GROUND!");
 
-		}
+		};
+		
+		if (itemId == 2581 ||  itemId == 12278 || itemId == 12279 ||  itemId == 12282 || itemId == 12926 || itemId == 18895) {
+			player.getPacketSender().sendMessage("@ora@ <shad=3000000> YOU HAVE RECIEVED A RARE DROP, CHECK THE GROUND!");
+
+		};
+		
+		if (itemId == 21050) {
+			player.getPacketSender().sendMessage("@red@ <shad=3000000> YOU HAVE RECIEVED A ULTRA RARE DROP, CHECK THE GROUND!");
+
+		};
+		
+		if (itemId == 2944) {
+			player.getPacketSender().sendMessage("@red@ YOU HAVE RECIEVED A BOSS KEY, YOU CAN USE IT AT HOME!");
+
+		};
 
 		if (itemId == CharmingImp.GOLD_CHARM
 				|| itemId == CharmingImp.GREEN_CHARM
@@ -526,7 +541,7 @@ public class NPCDrops {
 				break;
 			}
 			String message = "@blu@[RARE DROP] " + toGive.getUsername()
-					+ " has just received @red@" + itemMessage + "@blu@ from " + npcName
+					+ " has just received @red@" + itemMessage + "@blu@ from a " + npcName
 					+ "!"; 
 			World.sendMessage(message);
 
@@ -548,7 +563,7 @@ public class NPCDrops {
 			GroundItemManager.spawnGroundItem(player, new GroundItem(new Item(7956), pos, player.getUsername(), false, 150, true, 200));
 		}
 	}
-	private static final int[] CLUESBOY = new int[] { 2677, 2678, 2679, 2680, 2681, 2682, 2683, 2684, 2685};
+	private static final int[] CLUESBOY = new int[] {2714};
 
 
 	public static void clueDrop(Player player, int combat, Position pos) {
@@ -556,7 +571,7 @@ public class NPCDrops {
 		if (RandomUtility.getRandom(combat <= 80 ? 1300 : 1000) < chance) {
 			int clueId = CLUESBOY[Misc.getRandom(CLUESBOY.length - 1)];
 			GroundItemManager.spawnGroundItem(player, new GroundItem(new Item(clueId), pos, player.getUsername(), false, 150, true, 200));
-			player.getPacketSender().sendMessage("@or2@You have recieved a clue scroll!");
+			player.getPacketSender().sendMessage("@or2@You have recieved a clue scroll chest!");
 		}
 	}
 	

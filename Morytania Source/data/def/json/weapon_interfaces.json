@@ -351,7 +351,7 @@
   {
     "hash": 20998,
     "item-id": 20998,
-    "interface": "SHORTBOW"
+    "interface": "LONGBOW"
   },
   {
     "hash": 3190,
@@ -522,27 +522,22 @@
     "hash": 1229,
     "item-id": 1229,
     "interface": "DAGGER"
-  },
-  
-  
+  }, 
    {
     "hash": 20058,
     "item-id": 20058,
     "interface": "WARHAMMER"
   },
-
   {
     "hash": 20057,
     "item-id": 20057,
     "interface": "LONGSWORD"
   },
-  
    {
     "hash": 20063,
     "item-id": 20063,
     "interface": "LONGSWORD"
   },
-
   {
     "hash": 20059,
     "item-id": 20059,

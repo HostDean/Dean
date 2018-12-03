@@ -803,7 +803,7 @@ public class DialogueOptions {
 				ShopManager.getShops().get(27).open(player);
 				break;
 			case 9:
-				TeleportHandler.teleportPlayer(player, new Position(2440, 3090), player.getSpellbook().getTeleportType());
+				TeleportHandler.teleportPlayer(player, new Position(3093, 3478), player.getSpellbook().getTeleportType());
 				break;
 			case 13:
 				player.getPacketSender().sendInterfaceRemoval();

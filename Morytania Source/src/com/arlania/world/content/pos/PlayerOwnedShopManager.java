@@ -100,7 +100,7 @@ public class PlayerOwnedShopManager {
 			player.getPacketSender().sendInterfaceRemoval();
 			return;
 		}
-		player.getPacketSender().sendString(32610, "Player Owned Shops");
+		player.getPacketSender().sendString(32610, "Grand Exchange");
 
 		int i = 0;
 		filtered.clear();
@@ -644,8 +644,8 @@ public class PlayerOwnedShopManager {
 
 		filtered.clear();
 
-		player.getPacketSender().sendString(32610, string.length() == 0 ? "Player Owned Shops"
-				: "Player Owned Shops - Searching: " + (setFilterString(string)));
+		player.getPacketSender().sendString(32610, string.length() == 0 ? "Grand Exchange"
+				: "Grand Exchange- Searching: " + (setFilterString(string)));
 		boolean l = string.length() == 0;
 		int i = 0;
 

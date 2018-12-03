@@ -236,7 +236,7 @@ public class AutoDonations implements Runnable {
 		if(player.getAmountDonated() >= 250)
 			rights = PlayerRights.LEGENDARY_DONATOR;
 		if(player.getAmountDonated() >= 500)
-			rights = PlayerRights.UBER_DONATOR;
+			rights = PlayerRights.SUPPORTER_DONATOR;
 		if(rights != null && rights != player.getRights()) {
 			player.getPacketSender().sendMessage("You've become a "+Misc.formatText(rights.toString().toLowerCase())+"! Congratulations!");
 			player.setRights(rights);
