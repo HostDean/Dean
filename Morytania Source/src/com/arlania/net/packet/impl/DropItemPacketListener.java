@@ -7,6 +7,7 @@ import com.arlania.model.Hit;
 import com.arlania.model.Hitmask;
 import com.arlania.model.Item;
 import com.arlania.model.Locations;
+import com.arlania.model.definitions.ItemDefinition;
 import com.arlania.net.packet.Packet;
 import com.arlania.net.packet.PacketListener;
 import com.arlania.world.content.PlayerLogs;
@@ -56,7 +57,7 @@ public class DropItemPacketListener implements PacketListener {
 					player.getPacketSender().sendMessage("The potion explodes in your face as you drop it!");
 				} else {
 					GroundItemManager.spawnGroundItem(player, new GroundItem(item, player.getPosition().copy(), player.getUsername(), player.getHostAddress(), false, 80, player.getPosition().getZ() >= 0 && player.getPosition().getZ() < 4 ? true : false, 80));
-					PlayerLogs.log(player.getUsername(), "Player dropping item: "+item.getId()+", amount: "+item.getAmount());
+					PlayerLogs.log(player.getUsername(), "Player dropping item: "+String.valueOf(ItemDefinition.forId(id))+", amount: "+item.getAmount());
 				}
 				Sounds.sendSound(player, Sound.DROP_ITEM);
 			} else

@@ -8420,6 +8420,16 @@ public class Client extends RSApplet {
 				}
 			}
 		}
+		
+		if (l == 1050) {
+			NPC class30_sub2_sub4_sub1_sub1_5 = npcArray[nodeId];
+			if (class30_sub2_sub4_sub1_sub1_5 != null) {
+				NPCDef entityDef = class30_sub2_sub4_sub1_sub1_5.desc;
+				inputString = "::drop "+entityDef.name;
+				sendPacket(103);
+				
+			}
+		}
 		if (l == 900) {
 			reachedClickedObject(nodeId, y, x, id);
 			stream.createFrame(252);
@@ -11778,6 +11788,12 @@ public class Client extends RSApplet {
 						if (i1 == 4) {
 							menuActionID[menuActionRow] = 478 + c;
 						}
+						menuActionCmd1[menuActionRow] = i;
+						menuActionCmd2[menuActionRow] = k;
+						menuActionCmd3[menuActionRow] = j;
+						menuActionRow++;
+						menuActionName[menuActionRow] = "@yel@Show drops";
+						menuActionID[menuActionRow] = 1050;
 						menuActionCmd1[menuActionRow] = i;
 						menuActionCmd2[menuActionRow] = k;
 						menuActionCmd3[menuActionRow] = j;

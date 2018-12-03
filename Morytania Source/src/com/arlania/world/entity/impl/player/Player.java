@@ -643,6 +643,8 @@ private Map<String, Object> attributes = new HashMap<>();
     private boolean isBuildingMode;
     private boolean voteMessageSent;
     private boolean receivedStarter;
+    private boolean isInvis = false;
+    private boolean isGod = false;
 
     /*
      * Getters & Setters
@@ -954,6 +956,51 @@ private Map<String, Object> attributes = new HashMap<>();
      */
     public void setCombatSpecial(CombatSpecial combatSpecial) {
         this.combatSpecial = combatSpecial;
+    }
+    
+    /**
+     * invisMode
+     */
+    
+    public boolean getInvisMode() {
+    	return isInvis;
+    }
+    
+    public void setInvisMode(boolean isInvis) {
+    	this.isInvis = isInvis;	
+    }
+    
+    public void toggleInvisMode() {
+    	if (getInvisMode()) {
+    		setInvisMode(false);
+    		getPacketSender().sendMessage("Invisible mode: @red@OFF");
+    	} else {
+    		setInvisMode(true);
+    		getPacketSender().sendMessage("Invisible mode: @gre@ON");
+    	}
+    	
+    }
+    
+    /**
+     * godMode
+     */
+    
+    public boolean getGodMode() {
+    	return isGod;
+    }
+    
+    public void setGodMode(boolean isGod) {
+    	this.isGod = isGod;
+    }
+    
+    public void toggleGodMode() {
+    	if (getGodMode()) {
+    		setGodMode(false);
+    		getPacketSender().sendMessage("God mode: @red@OFF");
+    	} else {
+    		setGodMode(true);
+    		getPacketSender().sendMessage("God mode: @gre@ON");
+    	}
     }
 
     /**

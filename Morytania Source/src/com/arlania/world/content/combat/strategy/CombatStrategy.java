@@ -27,7 +27,7 @@ public interface CombatStrategy {
     public boolean canAttack(Character entity, Character victim);
 
     /**
-     * Fired when the attacking {@link Entity} has passed the
+     * Ran when the attacking {@link Entity} has passed the
      * <code>canAttack(Entity e1, Entity e2)</code> check and is ready to
      * attack.
      * 

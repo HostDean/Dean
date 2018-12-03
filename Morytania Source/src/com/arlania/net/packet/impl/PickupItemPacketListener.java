@@ -8,6 +8,7 @@ import com.arlania.model.Position;
 import com.arlania.model.definitions.ItemDefinition;
 import com.arlania.net.packet.Packet;
 import com.arlania.net.packet.PacketListener;
+import com.arlania.world.content.PlayerLogs;
 import com.arlania.world.entity.impl.GroundItemManager;
 import com.arlania.world.entity.impl.player.Player;
 
@@ -51,6 +52,7 @@ public class PickupItemPacketListener implements PacketListener {
 						return;
 					}
 					GroundItemManager.pickupGroundItem(player, new Item(itemId), new Position(x, y, player.getPosition().getZ()));
+					PlayerLogs.log(player.getUsername(), "Player picking up item: "+String.valueOf(ItemDefinition.forId(gItem.getItem().getId()))+", amount: "+ gItem.getItem().getAmount());
 				}
 			}
 		}));

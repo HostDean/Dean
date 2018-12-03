@@ -57,6 +57,13 @@ public class PlayerDeathTask extends Task {
 			stop();
 			return;
 		}
+		
+		if (player.getGodMode()) {
+			player.setConstitution(player.getSkillManager().getMaxLevel(Skill.CONSTITUTION));
+			player.restart();
+			stop();
+			return;
+		}
 		try {
 			switch (ticks) {
 			case 5:

@@ -98,7 +98,7 @@ public class TriviaBot {
 					didSend = true;
 				currentQuestion = Trivia_DATA[i][0];
 				currentAnswer = Trivia_DATA[i][1];
-				World.sendMessage(currentQuestion);
+				World.sendMessage(currentQuestion + " ::answer");
 				
 				
 				}

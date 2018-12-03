@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
@@ -343,7 +344,10 @@ public class Misc {
 		if (quantity < -1) {
 			quantity = Long.MAX_VALUE;
 		}
+		if (quantity < 1000000000) {
 		return currency(quantity) + " (" + formatLong(quantity) + " gp)";
+		}
+		return currency(quantity);
 	}
 
 	/**
@@ -353,13 +357,14 @@ public class Misc {
 	 *            the amount
 	 * @return the symbol
 	 */
-	public static String currency(final long quantity) {
+	public static String currency(final double quantity) {
+		DecimalFormat df = new DecimalFormat("#.####");
 		if (quantity >= 10000 && quantity < 10000000) {
 			return quantity / 1000 + "K";
 		} else if (quantity >= 10000000 && quantity <= Integer.MAX_VALUE) {
 			return quantity / 1000000 + "M";
 		} else if (quantity > Integer.MAX_VALUE && quantity <= Long.MAX_VALUE) {
-			return quantity / 10000000 + "B";
+			return df.format((quantity / 10000000)/100) + "B";
 		} else {
 			return "" + quantity + " gp";
 		}

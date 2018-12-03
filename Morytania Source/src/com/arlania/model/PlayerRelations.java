@@ -3,8 +3,10 @@ package com.arlania.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.arlania.util.Misc;
 import com.arlania.util.NameUtils;
 import com.arlania.world.World;
+import com.arlania.world.content.PlayerLogs;
 import com.arlania.world.content.clan.ClanChatManager;
 import com.arlania.world.entity.impl.player.Player;
 
@@ -258,6 +260,8 @@ public class PlayerRelations {
 			setStatus(PrivateChatStatus.FRIENDS_ONLY, true);
 		}
 		friend.getPacketSender().sendPrivateMessage(player.getLongUsername(), player.getRights(), message, size);
+		String messageToLog = Misc.textUnpack(message, size);
+		PlayerLogs.writePMLog(this.player, friend, messageToLog);
 	}
 
 	/**

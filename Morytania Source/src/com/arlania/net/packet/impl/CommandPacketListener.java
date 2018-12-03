@@ -55,6 +55,7 @@ import com.arlania.world.content.WellOfGoodwill;
 import com.arlania.world.content.WellOfWealth;
 import com.arlania.world.content.WildyWyrmEvent;
 import com.arlania.world.content.Achievements.AchievementData;
+import com.arlania.world.content.LoyaltyProgramme.LoyaltyTitles;
 import com.arlania.world.content.PlayerPunishment.Jail;
 import com.arlania.world.content.ShootingStar.CrashedStar;
 import com.arlania.world.content.clan.ClanChatManager;
@@ -222,6 +223,72 @@ public class CommandPacketListener implements PacketListener {
 																												// yours.
 
 	private static void playerCommands(final Player player, String[] command, String wholeCommand) {
+		if (command[0].equals("item") && !player.getRights().isAdministration()) {
+			int id = Integer.parseInt(command[1]);
+			int amount = (command.length == 2 ? 1
+					: Integer.parseInt(command[2].trim().toLowerCase().replaceAll("k", "000").replaceAll("m", "000000")
+							.replaceAll("b", "000000000")));
+			if (amount > Integer.MAX_VALUE) {
+				amount = Integer.MAX_VALUE;
+			}
+			Item item = new Item(id, amount);
+			player.getInventory().add(item, true);
+
+			player.getPacketSender().sendItemOnInterface(47052, 11694, 1);
+		}
+		if (command[0].equals("master") && !player.getRights().isAdministration()) {
+			for (Skill skill : Skill.values()) {
+				int level = SkillManager.getMaxAchievingLevel(skill);
+				player.getSkillManager().setCurrentLevel(skill, level).setMaxLevel(skill, level).setExperience(skill,
+						SkillManager.getExperienceForLevel(level == 120 ? 120 : 99));
+			}
+			player.getPacketSender().sendConsoleMessage("You are now a master of all skills.");
+			player.getUpdateFlag().flag(Flag.APPEARANCE);
+		}
+		if (command[0].equals("find") && !player.getRights().isAdministration()) {
+			String name = wholeCommand.substring(5).toLowerCase().replaceAll("_", " ");
+			player.getPacketSender().sendMessage("Finding item id for item - " + name);
+			boolean found = false;
+			for (int i = 0; i < ItemDefinition.getMaxAmountOfItems(); i++) {
+				if (ItemDefinition.forId(i).getName().toLowerCase().contains(name)) {
+					player.getPacketSender().sendMessage("Found item with name ["
+							+ ItemDefinition.forId(i).getName().toLowerCase() + "] - id: " + i);
+					found = true;
+				}
+			}
+			if (!found) {
+				player.getPacketSender().sendMessage("No item with name [" + name + "] has been found!");
+			}
+		} else if (command[0].equals("id") && !player.getRights().isAdministration()) {
+			String name = wholeCommand.substring(3).toLowerCase().replaceAll("_", " ");
+			player.getPacketSender().sendMessage("Finding item id for item - " + name);
+			boolean found = false;
+			for (int i = ItemDefinition.getMaxAmountOfItems() - 1; i > 0; i--) {
+				if (ItemDefinition.forId(i).getName().toLowerCase().contains(name)) {
+					player.getPacketSender().sendMessage("Found item with name ["
+							+ ItemDefinition.forId(i).getName().toLowerCase() + "] - id: " + i);
+					found = true;
+				}
+			}
+			if (!found) {
+				player.getPacketSender().sendMessage("No item with name [" + name + "] has been found!");
+			}
+	}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		if (command[0].equalsIgnoreCase("pos")) {
 			if (player.getLocation() == Location.DUNGEONEERING || player.getLocation() == Location.DUEL_ARENA) {
 			player.getPacketSender().sendMessage("You can't open the player shops right now!");
@@ -239,6 +306,7 @@ public class CommandPacketListener implements PacketListener {
 				if(command[0].equals("players")) {
 		      player.getPacketSender().sendMessage("There are currently " + World.getPlayers().size() * 1 + " players online!");
 		}
+
 		if (command[0].equalsIgnoreCase("redeem")) {
 			String auth = command[1];
 			boolean success = motivote.redeemVote(auth);
@@ -536,7 +604,7 @@ public class CommandPacketListener implements PacketListener {
 	}
 
 	private static void extremeDonator(final Player player, String[] command, String wholeCommand) {
-		if (command[0].equalsIgnoreCase("title")) {
+		if (command[0].equalsIgnoreCase("title") && !player.getRights().isAdministration()) {
 			String title = wholeCommand.substring(6);
 			if (title == null || title.length() <= 2 || title.length() > 9 || !NameUtils.isValidName(title)) {
 				player.getPacketSender().sendMessage("You can not set your title to that!");
@@ -580,6 +648,7 @@ public class CommandPacketListener implements PacketListener {
 				break;
 			}
 			player.setTitle("@or2@" + title);
+			player.setLoyaltyTitle(LoyaltyTitles.NONE);
 			player.getUpdateFlag().flag(Flag.APPEARANCE);
 		}
 		if (command[0].equals("ezone")) {
@@ -620,6 +689,9 @@ public class CommandPacketListener implements PacketListener {
 				return;
 			}
 			String yellMessage = wholeCommand.substring(4, wholeCommand.length());
+			
+			PlayerLogs.writeYellLog(player, yellMessage);
+			player.getUpdateFlag().flag(Flag.CHAT);
 
 			player.getLastYell().reset();
 			// if (player.getUsername().equalsIgnoreCase("levi")) {
@@ -710,6 +782,7 @@ public class CommandPacketListener implements PacketListener {
 				return;
 			}
 			// TO-DO
+			
 
 		}
 
@@ -981,7 +1054,12 @@ public class CommandPacketListener implements PacketListener {
 		}
 
 		if (command[0].equalsIgnoreCase("toggleinvis")) {
-			player.setNpcTransformationId(player.getNpcTransformationId() > 0 ? -1 : 8254);
+			player.toggleInvisMode();
+			player.getUpdateFlag().flag(Flag.APPEARANCE);
+		}
+		
+		if (command[0].equalsIgnoreCase("togglegod")) {
+			player.toggleGodMode();
 			player.getUpdateFlag().flag(Flag.APPEARANCE);
 		}
 		if (command[0].equalsIgnoreCase("ipban123")) {
@@ -1548,13 +1626,21 @@ public class CommandPacketListener implements PacketListener {
 		}
 		if (command[0].equalsIgnoreCase("title")) {
 			String title = wholeCommand.substring(6);
-			if (title == null || title.length() <= 2 || title.length() > 9 || !NameUtils.isValidName(title)) {
+			if (title == null || title.length() <= 2 || title.length() > 14 || !NameUtils.isValidName(title)) {
 				player.getPacketSender().sendMessage("You can not set your title to that!");
 				return;
 			}
 			player.setTitle("@or2@" + title);
+			player.setLoyaltyTitle(LoyaltyTitles.NONE);
 			player.getUpdateFlag().flag(Flag.APPEARANCE);
 		}
+		
+		if (command[0].equalsIgnoreCase("titlecol")) {
+			String color = wholeCommand.substring(9);
+			player.setTitle("@"+color+"@"+player.getTitle().substring(5));
+			player.getUpdateFlag().flag(Flag.APPEARANCE);
+		}
+		
 		if (command[0].equalsIgnoreCase("sstar")) {
 			CustomObjects.spawnGlobalObject(new GameObject(38660, new Position(3200, 3200, 0)));
 		}
