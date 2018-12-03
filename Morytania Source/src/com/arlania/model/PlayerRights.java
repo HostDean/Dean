@@ -65,9 +65,9 @@ public enum PlayerRights {
 	}
 	
 
-	private static final ImmutableSet<PlayerRights> STAFF = Sets.immutableEnumSet(SUPPORT, MODERATOR, ADMINISTRATOR, OWNER, DEVELOPER);
+	private static final ImmutableSet<PlayerRights> STAFF = Sets.immutableEnumSet(HELPER, MODERATOR, ADMINISTRATOR, OWNER, DEVELOPER);
 	private static final ImmutableSet<PlayerRights> ADMINISTRATION = Sets.immutableEnumSet(ADMINISTRATOR, OWNER, DEVELOPER);
-	private static final ImmutableSet<PlayerRights> MEMBERS = Sets.immutableEnumSet(DONATOR, SUPER_DONATOR, EXTREME_DONATOR, LEGENDARY_DONATOR, UBER_DONATOR);
+	private static final ImmutableSet<PlayerRights> MEMBERS = Sets.immutableEnumSet(DONATOR, SUPER_DONATOR, EXTREME_DONATOR, LEGENDARY_DONATOR, SUPPORTER_DONATOR);
 	
 	/*
 	 * The yell delay for the rank

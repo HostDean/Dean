@@ -1,6 +1,6 @@
 package com.arlania;
 
-public final class Rasterizer extends DrawingArea {
+public final class Rasterizer extends DrawingArea474 {
 
 	public static void clearCache() {
 		shadowDecay = null;
