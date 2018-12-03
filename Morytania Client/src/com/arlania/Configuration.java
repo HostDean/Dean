@@ -1,7 +1,7 @@
 package com.arlania;
 public class Configuration {
 	
-	public final static String HOST = "127.0.0.1";//162.218.48.21
+	public final static String HOST = "192.168.0.47";//162.218.48.21
 	//public final static String HOST = "http://www.Morytania.org";//Local	
 	//62.100.205.111
 	//127.0.0.1
