@@ -19,12 +19,12 @@ public class MemberScrolls {
 			rights = PlayerRights.DONATOR;
 		if(player.getAmountDonated() >= 25)
 			rights = PlayerRights.SUPER_DONATOR;
-		if(player.getAmountDonated() >= 50)
+		if(player.getAmountDonated() >= 75)
 			rights = PlayerRights.EXTREME_DONATOR;
-		if(player.getAmountDonated() >= 125)
+		if(player.getAmountDonated() >= 250)
 			rights = PlayerRights.LEGENDARY_DONATOR;
-		if(player.getAmountDonated() >= 200)
-			rights = PlayerRights.UBER_DONATOR;
+		if(player.getAmountDonated() >= 500)
+			rights = PlayerRights.SUPPORTER_DONATOR;
 		if(rights != null && rights != player.getRights()) {
 			player.getPacketSender().sendMessage("You've become a "+Misc.formatText(rights.toString().toLowerCase())+"! Congratulations!");
 			player.setRights(rights);

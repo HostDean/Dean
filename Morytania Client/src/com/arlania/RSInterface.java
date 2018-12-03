@@ -1,5 +1,6 @@
 package com.arlania;
 
+
 @SuppressWarnings("all")
 public class RSInterface {
 	
@@ -39,7 +40,7 @@ public class RSInterface {
      addHoveredButton(3226, "Pets/Pack", 8, 101, 74, 20885);
      addHoverButton(3235, "Pets/Pack", 9, 100, 74, "Value @or2@Legendary Package", -1, 3236, 1);
      addHoveredButton(3236, "Pets/Pack", 10, 101, 74, 20886);
-     addText(3210, "Morytania Point Shop", atextdrawingarea, 3, 0xffcc33, false, true);
+     addText(3210, "Aragma Point Shop", atextdrawingarea, 3, 0xffcc33, false, true);
      addText(3211, "RP:", atextdrawingarea, 3, 0xffcc33, false, true);
      addHoverButton(3215, "Pets/Pack", 3, 100, 74, "Value @or2@Extreme Package", -1, 3216, 1);
      addHoveredButton(3216, "Pets/Pack", 4, 101, 74, 3217);
@@ -59,7 +60,7 @@ public class RSInterface {
      addText(3273, "Legendary Package", atextdrawingarea, 0, 0xffcc33, false, true);
      addText(3274, "Uncommon Package", atextdrawingarea, 0, 0xffcc33, false, true);
      addText(3275, "Learn More", atextdrawingarea, 0, 0x19f50e, false, true);
-     addText(3276, "Kill ::ruwarriors To Obtain Morytania Points!", atextdrawingarea, 3, 0xffcc33, false, true);
+     addText(3276, "Kill ::ruwarriors To Obtain Aragma Points!", atextdrawingarea, 3, 0xffcc33, false, true);
      rsinterface.totalChildren(34);
      rsinterface.child(0, 3201, 12, 46);
      rsinterface.child(1, 3202, 475, 51);
@@ -192,7 +193,7 @@ public class RSInterface {
 		//addConfigButton(32604, 32605, 5, 6, dir, 164, 22, "Search for players", 1, 4, 969);
 		addHoverButton(32606, dir, 1, 16, 16, "Close Window", 250, 32607, 3);
 		addHoveredButton(32607, dir, 2, 16, 16, 32608);
-		addText(32610, "Player Owned Shops", tda, 2, 0xff7000, true, true);
+		addText(32610, "<img=17>Grand Exchange<img=17>", tda, 2, 0xff7000, true, true);
 		addText(32611, "Search", tda, 1, 0xff7000, false, true);
 		//addText(32612, "Search a player", tda, 1, 0xff7000, false, true);
 		
@@ -240,7 +241,7 @@ public class RSInterface {
 		addSprite(33601, 7, dir);
 		addHoverButton(33606, dir, 1, 16, 16, "Close Window", 250, 32607, 3);
 		addHoveredButton(33607, dir, 2, 16, 16, 32608);
-		addText(33610, "Your Player Owned Shop", tda, 2, 0xff7000, true, true);
+		addText(33610, "Your Shop", tda, 2, 0xff7000, true, true);
 		int x = 10, y = 10;
 		tab.totalChildren(5);
 		tab.child(0, 33601, 0+x, 0+y);
@@ -469,7 +470,7 @@ public class RSInterface {
 	public static void newStarter(TextDrawingArea[] tda) {
 		RSInterface tab = addInterface(52750);
 		addSpriteLoader(52751, 960);
-		addText(52752, "Morytania Account Setup", 0xff9933, true, true, 52, tda, 3);
+		addText(52752, "Aragma Account Setup", 0xff9933, true, true, 52, tda, 3);
 		addText(52753, "Starter Items:", 0xff9933, false, true, 52, tda, 1);
 		addText(52754, "Modes: ", 0xff9933, false, true, 52, tda, 1);
 		addText(52755, "Mode Description:", 0xff9933, true, true, 52, tda, 2);
@@ -481,7 +482,7 @@ public class RSInterface {
 		addText(52761, "Normal", 0xff9933, false, true, 52, tda, 0);
 		addText(52762, "  Ironman", 0xff9933, false, true, 52, tda, 0);
 		addText(52763, "  Ultimate Iron", 0xff9933, false, true, 52, tda, 0);
-		addText(52764, "Play Morytania as an Iron man.", 0xff9933, true, true, 52, tda, 0);
+		addText(52764, "Play Aragma as an Iron man.", 0xff9933, true, true, 52, tda, 0);
 		addText(52765, "You will be restricted from trading, staking and looting items from killed players.", 0xff9933, true, true, 52, tda, 0);
 		addText(52766, "You will not get a npc drop if another player has done more damage.", 0xff9933, true, true, 52, tda, 0);
 		addText(52767, "You will have to rely on your starter, skilling, pvming, and shops.", 0xff9933, true, true, 52, tda, 0);
@@ -671,7 +672,7 @@ public class RSInterface {
 	addHoveredButton(37437, "Interfaces/Tele/TBUTTONS/BH", 11, 81, 34, 37638);
 	
 
-					addText(50430, "Morytania Teleports", fonts, 2, 0xff9040, true, true); //rename it whatever
+					addText(50430, "Aragma Teleports", fonts, 2, 0xff9040, true, true); //rename it whatever
 	
 	int last = 33;
 	RSinterface.children = new int[last];
@@ -776,7 +777,7 @@ public class RSInterface {
 
 	
 
-					addText(50430, "Morytania Teleports", fonts, 2, 0xff9040, true, true);
+					addText(50430, "Aragma Teleports", fonts, 2, 0xff9040, true, true);
 	
 	int last = 29;
 	RSinterface.children = new int[last];
@@ -887,7 +888,7 @@ public static void TeleTAB3_1() {
 	//addHoverButton(41440, "Interfaces/Tele/ARROW", 0, 29, 24, "Back", -1, 41441, 1);
 	
 	
-	addText(50430, "Morytania Teleports", fonts, 2, 0xff9040, true, true);
+	addText(50430, "Aragma Teleports", fonts, 2, 0xff9040, true, true);
 	
 	int last = 34;
 	RSinterface.children = new int[last];
@@ -993,7 +994,7 @@ public static void TeleTAB3_2() {
 	addHoverButton(42440, "Interfaces/Tele/ARROW", 0, 29, 24, "Back", -1, 42441, 1);
 	
 	
-	addText(50430, "Morytania Teleports", fonts, 2, 0xff9040, true, true);
+	addText(50430, "Aragma Teleports", fonts, 2, 0xff9040, true, true);
 	
 	int last = 35;
 	RSinterface.children = new int[last];
@@ -1106,7 +1107,7 @@ public static void TeleTAB3_2() {
 	addHoverButton(43440, "Interfaces/Tele/ARROW", 0, 29, 24, "Back", -1, 43441, 1);
 	
 	
-	addText(50430, "Morytania Teleports", fonts, 2, 0xff9040, true, true);
+	addText(50430, "Aragma Teleports", fonts, 2, 0xff9040, true, true);
 	
 	int last = 24;
 	RSinterface.children = new int[last];
@@ -1205,7 +1206,7 @@ public static void TeleTAB4() {
 	addHoveredButton(39429, "Interfaces/Tele/MBUTTONS/BH", 7, 81, 34, 39630);					
 	
 
-					addText(50430, "Morytania Teleports", fonts, 2, 0xff9040, true, true);
+					addText(50430, "Aragma Teleports", fonts, 2, 0xff9040, true, true);
 					
 	
 	int last = 25;
@@ -1306,7 +1307,7 @@ public static void TeleTAB5() {
 
 	
 	
-	addText(50430, "Morytania Teleports", fonts, 2, 0xff9040, true, true);
+	addText(50430, "Aragma Teleports", fonts, 2, 0xff9040, true, true);
 	
 	int last = 25;
 	RSinterface.children = new int[last];
@@ -1491,7 +1492,7 @@ public static void TeleTAB5() {
 		addSpriteLoader(57001, 805);
 		addText(57002, "Players Online", 0xff9933, true, true, -1, tda, 2);
 		addText(57003, "", 0xff9933, true, true, -1, tda, 1);
-		addText(57007, "Morytania", 0xff9933, true, true, -1, tda, 0);
+		addText(57007, "Aragma", 0xff9933, true, true, -1, tda, 0);
 		addText(57008, "", 0xff9933, true, true, -1, tda, 3);
 		addText(57009, "", 0xff9933, false, true, -1, tda, 0);
 		addText(57010, "", 0xff9933, false, true, -1, tda, 0);
@@ -2527,9 +2528,9 @@ public static void TeleTAB5() {
 			}
 			if (rsInterface.type == 4) {
 				rsInterface.message = stream.readString().replaceAll(
-						"RuneScape", "Morytania");
-				if(rsInterface.message.toLowerCase().equals("the bank of Morytania")) {
-					rsInterface.message = "        The Bank of Morytania";
+						"RuneScape", "Aragma");
+				if(rsInterface.message.toLowerCase().equals("the bank of Aragma")) {
+					rsInterface.message = "        The Bank of Aragma";
 				}
 				rsInterface.enabledMessage = stream.readString();
 			}
@@ -3029,7 +3030,6 @@ public static void TeleTAB5() {
 		addText(45036, "Medium Tasks", fonts, 2, 0xFF9900, false, true);
 		addText(45069, "Hard Tasks", fonts, 2, 0xFF9900, false, true);
 		addText(45103, "Elite Tasks", fonts, 2, 0xFF9900, false, true);
-		addText(45113, "Pking Tasks", fonts, 2, 0xFF9900, false, true);
 	}
 
 	private static void soulwarsRewards(TextDrawingArea[] textDrawingAreas2) {
@@ -3899,7 +3899,7 @@ public static void TeleTAB5() {
         addScroll(id + 160, 190, 100, 200, 10);
         addSprite(id + 2, 0, directory);
  
-        addText(id + 3, "Morytania", 0xAF6A1B, false, true, 0, tda, 2);
+        addText(id + 3, "Aragma", 0xAF6A1B, false, true, 0, tda, 2);
         addText(id + 4, "100% Drops", 0xAF6A1B, false, true, 0, tda, 2);
         addText(id + 5, "Regular Drops: 20", 0xAF6A1B, true, true, 0, tda, 2);
         addText(id + 6, "Rare Drops: 10", 0xAF6A1B, true, true, 0, tda, 2);
@@ -4088,7 +4088,7 @@ public static void TeleTAB5() {
 	private static void questTabInterface() {
 		RSInterface tab = addTabInterface(639);
 		RSInterface scroll = addTabInterface(15016);
-		addText(39155, "Morytania.org", fonts, 2, 16750623, false, true);
+		addText(39155, "@whi@<img=10>Welcome to Aragma", fonts, 2, 16750623, false, true);
 		addSpriteLoader(39156, 722);
 		addSpriteLoader(39157, 723);
 		addSpriteLoader(39158, 722);
@@ -5293,9 +5293,9 @@ public static void addHoverSpriteLoaderButton(int i, int spriteId,
 		
 		addText(60656, "Monsters", tda, 1, 0xF7FE2E, true, true);
 		addText(60657, "Minigames", tda, 1, 0xF7FE2E, true, true);
-		addText(60658, "Bosses", tda, 1, 0xF7FE2E, true, true);
-		addText(60659, "Bosses 2", tda, 1, 0xF7FE2E, true, true);
-		addText(60660, "Player-Killing", tda, 1, 0xF7FE2E, true, true);
+		addText(60658, "@cya@Bosses 1", tda, 1, 0xF7FE2E, true, true);
+		addText(60659, "@cya@Bosses 2", tda, 1, 0xF7FE2E, true, true);
+		addText(60660, "@red@Player-Killing", tda, 1, 0xF7FE2E, true, true);
 		addText(60661, "Dungeons", tda, 1, 0xF7FE2E, true, true);
 
 		addText(60662, "", tda, 1, 0xff981f, true, true);

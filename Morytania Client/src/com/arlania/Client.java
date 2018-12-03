@@ -6875,7 +6875,7 @@ public class Client extends RSApplet {
 		}
 
 		if (!isLoading) {
-			if (super.mouseX >= 390 && super.mouseX <= 514 && super.mouseY >= 346 && super.mouseY <= 381) {
+			if (super.mouseX >= 265 && super.mouseX <= 537 && super.mouseY >= 339 && super.mouseY <= 380) {
 				loginButtonHover = handCursor = true;
 			} else if (super.mouseX >= 266 && super.mouseX <= 482) {
 				if (super.mouseY >= 232 && super.mouseY <= 265) {
@@ -6884,7 +6884,7 @@ public class Client extends RSApplet {
 					input2Hover = textCursor = true;
 				}
 			}
-			if (super.mouseX >= 335 && super.mouseX <= 379 && super.mouseY >= 353 && super.mouseY <= 376) {
+			if (super.mouseX >= 391 && super.mouseX <= 416 && super.mouseY >= 415 && super.mouseY <= 430) {
 				rememberMeButtonHover = handCursor = true;
 			}
 		}
@@ -10610,6 +10610,9 @@ public class Client extends RSApplet {
 							fixed = true;
 						} else if (prefixName.contains("@cr11")) {
 							rights = 11;
+							fixed = true;
+						} else if (prefixName.contains("@cr19")) {
+							rights = 33;
 							fixed = true;
 						} else if (prefixName.contains("@cr12")) {
 							ironman2 = 1;
@@ -15464,12 +15467,12 @@ public class Client extends RSApplet {
 		}
 
 		if (loginButtonHover) {
-			SpriteLoader.sprites[596].drawAdvancedSprite(382, 339);
+			SpriteLoader.sprites[596].drawAdvancedSprite(265, 339);
 		}
 
 		if (rememberMe)
 //			335 && super.mouseX <= 379 && super.mouseY >= 353 && super.mouseY <= 376
-		SpriteLoader.sprites[/*rememberMe ? */600/* : 599*/].drawAdvancedSprite(347, 346);
+		SpriteLoader.sprites[/*rememberMe ? */600/* : 599*/].drawAdvancedSprite(391, 415);
 
 		if (loginScreenCursorPos == 0 && loopCycle % 45 < 10) {
 			chatTextDrawingArea.drawRegularText(true, 277, 16777215, myUsername + "|", 255);
@@ -20847,7 +20850,7 @@ public class Client extends RSApplet {
 		case 22:
 			return "Good";
 		case 23:
-			return "Support";
+			return "Helper";
 		case 24:
 			return "Moderator";
 		case 25:
@@ -20866,6 +20869,8 @@ public class Client extends RSApplet {
 			return "Security";
 		case 32:
 			return "Funder";
+		case 33:
+			return "Trusted Host";
 		}
 		return "";
 	}

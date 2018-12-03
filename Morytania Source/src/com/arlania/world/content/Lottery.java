@@ -263,7 +263,7 @@ public class Lottery {
 
 				@Override
 				public int npcId() {
-					return 4249;
+					return 409;
 				}
 
 				@Override
@@ -293,7 +293,7 @@ public class Lottery {
 
 				@Override
 				public int npcId() {
-					return 4249;
+					return 409;
 				}
 
 				@Override

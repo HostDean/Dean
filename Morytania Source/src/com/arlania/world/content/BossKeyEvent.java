@@ -50,12 +50,10 @@ public class BossKeyEvent {
 	 * Opening the chest with suspense, give reward
 	 */
 	public static void openChest(Player player) {
-		/*if(!p.getClickDelay().elapsed(1000)) 
-			return;*/
 		if (player.getInventory().contains(2944)) {   
-		
 			TaskManager.submit(new Task(2, player, false) {
 			@Override
+			
 			public void execute() {
 				player.performAnimation(new Animation(7271));
 				player.getPacketSender().sendMessage("@gre@Opening Chest, Good Luck...");

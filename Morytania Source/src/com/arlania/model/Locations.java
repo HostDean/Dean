@@ -1242,7 +1242,7 @@ public class Locations {
 			 */
 			int x = gc.getPosition().getX(), y = gc.getPosition().getY();
 			if (x >= 3145 && x <= 3245 && y >= 3595 && y <= 3700 || x >= 2700 && x <= 2730 && y >= 9800 && y <= 9829
-					|| x >= 3080 && x <= 3120 && y >= 5520 && y <= 5550) {
+					|| x >= 3080 && x <= 3120 && y >= 5520 && y <= 5550 || x >= 2490 && x <= 2520 && y >= 4707 && y <= 4730)  {
 				return true;
 			}
 

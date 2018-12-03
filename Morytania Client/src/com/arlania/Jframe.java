@@ -105,7 +105,7 @@ public class Jframe extends Client implements ActionListener {
 		    @Override
 		    public void windowClosing(WindowEvent we) { 
 		        String options[] = {"Yes", "No"};
-		        int userPrompt = JOptionPane.showOptionDialog(null, "Are you sure you wish to exit?", "Morytania", 
+		        int userPrompt = JOptionPane.showOptionDialog(null, "Are you sure you wish to exit?", "Aragma", 
 		        		JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE, null, options , options[1]);
 		        if(userPrompt == JOptionPane.YES_OPTION) {
 		        //openURL("http://Morytania.org/forum");
@@ -119,7 +119,7 @@ public class Jframe extends Client implements ActionListener {
 			setFocusTraversalKeysEnabled(false);
 			JPanel gamePanel = new JPanel();
 			Insets insets = this.getInsets();
-			super.setPreferredSize(new Dimension(width - 10, height - 10));
+			super.setPreferredSize(new Dimension(width - 10, height - 5));
 			frame.setLayout(new BorderLayout());
 			gamePanel.setLayout(new BorderLayout());
 			gamePanel.add(this);
@@ -149,7 +149,7 @@ public class Jframe extends Client implements ActionListener {
 	    @Override
 	    public void windowClosing(WindowEvent we) { 
 	        String options[] = {"Yes", "No"};
-	        int userPrompt = JOptionPane.showOptionDialog(null, "Are you sure you wish to exit?", "Morytania", 
+	        int userPrompt = JOptionPane.showOptionDialog(null, "Are you sure you wish to exit?", "Aragma", 
 	        		JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE, null, options , options[1]);
 	        if(userPrompt == JOptionPane.YES_OPTION) {
 	       	//openURL("http://Morytania.org/forum");
@@ -237,7 +237,7 @@ public class Jframe extends Client implements ActionListener {
 		 */
 		menuPanel.setFocusTraversalKeysEnabled(false);
 
-		menuPanel.setBackground(Color.decode("#c11111"));
+		menuPanel.setBackground(Color.decode("#dbdbdb"));
 
 		menuPanel.setFocusTraversalKeys(KeyboardFocusManager.FORWARD_TRAVERSAL_KEYS, null);
 		menuPanel.setFocusTraversalKeys(KeyboardFocusManager.BACKWARD_TRAVERSAL_KEYS, null);
@@ -245,12 +245,12 @@ public class Jframe extends Client implements ActionListener {
 		/*
 		 * Create our buttons
 		 */
-		
-		JButton forumsButton = createButton("Forum", "forums.png", "Open the official Morytania forums.");
-		JButton storeButton = createButton("Store", "cart_icon.gif", "Open the official Morytania store.");
-		JButton voteButton = createButton("Vote", "Small-checkmark.png", "Open the official Morytania voting page.");
-		JButton scoresButton = createButton("HiScores", "hiscores.png", "Open the official Morytania Hiscores");
-		JButton tsButton = createButton("Join Discord", "discord.png", "Join the Morytania discord.");
+	    
+		JButton forumsButton = createButton("Forum   ",  "Open the official Aragma forums.");
+		JButton storeButton = createButton("Store   ",  "Open the official Aragma store.");
+		JButton voteButton = createButton("Vote   ",  "Open the official Aragma voting page.");
+		JButton scoresButton = createButton("HiScores   ",  "Open the official Aragma Hiscores");
+		JButton tsButton = createButton("Join Discord   ",  "Join the Aragma discord.");
 
 		
 		/*
@@ -279,17 +279,17 @@ public class Jframe extends Client implements ActionListener {
 	 *            The tooltip when hovering over the button
 	 * @return The created button
 	 */
-	private JButton createButton(String title, String image, String tooltip) {
+	private JButton createButton(String title, String tooltip) {
 		JButton button = new JButton(title);
-		if (image != null)
-			button.setIcon(new ImageIcon(ResourceLoader.loadImage(image)));
+		//if (image != null)
+		//	button.setIcon(new ImageIcon(ResourceLoader.loadImage(image)));
 		button.addActionListener(this);
 		if (tooltip != null)
 			button.setToolTipText(tooltip);
 		button.setBorder(BorderFactory.createEmptyBorder());
 		button.setContentAreaFilled(false);
 		button.setCursor(new Cursor(Cursor.HAND_CURSOR));
-		button.setForeground(Color.WHITE);
+		button.setForeground(Color.BLACK);
 		return button;
 	}
 
@@ -327,26 +327,26 @@ public class Jframe extends Client implements ActionListener {
 			if (cmd != null) {
 				switch (cmd) {
 				case "Home":
-					openURL("http://www.Morytania.org");
+					openURL("");
 					break;
 				case "Forum":
-					openURL("http://www.Morytania.org/forum");
+					openURL("");
 					break;
 				case "Knowledge Base":
-					openURL("http://www.Morytania.org/forum");
+					openURL("");
 					break;
 				case "Store":
-					openURL("http://rsps-pay.com/store.php?id=5338&tab=5082");
+					openURL("");
 					break;
 				case "Vote":
-					openURL("http://Morytania.motivoters.com/motivote/");			
+					openURL("");			
 					break;
 				case "HiScores":
-					openURL("http://www.Morytania.org/forum");
+					openURL("");
 					break;
 				case "Join Discord":
 					//String nickname = (Client.instance.getMyUsername() != null && Client.loggedIn && Client.instance.getMyUsername().length() > 2) ? TextClass.fixName(Client.instance.getMyUsername().replaceAll(" ", "%20")) : "ForumGuest";
-					openURL("https://discordapp.com/invite/JmxaK2a");
+					openURL("https://discord.gg/EsZZj32");
 					break;
 				}
 

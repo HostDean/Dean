@@ -211,7 +211,7 @@ public final class ItemDef {
 	}
 
 	public enum CustomItems {
-		//PINK_DILDO(18351, 20, 20, 20, true), // 18983
+		
 		;
 
 		private int copy;
@@ -1102,22 +1102,23 @@ public final class ItemDef {
 			            itemDef.maleEquip1 = 14025;
 			            itemDef.femaleEquip1 = 14025;
 			            break;
-			                 
 			          case 20063: 
 			          		itemDef.name = "@red@Blood Rapier";
-			          		itemDef.modelZoom = 1645;
-			          		itemDef.rotationY = 700;
-			          		itemDef.rotationX = 100;
-			          		itemDef.modelOffsetY = 28;
+			          		itemDef.modelZoom = 1400;
+				            itemDef.rotationX = 600;
+				            itemDef.rotationY = 600;
+				            itemDef.modelOffset1 = -3;
+				            itemDef.modelOffsetY = -5;
 			          		itemDef.groundActions = new String[5];
 			          		itemDef.groundActions[2] = "Take";
 			          		itemDef.actions = new String[5];
 			          		itemDef.actions[1] = "Wear";
 			          		itemDef.actions[4] = "Drop";
-			          		itemDef.modelID = 19684;
+			          		itemDef.modelID = 19685;
 			          		itemDef.maleEquip1 = 19684;
 			          		itemDef.femaleEquip1 = 19684;
 			          		break;
+			   
 			            /**END OF OSRS ITEMS**/
             case 19670:
                 itemDef.name = "Vote scroll";
@@ -1223,6 +1224,24 @@ public final class ItemDef {
 			      itemDef.name = "Peach santa hat";
 			      itemDef.description = "It's a Peach santa hat.";
 			      break;
+		    case 14052: 
+			      itemDef.actions = new String[5];
+			      itemDef.actions[1] = "Wear";
+			      itemDef.newModelColor = new int[1];
+			      itemDef.editedModelColor = new int[1];
+			      itemDef.newModelColor[0] = 78;
+			      itemDef.editedModelColor[0] = 933;
+			      itemDef.modelID = 2537;
+			      itemDef.modelZoom = 540;
+			      itemDef.rotationX = 72;
+			      itemDef.rotationY = 136;
+			      itemDef.modelOffset1 = 0;
+			      itemDef.modelOffsetY = 0;
+			      itemDef.maleEquip1 = 189;
+			      itemDef.femaleEquip1 = 366;
+			      itemDef.name = "White santa hat";
+			      itemDef.description = "It's a White santa hat.";
+			      break;
 		    case 12284: 
 		      itemDef.name = "Toxic staff of the dead";
 		      itemDef.modelID = 19224;
@@ -1255,7 +1274,7 @@ public final class ItemDef {
                 
                /** clue scrolls **/ 
             case 2714:
-                itemDef.name = "Casket";
+                itemDef.name = "@ora@Clue scroll chest";
                 break;
             case 6183:
             	itemDef.name = "@red@Donation Box";
@@ -1524,6 +1543,17 @@ public final class ItemDef {
     			itemDef.modelID = 40955;
     			itemDef.modelOffset1 = -3;
     			itemDef.modelOffsetY = -30;
+    			break;
+            case 21050:
+    			itemDef.name = "Pet Daddy";
+    			itemDef.groundActions = new String[] { null, null, "Take", null, null };
+    			itemDef.actions = new String[] { null, null, "Summon", null, "Drop" };
+    			itemDef.modelZoom = 1200;
+    			itemDef.rotationX = 600;
+    			itemDef.rotationY = 500;
+    			itemDef.modelID = 2586;
+    			itemDef.modelOffsetX = 1;
+    			itemDef.modelOffsetY = 1;
     			break;
             case 12002:
     			itemDef.name = "Pet Kree'arra";
@@ -2181,7 +2211,17 @@ public final class ItemDef {
                 itemDef.name = "Golden Maul";
                 break;
             case 6199:
-                itemDef.name = "Mystery Box";
+                itemDef.name = "@ora@Mystery Box";
+                itemDef.actions = new String[5];
+                itemDef.actions[0] = "Open";
+                break;
+            case 6855:
+                itemDef.name = "@cya@Rare@red@ Mystery@cya@ Box";
+                itemDef.actions = new String[5];
+                itemDef.actions[0] = "Open";
+                break;
+            case 6852:
+                itemDef.name = "@whi@Pet Box";
                 itemDef.actions = new String[5];
                 itemDef.actions[0] = "Open";
                 break;
@@ -2732,6 +2772,8 @@ public final class ItemDef {
                 itemDef.modelOffsetY = -3;
                 itemDef.maleEquip1 = 62738;
                 itemDef.femaleEquip1 = 62754;
+                itemDef.maleYOffset = 3;
+                itemDef.maleXOffset = -5;
                 itemDef.groundActions = new String[5];
                 itemDef.groundActions[2] = "Take";
                 itemDef.actions = new String[5];
@@ -2916,10 +2958,92 @@ public final class ItemDef {
                 itemDef.groundActions = new String[] { null, null, "Take", null, null };
                 itemDef.actions = new String[] { null, "Wear", null, null, "Drop" };
                 break;
+            case 21002:
+            	itemDef.actions = new String[] { null, "Wear", null, null, "Drop" };
+                itemDef.modelID = 9631;
+                itemDef.name = "Infernal Cape";
+                itemDef.description = "Infernal Cape";
+                itemDef.femaleEquip1 = 9638;
+    			itemDef.maleEquip1 = 9640;
+    			itemDef.originalModelColor= new int[1];
+    			itemDef.editedModelColor = new int[1];
+    			itemDef.editedModelColor[0] = 40;
+    			itemDef.newModelColor[0] = 39;
+    			break;
+            case 21005:
+            	itemDef.actions = new String[] { null, "Wear", null, null, "Drop" };
+                itemDef.modelID = 9631;
+                itemDef.name = "@cya@Oxidized Cape";
+                itemDef.description = "An Oxidized Cape";
+                itemDef.femaleEquip1 = 9638;
+    			itemDef.maleEquip1 = 9640;
+    			itemDef.originalModelColor= new int[1];
+    			itemDef.editedModelColor = new int[1];
+    			itemDef.editedModelColor[0] = 40;
+    			itemDef.newModelColor[0] = 49;
+                break;
+            case 21006:
+            	itemDef.actions = new String[] { null, "Wear", null, null, "Drop" };
+                itemDef.modelID = 9631;
+                itemDef.name = "@gre@Atomic Cape";
+                itemDef.description = "An Atomic Cape";
+                itemDef.femaleEquip1 = 9638;
+    			itemDef.maleEquip1 = 9640;
+    			itemDef.originalModelColor= new int[1];
+    			itemDef.editedModelColor = new int[1];
+    			itemDef.editedModelColor[0] = 40;
+    			itemDef.newModelColor[0] = 0;
+                break;
+            case 21003:
+    			itemDef.actions = new String[] { null,"Wear", null, null, "Drop" };
+    			itemDef.name = "Ava's assembler";
+    			itemDef.modelID = 27001;
+    			itemDef.modelZoom = 976;
+	            itemDef.rotationX = 610;
+	            itemDef.rotationY = 500;
+	            itemDef.modelOffsetX = 1;
+	            itemDef.modelOffsetY = -5;
+    			itemDef.femaleEquip1 = 27000;
+    			itemDef.maleEquip1 = 27000;
+    			break;
+    			
             case 2944:
                 itemDef.name = "@red@Boss Key";
                 break;
-            /*case 14207:
+            case 21004:
+    			itemDef.actions = new String[] { null,"Wear", null, null, "Drop" };
+    			itemDef.name = "Lava Partyhat";
+    			itemDef.modelID = 27001;
+    			itemDef.modelZoom = 440;
+  		        itemDef.rotationX = 1845;
+  		        itemDef.rotationY = 121;
+  		        itemDef.modelOffset1 = 0;
+  		        itemDef.modelOffsetY = 1;
+  		        itemDef.stackable = false;
+    			itemDef.femaleEquip1 = 27002;
+    			itemDef.maleEquip1 = 27003;
+    			itemDef.newModelColor= new int[1];
+                itemDef.originalModelColor= new int[1];
+                itemDef.originalModelColor[0] = 127;
+                itemDef.newModelColor[0] = 34;
+    			break;
+            case 4706:
+                itemDef.modelID = 62692;
+                itemDef.name = "Zaryte bow";
+                itemDef.modelZoom = 1703;
+                itemDef.rotationY = 221;
+                itemDef.rotationX = 404;
+                itemDef.modelOffsetX = 0;
+                itemDef.modelOffsetY = -13;
+                itemDef.maleEquip1 = 62750;
+                itemDef.femaleEquip1 = 62750;
+                itemDef.groundActions = new String[5];
+                itemDef.groundActions[2] = "Take";
+                itemDef.actions = new String[5];
+                itemDef.actions[1] = "Wield";  
+                itemDef.actions[4] = "Drop";
+            break;
+            /*=case 14207:
                 itemDef.name = "Potion flask";
                 itemDef.modelZoom = 804;
                 itemDef.rotationY = 131;
@@ -3420,22 +3544,6 @@ public final class ItemDef {
                 itemDef.actions = new String[]{"Drink", null, null, null, null, null};
                 itemDef.modelID = 61731;
                 break;
-            case 4706:
-                itemDef.modelID = 62692;
-                itemDef.name = "Zaryte bow";
-                itemDef.modelZoom = 1703;
-                itemDef.rotationY = 221;
-                itemDef.rotationX = 404;
-                itemDef.modelOffsetX = 0;
-                itemDef.modelOffsetY = -13;
-                itemDef.maleEquip1 = 62750;
-                itemDef.femaleEquip1 = 62750;
-                itemDef.groundActions = new String[5];
-                itemDef.groundActions[2] = "Take";
-                itemDef.actions = new String[5];
-                itemDef.actions[1] = "Wield";  
-                itemDef.actions[4] = "Drop";
-            break;
             case 4705:
                 itemDef.modelID = 6701;
                 itemDef.name = "Abyssal vine whip";
@@ -5040,7 +5148,7 @@ public final class ItemDef {
             = {13661, 13262,
                 6529, 6950, 1464, 2996, 2677, 2678, 2679, 2680, 2682,
                 2683, 2684, 2685, 2686, 2687, 2688, 2689, 2690,
-                6570, 12158, 12159, 12160, 12163, 12161, 12162,
+                6570, 21003, 12158, 12159, 12160, 12163, 12161, 12162,
                 19143, 19149, 19146, 19157, 19162, 19152, 4155,
                 8850, 10551, 8839, 8840, 8842, 11663, 11664,
                 11665, 3842, 3844, 3840, 8844, 8845, 8846, 8847,
@@ -5075,7 +5183,7 @@ public final class ItemDef {
                 18365, 18373, 18371, 15246, 12964, 12971, 12978, 14017,
                 757, 8851,
                 13855, 13848, 13857, 13856, 13854, 13853, 13852, 13851, 13850, 5509, 13653, 14021, 14020, 19111, 14019, 14022,
-                19785, 19786, 18782, 18351, 18349, 18353, 18357, 18355, 18359, 18335, 5718
+                19785, 19786, 18782, 18351, 18349, 18353, 18357, 18355, 18359, 18335, 5718, 
             };
 
     public ItemDef() {

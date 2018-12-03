@@ -383,7 +383,7 @@ public enum MagicSpells {
 				}
 				
 			}
-			if (p.getRights() == PlayerRights.EXTREME_DONATOR || p.getRights() == PlayerRights.SUPPORT) {
+			if (p.getRights() == PlayerRights.EXTREME_DONATOR || p.getRights() == PlayerRights.HELPER) {
 				if (!p.getLastVengeance().elapsed(27500)) {
 					p.getPacketSender().sendMessage("You must wait 27.5 seconds until you can cast vengance!");
 					return true;
@@ -397,7 +397,7 @@ public enum MagicSpells {
 				}
 				
 			}
-			if (p.getRights() == PlayerRights.UBER_DONATOR) {
+			if (p.getRights() == PlayerRights.SUPPORTER_DONATOR) {
 				if (!p.getLastVengeance().elapsed(20000)) {
 					p.getPacketSender().sendMessage("You must wait 20 seconds until you can cast vengance!");
 					return true;

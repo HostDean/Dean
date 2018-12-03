@@ -37,7 +37,7 @@ public class ShootingStar {
 	}
 
 	public static enum LocationData {
-		LOCATION_1(new Position(3053, 3301), "south of the Catherby Farming patches", "Farming"),
+		LOCATION_1(new Position(3053, 3301), "south of the farming patch teleport", "Farming"),
 		LOCATION_2(new Position(3094, 3484), "south of the Edgeville bank", "Edgeville"),
 		LOCATION_3(new Position(2480, 3433), "at the Gnome Agility Course", "Gnome Course"),
 		LOCATION_4(new Position(2745, 3445), "in the middle of the Flax field", "Flax Field"),

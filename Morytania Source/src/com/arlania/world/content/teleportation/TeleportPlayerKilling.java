@@ -14,8 +14,8 @@ public class TeleportPlayerKilling extends Teleporting  {
 		TELEPORT_9(new String[] {"Abyss Sire", "(wilderness)"}, new int[] {3333, 3864, 0}),
 		
 		TELEPORT_10(new String[] {"Therm", "Smoke Devil"}, new int[] {2388, 4692, 0}),
-		TELEPORT_11(new String[] {" ", " "}, new int[] {3056, 9555, 10}),
-		TELEPORT_12(new String[] {" ", " "}, new int[] {3429, 3538, 10});
+		TELEPORT_11(new String[] {"@red@Blood", "@red@Druids"}, new int[] {2860, 9575, 0}),
+		TELEPORT_12(new String[] {"Daddy of", "Aragma"}, new int[] {2507, 4718 , 0});
 		
 		/**
 		 * Initializing the teleport names.

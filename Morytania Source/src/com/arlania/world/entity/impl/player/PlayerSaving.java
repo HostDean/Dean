@@ -48,7 +48,7 @@ public class PlayerSaving {
 			object.addProperty("staff-rights", player.getRights().name());
 			object.addProperty("game-mode", player.getGameMode().name());
 			object.addProperty("boss-points", player.getBossPoints());
-			object.addProperty("morytania-points", player.getMorytaniaPoints());
+			object.addProperty("Aragma-points", player.getMorytaniaPoints());
 			object.addProperty("loyalty-title", player.getLoyaltyTitle().name());
 			object.add("position", builder.toJsonTree(player.getPosition()));
 			object.addProperty("online-status", player.getRelations().getStatus().name());

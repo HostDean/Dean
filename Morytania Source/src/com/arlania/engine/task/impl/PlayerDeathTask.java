@@ -198,7 +198,7 @@ public class PlayerDeathTask extends Task {
 			return "There is no escape, " + Misc.formatText(name)
 					+ "...";
 		case 1:
-			return "I'm taking you downtown," + Misc.formatText(name);
+			return "I'm taking you downtown, " + Misc.formatText(name);
 		case 2:
 			return "Your Soul is mine!";
 		case 3:

@@ -148,9 +148,8 @@ public final class NPCDef {
 			npc.name = "Skotizo";
 			npc.description = "Badass from the depths of hell";
 			npc.combatLevel = 321;
-			NPCDef skotizo = forID(4698);
-			npc.standAnim = skotizo.standAnim;
-			npc.walkAnim = skotizo.walkAnim;
+			npc.standAnim = 15;
+			npc.walkAnim = 13;
 			npc.actions = new String[5];
 			npc.actions[1] = "Attack";
 			npc.models = new int[1];
@@ -276,9 +275,13 @@ public final class NPCDef {
 		case 543:
 			npc.name = "Decanter";
 			break;
-		case 4902:
+		case 2207:
 			npc.name = "Stardust Store";
 			npc.actions = new String[]{"Talk-To", null, "Trade", null, null};
+			break;
+		case 205:
+			npc.name = "@red@Blood Druid";
+			npc.combatLevel = 130;
 			break;
 		case 5417:
 			npc.combatLevel = 210;
@@ -323,10 +326,11 @@ public final class NPCDef {
 			npc.name = "Musician";
 			npc.actions = new String[]{"Listen-to", null, null, null, null};
 			break;
-	
-		case 947:
-			npc.name = "Player Owned Shop Manager";
+		case 2540:
+			npc.name = "Grand Exchange Manager";
 			npc.actions = new String[] {"Talk-to", null, "View Shops", "My Shop", "Claim Earnings"};
+			npc.standAnim = 2256;
+			npc.headIcon = 18;
 			break;
 		case 9939:
 			npc.combatLevel = 607;
@@ -365,6 +369,7 @@ public final class NPCDef {
 			npc.actions = new String[]{null, "Attack", null, null, null};
 			break;
 		case 7969:
+			npc.name = "General Supplies Store";
 			npc.actions = new String[]{"Talk-to", null, "Trade", null, null};
 			break;
 		case 1382:
@@ -407,8 +412,9 @@ public final class NPCDef {
 			npc.combatLevel = 101;
 			npc.drawMinimapDot = true;
 			break;*/
-		case 4249:
-			npc.name = "Gambler";
+		case 409:
+			npc.name = "Gambling Store";
+			npc.actions = new String[] {"Trade", null , null, null, null};
 			break;
 		case 6970:
 			npc.actions = new String[] {"Trade", null, "Exchange Shards", null, null};
@@ -439,7 +445,9 @@ public final class NPCDef {
 		case 805:
 			npc.actions = new String[] {"Trade", null, "Tan hide", null, null};
 			break;
-		case 461:
+		case 4707:
+			npc.name = "Magic Store";
+			break;
 		case 844:
 		case 650:
 		case 5112:
@@ -462,7 +470,7 @@ public final class NPCDef {
 			break;
 		case 2579:
 			npc.name = "Max";
-			npc.description = "One of Morytania's veterans.";
+			npc.description = "One of Aragma's veterans.";
 			npc.combatLevel = 200;
 			npc.actions = new String[5];
 			npc.actions[0] = "Talk-to";
@@ -588,13 +596,19 @@ public final class NPCDef {
 			npc.actions = new String[] {null, null, "Buy Consumables", "Restore Stats", null};
 			npc.name = "Healer";
 			break;
+		case 2800:
+				npc.actions = new String[] {null, null, null, "Restore All", null};
+				npc.name = "@gre@Restore Pool";
+				npc.degreesToTurn = 0;
+				npc.models = new int[] {29855};
+				break;
 		case 705:
 			npc.actions = new String[] {null, null, "Buy Armour", "Buy Weapons", "Buy Jewelries"};
-			npc.name = "Warrior";
+			npc.name = "Melee Store";
 			break;
 		case 1861:
 			npc.actions = new String[] {null, null, "Buy Equipment", "Buy Ammunition", null};
-			npc.name = "Archer";
+			npc.name = "Ranged Store";
 			break;
 		case 946:
 			npc.actions = new String[] {null, null, "Buy Equipment", "Buy Runes", null};
@@ -630,8 +644,8 @@ public final class NPCDef {
 			npc.combatLevel = 170;
 			npc.standAnim = 3989;
 			npc.walkAnim = 3989;
-			npc.sizeY = 40;
-			npc.sizeXZ = 40;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
 			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
@@ -643,9 +657,9 @@ public final class NPCDef {
 			npc.combatLevel = 464;
 			npc.standAnim = 5483;
 			npc.walkAnim = 5481;
-			npc.sizeXZ = 60;
-			npc.sizeY = 60;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3023:
@@ -656,9 +670,9 @@ public final class NPCDef {
 			npc.combatLevel = 464;
 			npc.standAnim = 4484;
 			npc.walkAnim = 4488;
-			npc.sizeXZ = 45;
-			npc.sizeY = 45;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3024:
@@ -670,9 +684,9 @@ public final class NPCDef {
 			NPCDef scor2 = forID(107);
 			npc.standAnim = scor2.standAnim;
 			npc.walkAnim = scor2.walkAnim;
-			npc.sizeY = 60;
-			npc.sizeXZ = 60;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3025:
@@ -681,11 +695,11 @@ public final class NPCDef {
 			npc.actions = new String[5];
 			npc.actions[0] = "Pick-up";
 			npc.combatLevel = 321;
-			npc.standAnim = 55;
-			npc.walkAnim = 55;
-			npc.sizeY = 35;
-			npc.sizeXZ = 35;
-			npc.squaresNeeded = 2;
+			npc.standAnim = 15;
+			npc.walkAnim = 13;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3026:
@@ -696,9 +710,9 @@ public final class NPCDef {
 			npc.combatLevel = 464;
 			npc.standAnim = 5326;
 			npc.walkAnim = 5325;
-			npc.sizeY = 55;
-			npc.sizeXZ = 55;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3027:
@@ -707,11 +721,11 @@ public final class NPCDef {
 			npc.actions = new String[5];
 			npc.actions[0] = "Pick-up";
 			npc.combatLevel = 470;
-			npc.standAnim = 4919;
-			npc.walkAnim = 4923;
-			npc.sizeY = 47;
-			npc.sizeXZ = 47;
-			npc.squaresNeeded = 2;
+			npc.standAnim = 7191;
+			npc.walkAnim = 7195;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3028:
@@ -722,9 +736,9 @@ public final class NPCDef {
 			npc.combatLevel = 725;
 			npc.standAnim = 5070;
 			npc.walkAnim = 5070;
-			npc.sizeY = 45;
-			npc.sizeXZ = 45;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3029:
@@ -735,9 +749,9 @@ public final class NPCDef {
 			npc.combatLevel = 725;
 			npc.standAnim = 5070;
 			npc.walkAnim = 5070;
-			npc.sizeY = 45;
-			npc.sizeXZ = 45;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 
@@ -749,9 +763,9 @@ public final class NPCDef {
 			npc.combatLevel = 725;
 			npc.standAnim = 5070;
 			npc.walkAnim = 5070;
-			npc.sizeY = 45;
-			npc.sizeXZ = 45;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3042:
@@ -762,9 +776,9 @@ public final class NPCDef {
 			npc.combatLevel = 150;
 			npc.standAnim = 7191;
 			npc.walkAnim = 7195;
-			npc.sizeY = 40;
-			npc.sizeXZ = 40;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3043:
@@ -775,9 +789,9 @@ public final class NPCDef {
 			npc.combatLevel = 382;
 			npc.standAnim = 12790;
 			npc.walkAnim = 12790;
-			npc.sizeY = 60;
-			npc.sizeXZ = 60;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3044:
@@ -788,9 +802,9 @@ public final class NPCDef {
 			npc.combatLevel = 301;
 			npc.standAnim = 1829;
 			npc.walkAnim = 1828;
-			npc.sizeY = 80;
-			npc.sizeXZ = 80;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 40;
+			npc.sizeXZ = 40;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3045:
@@ -801,9 +815,9 @@ public final class NPCDef {
 			npc.combatLevel = 350;
 			npc.standAnim = 4533;
 			npc.walkAnim = 4534;
-			npc.sizeY = 35;
-			npc.sizeXZ = 35;
-			npc.squaresNeeded = 3;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			npc.drawMinimapDot = false;
 			break;
 		case 3030:
@@ -814,9 +828,9 @@ public final class NPCDef {
 			npc.combatLevel = 276;
 			npc.standAnim = 90;
 			npc.walkAnim = 4635;
-			npc.sizeY = 63;
-			npc.sizeXZ = 63;
-			npc.squaresNeeded = 3;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			break;
 
 		case 3031:
@@ -827,8 +841,9 @@ public final class NPCDef {
 			npc.combatLevel = 624;
 			npc.standAnim = 7059;
 			npc.walkAnim = 7058;
-			npc.sizeY = 40;
-			npc.sizeXZ = 40;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			break;	
 
 		case 3032:
@@ -839,9 +854,9 @@ public final class NPCDef {
 			npc.combatLevel = 702;
 			npc.standAnim = 9274;
 			npc.walkAnim = 9273;
-			npc.sizeY = 45;
-			npc.sizeXZ = 45;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;;
 			break;
 
 		case 3033:
@@ -852,8 +867,9 @@ public final class NPCDef {
 			npc.combatLevel = 305;
 			npc.standAnim = 3144;
 			npc.walkAnim = 3145;
-			npc.sizeY = 62;
-			npc.sizeXZ = 62;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			break;
 
 		case 3034:
@@ -864,11 +880,31 @@ public final class NPCDef {
 			npc.combatLevel = 785;
 			npc.standAnim = 10056;
 			npc.walkAnim = 10055;
-			npc.sizeY = 45;
-			npc.sizeXZ = 45;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
+			break;
+			
+		case 3700:
+			npc.name = "Daddy of Aragma";
+			npc.combatLevel = 580;
+			npc.actions = new String[5];
+			npc.actions[0] = "Pick-up";
+			npc.sizeY = 110;
+			npc.sizeXZ = 110;
+			npc.models = new int[] {246, 285, 292, 170, 176, 5441, 5430};
 			npc.squaresNeeded = 2;
 			break;
-
+			
+		case 2262:
+			npc.name = "Daddy of Aragma";
+			npc.combatLevel = 580;
+			npc.actions = new String[] {null, "Attack", null, null, null};
+			npc.sizeY = 320;
+			npc.sizeXZ = 320;
+			npc.squaresNeeded = 2;
+			break;
+			
 		case 3035:
 			npc.name = "Kree'arra";
 			npc.actions = new String[5];
@@ -877,8 +913,8 @@ public final class NPCDef {
 			npc.combatLevel = 580;
 			npc.standAnim = 6972;
 			npc.walkAnim = 6973;
-			npc.sizeY = 43;
-			npc.sizeXZ = 43;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
 			npc.squaresNeeded = 2;
 			break;
 
@@ -890,8 +926,8 @@ public final class NPCDef {
 			npc.combatLevel = 650;
 			npc.standAnim = 6943;
 			npc.walkAnim = 6942;
-			npc.sizeY = 43;
-			npc.sizeXZ = 43;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
 			npc.squaresNeeded = 2;
 			break;
 		case 3037:
@@ -902,9 +938,9 @@ public final class NPCDef {
 			npc.combatLevel = 596;
 			npc.standAnim = 6963;
 			npc.walkAnim = 6962;
-			npc.sizeY = 103;
-			npc.sizeXZ = 103;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			break;
 		case 3038:
 			npc.name = "Dagannoth supreme";
@@ -914,9 +950,9 @@ public final class NPCDef {
 			npc.combatLevel = 303;
 			npc.standAnim = 2850;
 			npc.walkAnim = 2849;
-			npc.sizeY = 105;
-			npc.sizeXZ = 105;
-			npc.squaresNeeded = 2;
+			npc.sizeY = 20;
+			npc.sizeXZ = 20;
+			npc.squaresNeeded = 1;
 			break;
 
 		case 3039:

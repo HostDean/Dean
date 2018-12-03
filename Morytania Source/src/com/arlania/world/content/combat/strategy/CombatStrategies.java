@@ -6,6 +6,8 @@ import java.util.Map;
 
 import com.arlania.world.content.combat.strategy.impl.Aviansie;
 import com.arlania.world.content.combat.strategy.impl.BandosAvatar;
+import com.arlania.world.content.combat.strategy.impl.BloodDruid;
+import com.arlania.world.content.combat.strategy.impl.BlazingElemental;
 import com.arlania.world.content.combat.strategy.impl.Callisto;
 import com.arlania.world.content.combat.strategy.impl.Cerberus;
 import com.arlania.world.content.combat.strategy.impl.ChaosElemental;
@@ -122,6 +124,13 @@ public class CombatStrategies {
 		STRATEGIES.put(1592, dragonStrategy);
 		STRATEGIES.put(5362, dragonStrategy);
 		STRATEGIES.put(5363, dragonStrategy);
+		
+		BloodDruid BloodDruidStrategy = new BloodDruid();
+		STRATEGIES.put(205, BloodDruidStrategy);
+		
+		BlazingElemental BlazingElementalStrategy = new BlazingElemental();
+		STRATEGIES.put(2262, BlazingElementalStrategy);
+		
 		
 		Aviansie aviansieStrategy = new Aviansie();
 		STRATEGIES.put(6246, aviansieStrategy);

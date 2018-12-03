@@ -79,7 +79,7 @@ public abstract class Spell {
 						}
 					}
 				}
-				if (player.getRights() == PlayerRights.SUPER_DONATOR || player.getRights() == PlayerRights.SUPPORT) {
+				if (player.getRights() == PlayerRights.SUPER_DONATOR || player.getRights() == PlayerRights.HELPER) {
 					if (Misc.getRandom(20) == 5) {
 						
 					} else {
@@ -109,7 +109,7 @@ public abstract class Spell {
 						}
 					}
 				}
-				if (player.getRights() == PlayerRights.UBER_DONATOR) {
+				if (player.getRights() == PlayerRights.SUPPORTER_DONATOR) {
 					if (Misc.getRandom(5) == 3) {
 						
 					} else {

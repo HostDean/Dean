@@ -216,7 +216,6 @@ public class CustomObjects {
 			
 			/*** Extreme Donator zone ***/
 			
-			{47180, 3413, 2919, 0, 0}, //Frost drags teleport
 			
 			{4875, 3451, 2881, 0, 0}, //Thief stalls
 			{4874, 3450, 2881, 0, 0}, //Thief stalls
@@ -290,6 +289,7 @@ public class CustomObjects {
 			{-1, 2420, 4726, 0, 0},
 			
 			{13405, 3439, 2906, 0, 1}, //House teleport
+			{13405, 3087, 3483, 0, 0}, //House teleport
 			
 			{4306, 3431, 2872, 0, 2}, //Anvil
 			{6189, 3433, 2871, 0, 3}, //Furnace
@@ -321,7 +321,7 @@ public class CustomObjects {
 			{8749, 3445, 2913, 0, 3}, //Altar 
 			{411, 3441, 2910, 0, 0}, //Altar 
 			{13179, 3439, 2912, 0, 1}, //Altar 
-
+			{2213, 3095, 3474, 0, 0}, //bank
 			{2213, 3425, 2930, 0, 0}, //Banks
 			{2213, 3426, 2930, 0, 0}, //Banks
 			{2213, 3427, 2930, 0, 0}, //Banks
@@ -358,33 +358,7 @@ public class CustomObjects {
 			{4483, 2460, 3089, 0, 3}, //gamble bank
 		
 			
-			/*** Varrock home ***/
 
-			{172, 3208, 3438, 0, 2}, //crystal key chest
-			
-			{13179, 3226, 3433, 0, 3}, //veng
-			{6552, 3226, 3435, 0, 3}, //ancient
-			{409, 3205, 3434, 0, 1}, //pray altar
-			{411, 3205, 3436, 0, 1}, //turmoil
-			{884, 3195, 3436, 0, 1}, //well
-			{6420, 3091, 3500, 0, 0}, //key chest
-			
-			{3192, 3220, 3435, 0, 2}, //scoreboard
-			
-			{2213, 3211, 3438, 0, 2}, //bank
-			{2213, 3212, 3438, 0, 2}, //bank
-			{2213, 3213, 3438, 0, 2}, //bank
-			{2213, 3214, 3438, 0, 2}, //bank
-			{1746, 3215, 3438, 0, 0}, //ladder
-			
-			{-1, 3217, 3436, 0, 0}, //remove stall
-			{-1, 3219, 3436, 0, 0}, //remove stall
-			{-1, 3220, 3431, 0, 0}, //remove stall
-			{-1, 3220, 3425, 0, 0}, //remove stall
-			{-1, 3223, 3434, 0, 0}, //remove oak
-			{-1, 3226, 3431, 0, 0}, //remove plant
-			
-			/*** Varrock home end ***/
 			
 			
 			/*** UBER Donator zone ***/
@@ -822,7 +796,7 @@ public class CustomObjects {
 	//Objects that are handled by the server on regionchange
 	private static final int[][] CUSTOM_OBJECTS_SPAWNS = {
 			{2079, 2576, 9876, 0, 0},
-			{6420, 3091, 3500, 0, 0}, //key chest	
+			{13389, 3091, 3500, 0, 0}, //key chest	
 			{13291, 3090, 3499, 0, 1}, //Boss key chest
 			
 			

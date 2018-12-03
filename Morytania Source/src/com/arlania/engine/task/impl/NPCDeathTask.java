@@ -102,7 +102,7 @@ public class NPCDeathTask extends Task {
 					}
 					if(npc.getId() == 2436) {
 						killer.setMorytaniaPoints(killer.getMorytaniaPoints() + 1);
-						killer.sendMessage("<img=0>You now have @red@" + killer.getMorytaniaPoints() + " Morytania Points!");
+						killer.sendMessage("<img=0>You now have @red@" + killer.getMorytaniaPoints() + " Aragma Points!");
 					}
 					if(npc.getId() == 72) { //<-- CHANGE THIS.
 						Voting.handleKilledVotingBoss(killer);

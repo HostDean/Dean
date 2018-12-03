@@ -152,7 +152,7 @@ public class PlayersOnlineInterface {
 		case DEVELOPER:
 			value = 13;
 			break;
-		case UBER_DONATOR:
+		case SUPPORTER_DONATOR:
 			value = 7;
 			break;
 		case EXTREME_DONATOR:
@@ -170,7 +170,7 @@ public class PlayersOnlineInterface {
 		case SUPER_DONATOR:
 			value = 4;
 			break;
-		case SUPPORT:
+		case HELPER:
 			value = 9;
 			break;
 		case YOUTUBER:

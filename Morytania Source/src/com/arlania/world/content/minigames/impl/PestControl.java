@@ -259,7 +259,7 @@ public class PestControl {
 
 
 					}
-					if (p.getRights() == PlayerRights.SUPER_DONATOR || p.getRights() == PlayerRights.SUPPORT) {
+					if (p.getRights() == PlayerRights.SUPER_DONATOR || p.getRights() == PlayerRights.HELPER) {
 						p.getPointsHandler().setCommendations(20, true);
 						p.getPacketSender().sendMessage("You've received 20 Commendations and "+p.getSkillManager().getCombatLevel() * 50+" coins.");
 
@@ -277,7 +277,7 @@ public class PestControl {
 
 
 					}
-					if (p.getRights() == PlayerRights.UBER_DONATOR || p.getRights() == PlayerRights.DEVELOPER) {
+					if (p.getRights() == PlayerRights.SUPPORTER_DONATOR || p.getRights() == PlayerRights.DEVELOPER) {
 						p.getPointsHandler().setCommendations(30, true);
 						p.getPacketSender().sendMessage("You've received 30 Commendations and "+p.getSkillManager().getCombatLevel() * 50+" coins.");
 

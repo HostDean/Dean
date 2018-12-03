@@ -28,20 +28,6 @@
         }
 	},	
 	
-	
-	{
-        "npc-id": 961,
-		"face": EAST,
-        "position": {
-        	"x": 3090,
-        	"y": 3495,
-        	"z": 0
-        },
-         "walking-policy": {
-        	"coordinate": true,
-        	"radius": 1
-        }
-	},	
 
 	/*** Bas Extreme Donator zone ***/
 	
@@ -450,7 +436,20 @@
         }
 	},
 	{
-        "npc-id": 541,
+        "npc-id": 2800,
+		"face": WEST,
+        "position": {
+        	"x": 3091,
+        	"y": 3495,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": false,
+        	"radius": -1
+        }
+	},
+	{
+        "npc-id": 705,
 		"face": SOUTH,
         "position": {
         	"x": 3408,
@@ -568,7 +567,7 @@
         }
 	},
 	{
-        "npc-id": 461,
+        "npc-id": 4707,
 		"face": EAST,
         "position": {
         	"x": 3409,
@@ -581,7 +580,7 @@
         }
 	},
 	{
-        "npc-id": 683,
+        "npc-id": 1861,
 		"face": WEST,
         "position": {
         	"x": 3420,
@@ -720,11 +719,24 @@
         }
 	},
 	{
-        "npc-id": 4902,
+        "npc-id": 2207,
 		"face": EAST,
         "position": {
         	"x": 3083,
         	"y": 3499,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": false,
+        	"radius": -1
+        }
+	},
+	{
+        "npc-id": 409,
+		"face": NORTH,
+        "position": {
+        	"x": 3093,
+        	"y": 3474,
         	"z": 0
         },
          "walking-policy": {
@@ -814,7 +826,7 @@
         "npc-id": 7969,
 		"face": SOUTH,
         "position": {
-        	"x": 3097,
+        	"x": 3095,
         	"y": 3506,
         	"z": 0
         },
@@ -837,7 +849,7 @@
         }
 	},
 	{
-        "npc-id": 683,
+        "npc-id": 1861,
 		"face": SOUTH,
         "position": {
         	"x": 3093,
@@ -850,7 +862,7 @@
         }
 	},
 	{
-        "npc-id": 541,
+        "npc-id": 705,
 		"face": SOUTH,
         "position": {
         	"x": 3092,
@@ -863,7 +875,7 @@
         }
 	},
 	{
-        "npc-id": 461,
+        "npc-id": 4707,
 		"face": SOUTH,
         "position": {
         	"x": 3094,
@@ -1381,8 +1393,8 @@
         	"z": 0
         },
          "walking-policy": {
-        	"coordinate": false,
-        	"radius": -1
+        	"coordinate": true,
+        	"radius": 3
         }
     },
     {
@@ -2515,6 +2527,97 @@
          "walking-policy": {
         	"coordinate": true,
         	"radius": 1
+        }
+    },
+    {
+        "npc-id": 2262,
+		"face": SOUTH,
+        "position": {
+        	"x": 2507,
+        	"y": 4722,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": false,
+        	"radius": 1
+        }
+    },
+    {
+        "npc-id": 2540,
+		"face": NORTH,
+        "position": {
+        	"x": 3090,
+        	"y": 3485,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": false,
+        	"radius": 1
+        }
+    },
+     {
+        "npc-id": 205,
+		"face": SOUTH,
+        "position": {
+        	"x": 2856,
+        	"y": 9572,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": true,
+        	"radius": 3
+        }
+    },
+    {
+        "npc-id": 205,
+		"face": SOUTH,
+        "position": {
+        	"x": 2857,
+        	"y": 9569,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": true,
+        	"radius": 3
+        }
+    },
+    {
+        "npc-id": 205,
+		"face": SOUTH,
+        "position": {
+        	"x": 2860,
+        	"y": 9572,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": true,
+        	"radius": 3
+        }
+    },
+    {
+        "npc-id": 205,
+		"face": SOUTH,
+        "position": {
+        	"x": 2859,
+        	"y": 9576,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": true,
+        	"radius": 3
+        }
+    },
+    {
+        "npc-id": 205,
+		"face": SOUTH,
+        "position": {
+        	"x": 2863,
+        	"y": 9569,
+        	"z": 0
+        },
+         "walking-policy": {
+        	"coordinate": true,
+        	"radius": 3
         }
     },
 	{

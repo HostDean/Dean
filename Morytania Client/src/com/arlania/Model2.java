@@ -482,6 +482,7 @@ public class Model2 extends Animable {
 			newformat = nc1.readUnsignedByte();
 			nc1.currentOffset += 6;
 		}
+	
 		if (newformat == 15)
 			newmodel[modelID] = true;
 		int i2 = nc1.readUnsignedByte();

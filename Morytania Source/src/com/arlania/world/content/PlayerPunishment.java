@@ -229,38 +229,18 @@ public class PlayerPunishment {
 			int emptyCell = findSlot();
 			if(emptyCell == -1) {
 				return false;
+				
 			}
 			Position pos = null;
 			switch(emptyCell) {
 			case 0:
-				pos = new Position(3095, 3930);
+				pos = new Position(3228, 3407);
 				break;
 			case 1:
-				pos = new Position(3095, 3937);
+				pos = new Position(3226, 3407);
 				break;
 			case 2:
-				pos = new Position(3100, 3930);
-				break;
-			case 3:
-				pos = new Position(3100, 3937);
-				break;
-			case 4:
-				pos = new Position(3105, 3930);
-				break;
-			case 5:
-				pos = new Position(3105, 3937);
-				break;
-			case 6:
-				pos = new Position(3110, 3930);
-				break;
-			case 7:
-				pos = new Position(3110, 3937);
-				break;
-			case 8:
-				pos = new Position(3115, 3930);
-				break;
-			case 9:
-				pos = new Position(3115, 3937);
+				pos = new Position(3230, 3407);
 				break;
 			}
 			p.moveTo(pos);

@@ -17,8 +17,8 @@ import com.arlania.world.entity.impl.player.Player;
 public class StartScreen {
 	public enum GameModes {
 		NORMAL("Normal", 52761,-12780, 1, 0, new Item[] { new Item(2441, 10), new Item(2437, 10), new Item(2443, 10), new Item(3025, 10), new Item(392, 200), new Item(995, 2000000), new Item(1153, 1), new Item(1115, 1),new Item(1067, 1), ( new Item(1191,1)), ( new Item(1323,1)), (new Item (4391, 1)), (new Item (841, 1)), (new Item (882, 500)), (new Item (1169, 1)), (new Item (1129, 1)),(new Item (1095, 1)), (new Item (1478, 1)), (new Item (579, 1)), (new Item (577, 1)), (new Item (1011, 1)), (new Item (1381, 1)), (new Item (558, 1000)), (new Item (557, 1000)), (new Item (555, 1000)), (new Item (554, 1000))}, "As a normal player you will be able to", "play the game without any restrictions.", "", "", "", "", ""),
-		IRONMAN("  Ironman", 52762, -12779, 1, 1, new Item [] {new Item(2441, 10), new Item(2437, 10), new Item(2443, 10), new Item(3025, 10), new Item(392, 200), new Item(995, 2000000), new Item(1153, 1), new Item(1115, 1),new Item(1067, 1), ( new Item(1191,1)), ( new Item(1323,1)), (new Item (4391, 1)), (new Item (841, 1)), (new Item (882, 500)), (new Item (1169, 1)), (new Item (1129, 1)),(new Item (1095, 1)), (new Item (1478, 1)), (new Item (579, 1)), (new Item (577, 1)), (new Item (1011, 1)), (new Item (1381, 1)), (new Item (558, 1000)), (new Item (557, 1000)), (new Item (555, 1000)), (new Item (554, 1000))}, "Play Arlania as an Iron man.", "You will be restricted from trading, staking and looting items from killed players.", "You will not get a npc drop if another player has done more damage.", "You will have to rely on your starter, skilling, pvming, and shops.", "This game mode is for players that love a challenge.", "", ""),
-		ULTIMATE_IRON("  Ultimate Iron", 52763, -12778, 1, 2, new Item[] { new Item(2441, 10), new Item(2437, 10), new Item(2443, 10), new Item(3025, 10), new Item(392, 200), new Item(995, 2000000), new Item(1153, 1), new Item(1115, 1),new Item(1067, 1), ( new Item(1191,1)), ( new Item(1323,1)), (new Item (4391, 1)), (new Item (841, 1)), (new Item (882, 500)), (new Item (1169, 1)), (new Item (1129, 1)),(new Item (1095, 1)), (new Item (1478, 1)), (new Item (579, 1)), (new Item (577, 1)), (new Item (1011, 1)), (new Item (1381, 1)), (new Item (558, 1000)), (new Item (557, 1000)), (new Item (555, 1000)), (new Item (554, 1000))}, "Play Arlania as a Ultimate Ironman.", "In addiction to the iron man rules you cannot use banks.", "This gamemode is for the players that love the impossible.", "", "", "", "");
+		IRONMAN("  Ironman", 52762, -12779, 1, 1, new Item [] {new Item(2441, 10), new Item(2437, 10), new Item(2443, 10), new Item(3025, 10), new Item(392, 200), new Item(995, 2000000), new Item(1153, 1), new Item(1115, 1),new Item(1067, 1), ( new Item(1191,1)), ( new Item(1323,1)), (new Item (4391, 1)), (new Item (841, 1)), (new Item (882, 500)), (new Item (1169, 1)), (new Item (1129, 1)),(new Item (1095, 1)), (new Item (1478, 1)), (new Item (579, 1)), (new Item (577, 1)), (new Item (1011, 1)), (new Item (1381, 1)), (new Item (558, 1000)), (new Item (557, 1000)), (new Item (555, 1000)), (new Item (554, 1000))}, "Play Aragma as an Iron man.", "You will be restricted from trading, staking and looting items from killed players.", "You will not get a npc drop if another player has done more damage.", "You will have to rely on your starter, skilling, pvming, and shops.", "This game mode is for players that love a challenge.", "", "");
+		
 
 		private String name;
 		private int stringId;
@@ -98,38 +98,38 @@ public class StartScreen {
 				player.setReceivedStarter(true);
 				handleConfirm(player);
 				addStarterToInv(player);
-				ClanChatManager.join(player, "sohan");
+				ClanChatManager.join(player, "help");
 				player.setPlayerLocked(false);
 				player.getPacketSender().sendInterface(3559);
 				player.getAppearance().setCanChangeAppearance(true);
 				player.setNewPlayer(false);
 				PlayerPunishment.addIpToStarterList1(player.getHostAddress());
 				PlayerPunishment.addIpToStarter1(player.getHostAddress());		
-				World.sendMessage("<col=6600CC>[New Player]: "+player.getUsername()+" has logged into Morytania for the first time!");
+				World.sendMessage("<col=6600CC>[New Player]: "+player.getUsername()+" has logged into Aragma for the first time!");
 			}
 			else if(PlayerPunishment.hasRecieved1stStarter(player.getHostAddress()) && !PlayerPunishment.hasRecieved2ndStarter(player.getHostAddress())) {
 				player.getPacketSender().sendInterfaceRemoval();
 				player.setReceivedStarter(true);
 				handleConfirm(player);
 				addStarterToInv(player);
-				ClanChatManager.join(player, "sohan");
+				ClanChatManager.join(player, "help");
 				player.setPlayerLocked(false);
 				player.getPacketSender().sendInterface(3559);
 				player.getAppearance().setCanChangeAppearance(true);
 				player.setNewPlayer(false);
 				PlayerPunishment.addIpToStarterList2(player.getHostAddress());
 				PlayerPunishment.addIpToStarter2(player.getHostAddress());			
-				World.sendMessage("<col=6600CC>[New Player]: "+player.getUsername()+" has logged into Morytania for the first time!");
+				World.sendMessage("<col=6600CC>[New Player]: "+player.getUsername()+" has logged into Aragma for the first time!");
 			}
 			else if(PlayerPunishment.hasRecieved1stStarter(player.getHostAddress()) && PlayerPunishment.hasRecieved2ndStarter(player.getHostAddress())) {
 				//player.getPacketSender().sendInterfaceRemoval();
-				ClanChatManager.join(player, "sohan");
+				ClanChatManager.join(player, "help");
 				player.setPlayerLocked(false);
 				player.getPacketSender().sendInterface(3559);
 				player.getAppearance().setCanChangeAppearance(true);
 				player.setNewPlayer(false);
 				player.getPacketSender().sendMessage("You've recieved to many starters.");
-				World.sendMessage("<col=6600CC>[New Player]: "+player.getUsername()+" has logged into Morytania for the first time!");
+				World.sendMessage("<col=6600CC>[New Player]: "+player.getUsername()+" has logged into Aragma for the first time!");
 			}
 			//DialogueManager.start(player, 81);
 			//return true;
@@ -146,9 +146,8 @@ public class StartScreen {
 	public static void handleConfirm(Player player) {
 		if (player.selectedGameMode == GameModes.IRONMAN) {
 			GameMode.set(player, GameMode.IRONMAN, false);
-		} else if (player.selectedGameMode == GameModes.ULTIMATE_IRON) {
-			GameMode.set(player, GameMode.HARDCORE_IRONMAN, false);
-		} else {
+		} 
+		else {
 			GameMode.set(player, GameMode.NORMAL, false);
 		}
 	}

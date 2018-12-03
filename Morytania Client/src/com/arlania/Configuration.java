@@ -10,7 +10,7 @@ public class Configuration {
 	
 	public final static int PORT = 43594; // dev 13376    /13377
 	public final static String CLIENT_VERSION = "1.0";
-	public final static String CLIENT_NAME = "Morytania";
+	public final static String CLIENT_NAME = "Aragma";
 	
 	
 	/**

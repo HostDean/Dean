@@ -27,7 +27,7 @@ public class CrystalChest {
 				p.getInventory().delete(989, 1);
 			}
 		}
-		if (p.getRights() == PlayerRights.SUPER_DONATOR || p.getRights() == PlayerRights.SUPPORT) {
+		if (p.getRights() == PlayerRights.SUPER_DONATOR || p.getRights() == PlayerRights.HELPER) {
 			if (Misc.getRandom(12) == 5) {
 				p.getPacketSender().sendMessage("Crystal Key has been saved as a donator benefit");
 			} else {
@@ -48,7 +48,7 @@ public class CrystalChest {
 				p.getInventory().delete(989, 1);
 			}
 		}
-		if (p.getRights() == PlayerRights.UBER_DONATOR || p.getRights() == PlayerRights.DEVELOPER) {
+		if (p.getRights() == PlayerRights.SUPPORTER_DONATOR || p.getRights() == PlayerRights.DEVELOPER) {
 			if (Misc.getRandom(3) == 2) {
 				p.getPacketSender().sendMessage("Crystal Key has been saved as a donator benefit");
 			} else {

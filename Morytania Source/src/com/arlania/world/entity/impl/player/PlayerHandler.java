@@ -238,7 +238,7 @@ break;
         	//player.setReceivedStarter(true);
         }
 		//DialogueManager.start(player, 177);
-        player.getPacketSender().sendMessage("@blu@Welcome to Morytania! We hope you enjoy your stay!");
+        player.getPacketSender().sendMessage("@blu@Welcome to Aragma! We hope you enjoy your stay!");
 
         
         if (player.experienceLocked()) {
@@ -248,7 +248,7 @@ break;
         ClanChatManager.join(player, "help");
 
         if (GameSettings.BONUS_EXP) {
-			player.getPacketSender().sendMessage("<img=10> <col=008FB2>Morytania currently has a bonus experience event going on, make sure to use it!");
+			player.getPacketSender().sendMessage("<img=10> <col=008FB2>Aragma currently has a bonus experience event going on, make sure to use it!");
         }
         if (WellOfWealth.isActive()) {
             player.getPacketSender().sendMessage("<img=10> @blu@The Well of Wealth is granting x2 Easier Droprates for another " + WellOfWealth.getMinutesRemaining() + " minutes.");
@@ -266,10 +266,10 @@ break;
 
         player.getPacketSender().updateSpecialAttackOrb().sendIronmanMode(player.getGameMode().ordinal());
 
-        if (player.getRights() == PlayerRights.OWNER || player.getRights() == PlayerRights.SUPPORT || player.getRights() == PlayerRights.MODERATOR || player.getRights() == PlayerRights.ADMINISTRATOR || player.getRights() == PlayerRights.DEVELOPER) {
+        if (player.getRights() == PlayerRights.OWNER || player.getRights() == PlayerRights.HELPER || player.getRights() == PlayerRights.MODERATOR || player.getRights() == PlayerRights.ADMINISTRATOR || player.getRights() == PlayerRights.DEVELOPER) {
             World.sendMessage("<img="+player.getRights().ordinal()+"><col=6600CC> " + Misc.formatText(player.getRights().toString().toLowerCase()) + " " + player.getUsername() + " has just logged in, feel free to message them for support.");
         }
-        if (player.getRights() == PlayerRights.MODERATOR || player.getRights() == PlayerRights.ADMINISTRATOR ||  player.getRights() == PlayerRights.SUPPORT || player.getRights() == PlayerRights.DEVELOPER || player.getRights() == PlayerRights.OWNER) {
+        if (player.getRights() == PlayerRights.MODERATOR || player.getRights() == PlayerRights.ADMINISTRATOR ||  player.getRights() == PlayerRights.HELPER || player.getRights() == PlayerRights.DEVELOPER || player.getRights() == PlayerRights.OWNER) {
 			if (!StaffList.staff.contains(player.getUsername())) {
 				StaffList.login(player);
 			}
@@ -281,7 +281,7 @@ break;
         }
         
         if(player.getPlayerOwnedShopManager().getEarnings() > 0) {
-        	player.sendMessage("<col=FF0000>You have unclaimed earnings in your player owned shop!");
+        	player.sendMessage("<col=FF0000>You have unclaimed earnings in your Grand Exchange store!");
         }
 
         PlayerLogs.log(player.getUsername(), "Login from host " + player.getHostAddress() + ", serial number: " + player.getSerialNumber());
@@ -322,7 +322,7 @@ break;
                 
                 
                 
-                if (player.getRights() == PlayerRights.MODERATOR || player.getRights() == PlayerRights.ADMINISTRATOR ||  player.getRights() == PlayerRights.SUPPORT || player.getRights() == PlayerRights.DEVELOPER || player.getRights() == PlayerRights.OWNER) {
+                if (player.getRights() == PlayerRights.MODERATOR || player.getRights() == PlayerRights.ADMINISTRATOR ||  player.getRights() == PlayerRights.HELPER || player.getRights() == PlayerRights.DEVELOPER || player.getRights() == PlayerRights.OWNER) {
 					StaffList.logout(player);
 				}
                 Hunter.handleLogout(player);

@@ -30,7 +30,6 @@ public class CustomObjects {
 			{172, 3078, 3500, 0, 2},
 			/*** Extreme Donator zone ***/
 			
-			{47180, 3413, 2919, 0, 0}, //Frost drags teleport
 			{2465, 2220, 3801, 0, 0},
 			{4875, 3451, 2881, 0, 0}, //Thief stalls
 			{4874, 3450, 2881, 0, 0}, //Thief stalls
@@ -40,6 +39,7 @@ public class CustomObjects {
 			{13493, 3446, 2881, 0, 0}, //Thief stalls
 			
 			{13405, 3439, 2906, 0, 1}, //House teleport
+			{13405, 3087, 3483, 0, 0}, //House teleport
 			
 			{4306, 3431, 2872, 0, 2}, //Anvil
 			{6189, 3433, 2871, 0, 3}, //Furnace
@@ -112,41 +112,60 @@ public class CustomObjects {
 			{2213, 2729, 3470, 0, 3}, //bank
 			{2213, 2729, 3471, 0, 3}, //bank
 			
-			
-			/*** Varrock home ***/
+			/*** Daddy boss area ***/
+			{-1, 2500, 4721, 0, 0}, //remove 
+			{-1, 2507, 4724, 0, 0}, //remove 
+			{-1, 2516, 4721, 0, 0}, //remove 
+			{12353, 2508, 4708, 0, 1}, //barrier
+			{12353, 2507, 4708, 0, 1}, //barrier
+			{12353, 2506, 4708, 0, 1}, //barrier
+			{12353, 2505, 4708, 0, 1}, //barrier
+			{12353, 2504, 4708, 0, 1}, //barrier
+			{12353, 2503, 4708, 0, 1}, //barrier
 
-			{172, 3208, 3438, 0, 2}, //crystal key chest
+			/*** Blood Druid area ***/
+			{-1, 2858, 9575, 0, 0}, //remove 
+			{-1, 2859, 9570, 0, 0}, //remove 
+			{-1, 2863, 9567, 0, 0}, //remove 
+			{-1, 2856, 9569, 0, 0}, //remove 
+			{-1, 2863, 9576, 0, 0}, //remove 
+			{-1, 2862, 9578, 0, 0}, //remove 
+			{-1, 2861, 9579, 0, 0}, //remove 
+			{-1, 2859, 9580, 0, 0}, //remove 
 			
-			{13179, 3226, 3433, 0, 3}, //veng
-			{6552, 3226, 3435, 0, 3}, //ancient
-			{409, 3205, 3434, 0, 1}, //pray altar
-			{411, 3205, 3436, 0, 1}, //turmoil
-			{884, 3195, 3436, 0, 1}, //well
-			{3192, 3220, 3435, 0, 2}, //scoreboard
+			/*** Skotizo ***/
+			{-1, 3375, 9812, 0, 0}, //remove 
+			{-1, 3375, 9810, 0, 0}, //remove 
+			{-1, 3373, 9812, 0, 0}, //remove 
+			{-1, 3373, 9810, 0, 0}, //remove 
 			
-			{2213, 3211, 3438, 0, 2}, //bank
-			{2213, 3212, 3438, 0, 2}, //bank
-			{2213, 3213, 3438, 0, 2}, //bank
-			{2213, 3214, 3438, 0, 2}, //bank
-			{1746, 3215, 3438, 0, 0}, //ladder
+			/*** EDGE HOME  REMOVES  ***/
+			{-1, 3092, 3488, 0, 0}, //remove 
+			{-1, 3095, 3477, 0, 0}, //remove 
+			{-1, 3095, 3480, 0, 0}, //remove 
+			{-1, 3092, 3477, 0, 0}, //remove 
+			{-1, 3092, 3480, 0, 0}, //remove 
+			{-1, 3090, 3479, 0, 0}, //remove 
+			{-1, 3090, 3476, 0, 0}, //remove 
+			{-1, 3090, 3474, 0, 0}, //remove 
+			{-1, 3097, 3481, 0, 0}, //remove 
+			{-1, 3096, 3479, 0, 0}, //remove 
+			{-1, 3096, 3476, 0, 0}, //remove 
+			{-1, 3091, 3478, 0, 0}, //remove 
+			{-1, 3097, 3474, 0, 0}, //remove 
+			{-1, 3096, 3469, 0, 0}, //remove 
 			
-			{-1, 3217, 3436, 0, 0}, //remove stall
-			{-1, 3219, 3436, 0, 0}, //remove stall
-			{-1, 3220, 3431, 0, 0}, //remove stall
-			{-1, 3220, 3425, 0, 0}, //remove stall
-			{-1, 3223, 3434, 0, 0}, //remove oak
-			{-1, 3226, 3431, 0, 0}, //remove plant
-			
-			/*** Varrock home end ***/
-			
-			
-			/*** UBER Donator zone ***/
+			/*** EDGE gamble zone ***/
+			{16850, 3097, 3474, 0, 0}, //dice obj
+			{16846, 3090, 3474, 0, 0}, //dice obj
+			{2213, 3095, 3474, 0, 0}, //bank
+		
+			/*** supporter Donator zone ***/
 			
 			{8749, 2307, 9806, 0, 1}, //special attack altar 
 			
 //			{411, 2307, 9807, 0, 1}, //pray altar
 //			{409, 2307, 9805, 0, 1}, //pray switch altar
-
 			{2213, 2317, 9798, 0, 0}, //bank
 			{2213, 2316, 9798, 0, 0}, //bank
 			{2213, 2315, 9798, 0, 0}, //bank
@@ -194,7 +213,7 @@ public class CustomObjects {
 			{1306, 2322, 9807, 0, 0}, //magic trees
 
 			
-			/*** UBER Donator zone end ***/
+			/*** supporter Donator zone end ***/
 			
 			
 			/*** Donator zone ***/
@@ -344,8 +363,7 @@ public class CustomObjects {
 			/*** Donator zone end ***/
 			
 			// GE
-			{8799, 2437, 3086, 0, 3},  //GE
-			{8799, 3090, 3488, 0, 1},  //GE HOME
+	
 		
 			/**Donator Zone NIEUW?**/
 			{ 11758, 3035, 4413, 0, 0},//bank
@@ -483,7 +501,7 @@ public class CustomObjects {
 //		{13493, 3424, 2916, 0, 1},//Armour  stall
 		
         /**Oude ruse Member Zone end*/
-		
+	
 		
 		{-1, 3098, 3496, 0, 1},
 		{-1, 3095, 3498, 0, 1},
