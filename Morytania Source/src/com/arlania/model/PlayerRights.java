@@ -64,6 +64,7 @@ public enum PlayerRights {
 	}
 	
 	private static final ImmutableSet<PlayerRights> STAFF = Sets.immutableEnumSet(SUPPORT, MODERATOR, ADMINISTRATOR, OWNER, DEVELOPER);
+	private static final ImmutableSet<PlayerRights> ADMINISTRATION = Sets.immutableEnumSet(ADMINISTRATOR, OWNER, DEVELOPER);
 	private static final ImmutableSet<PlayerRights> MEMBERS = Sets.immutableEnumSet(DONATOR, SUPER_DONATOR, EXTREME_DONATOR, LEGENDARY_DONATOR, UBER_DONATOR);
 	
 	/*
@@ -101,6 +102,10 @@ public enum PlayerRights {
 	
 	public boolean isStaff() {
 		return STAFF.contains(this);
+	}
+	
+	public boolean isAdministration() {
+		return ADMINISTRATION.contains(this);
 	}
 	
 	public boolean isMember() {

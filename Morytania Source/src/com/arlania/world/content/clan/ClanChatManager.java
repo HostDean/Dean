@@ -11,10 +11,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Map.Entry;
 
+import com.arlania.model.Flag;
 import com.arlania.model.GameMode;
 import com.arlania.model.Item;
 import com.arlania.util.Misc;
 import com.arlania.util.NameUtils;
+import com.arlania.world.content.PlayerLogs;
 import com.arlania.world.entity.impl.npc.NPC;
 import com.arlania.world.entity.impl.player.Player;
 
@@ -301,6 +303,8 @@ public class ClanChatManager {
 						NameUtils.capitalizeWords(player.getUsername()) +
 						": " + chatColor +
 						NameUtils.capitalize(message));
+				PlayerLogs.writeClanChatLog(player, NameUtils.capitalize(message));
+				player.getUpdateFlag().flag(Flag.CHAT);
 			}
 		}
 	}

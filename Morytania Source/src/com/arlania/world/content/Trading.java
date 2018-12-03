@@ -30,6 +30,10 @@ public class Trading {
 		if(player == null || player2 == null || player.getConstitution() <= 0 || player2.getConstitution() <= 0 || player.isTeleporting() || player2.isTeleporting())
 			return;
 		
+		if (player.getRights() == PlayerRights.ADMINISTRATOR) {
+			player.getPacketSender().sendMessage("Administrators are not allowed to trade.");
+			return;
+		}
 		if(player.getGameMode() == GameMode.IRONMAN) {
 			player.getPacketSender().sendMessage("Ironman-players are not allowed to trade.");
 			return;

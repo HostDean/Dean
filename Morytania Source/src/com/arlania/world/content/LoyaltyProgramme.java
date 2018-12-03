@@ -278,6 +278,7 @@ public class LoyaltyProgramme {
 				if(player.getPointsHandler().getLoyaltyPoints() >= title.cost) {
 				
 					player.setTitle("@or2@"+title);
+					player.setLoyaltyTitle(title);
 				
 					player.getPointsHandler().setLoyaltyPoints(-title.cost, true);
 					player.getPointsHandler().refreshPanel();

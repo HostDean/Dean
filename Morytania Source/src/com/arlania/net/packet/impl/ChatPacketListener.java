@@ -5,6 +5,7 @@ import com.arlania.model.ChatMessage.Message;
 import com.arlania.net.packet.Packet;
 import com.arlania.net.packet.PacketListener;
 import com.arlania.util.Misc;
+import com.arlania.world.content.PlayerLogs;
 import com.arlania.world.content.PlayerPunishment;
 import com.arlania.world.content.dialogue.DialogueManager;
 import com.arlania.world.entity.impl.player.Player;
@@ -33,6 +34,8 @@ public class ChatPacketListener implements PacketListener {
 			//return;
 		}
 		player.getChatMessages().set(new Message(color, effects, text));
+		String messageToLog = Misc.textUnpack(text, size);
+		PlayerLogs.writeChatLog(player, messageToLog);
 		player.getUpdateFlag().flag(Flag.CHAT);
 	}
 

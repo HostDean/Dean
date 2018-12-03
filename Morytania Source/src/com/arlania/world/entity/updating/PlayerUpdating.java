@@ -53,7 +53,7 @@ public class PlayerUpdating {
 		packet.putBits(8, player.getLocalPlayers().size());
 		for (Iterator<Player> playerIterator = player.getLocalPlayers().iterator(); playerIterator.hasNext();) {
 			Player otherPlayer = playerIterator.next();
-			if (World.getPlayers().get(otherPlayer.getIndex()) != null && otherPlayer.isVisible() && otherPlayer.getPosition().isWithinDistance(player.getPosition()) && !otherPlayer.isNeedsPlacement()) {
+			if (World.getPlayers().get(otherPlayer.getIndex()) != null && otherPlayer.isVisible() && !otherPlayer.getInvisMode() && otherPlayer.getPosition().isWithinDistance(player.getPosition()) && !otherPlayer.isNeedsPlacement()) {
 				updateOtherPlayerMovement(packet, otherPlayer);
 				if (otherPlayer.getUpdateFlag().isUpdateRequired()) {
 					appendUpdates(player, update, otherPlayer, false, false);
@@ -69,7 +69,7 @@ public class PlayerUpdating {
 		for(Player otherPlayer : World.getPlayers()) {
 			if (player.getLocalPlayers().size() >= 79 || playersAdded > MAX_NEW_PLAYERS_PER_CYCLE)
 				break;
-			if (otherPlayer == null || otherPlayer == player || !player.isVisible() || player.getLocalPlayers().contains(otherPlayer) || !otherPlayer.getPosition().isWithinDistance(player.getPosition()))
+			if (otherPlayer == null || otherPlayer == player || !player.isVisible() || otherPlayer.getInvisMode() || player.getLocalPlayers().contains(otherPlayer) || !otherPlayer.getPosition().isWithinDistance(player.getPosition()))
 				continue;
 			player.getLocalPlayers().add(otherPlayer);
 			addPlayer(player, otherPlayer, packet);

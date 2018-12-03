@@ -194,8 +194,24 @@ public class ProfileViewing {
 		c.getPA().sendInterface(36500);
 
 		for (int i = 0; i < 7; i++) {
-			c.getPA().sendFrame126(Skill.values()[i].getFormatName() + ": "
-					+ other.getSkillManager().getCurrentLevel(Skill.values()[i]), 36531 + i);
+			int modifier = i==3 || i==5 ? 10 : 1;
+			String modifierString = i==3 || i==5 ? " (x10)" : "";
+			
+			if (other.getSkillManager().getCurrentLevel(Skill.values()[i])/modifier == other.getSkillManager().getLevelForExperience(other.getSkillManager().getExperience(Skill.values()[i]))) {
+				c.getPA().sendFrame126(Skill.values()[i].getFormatName() + ": "
+						+ other.getSkillManager().getCurrentLevel(Skill.values()[i]) + modifierString, 36531 + i);	
+			}
+			
+			if (other.getSkillManager().getCurrentLevel(Skill.values()[i])/modifier < other.getSkillManager().getLevelForExperience(other.getSkillManager().getExperience(Skill.values()[i]))) {
+				c.getPA().sendFrame126("@red@"+Skill.values()[i].getFormatName() + ": "
+						+ other.getSkillManager().getCurrentLevel(Skill.values()[i]) + modifierString, 36531 + i);
+			}
+			
+			if (other.getSkillManager().getCurrentLevel(Skill.values()[i])/modifier > other.getSkillManager().getLevelForExperience(other.getSkillManager().getExperience(Skill.values()[i]))) {
+				c.getPA().sendFrame126("@gre@"+Skill.values()[i].getFormatName() + ": "
+						+ other.getSkillManager().getCurrentLevel(Skill.values()[i]) + modifierString, 36531 + i);
+			}
+			
 		}
 		c.getPA().sendFrame126("Summoning: " + other.getSkillManager().getCurrentLevel(Skill.SUMMONING), 36539);
 		c.getPA().sendFrame126("Slayer: " + other.getSkillManager().getCurrentLevel(Skill.SLAYER), 36538);
@@ -212,25 +228,29 @@ public class ProfileViewing {
 	}
 
 	private static long getAccountWorth(Player other) {
-		int amount = 0;
+		long amount = 0;
+		amount+=other.getMoneyInPouch();
 		for (Item item : other.getInventory().getValidItemsArray()) {
 			if (item == null) {
 				continue;
 			}
-			amount += item.getDefinition().getValue();
+			amount += (long)item.getDefinition().getValue()*item.getAmount();
+			//other.getPacketSender().sendMessage("Amount EQUIP: "+amount);
 		}
 		for (Item item : other.getEquipment().getValidItemsArray()) {
 			if (item == null) {
 				continue;
 			}
-			amount += item.getDefinition().getValue();
+			amount += (long)item.getDefinition().getValue()*item.getAmount();
+			//other.getPacketSender().sendMessage("Amount INV: "+amount);
 		}
 		for (Bank bank : other.getBanks()) {
 			if (bank == null) {
 				continue;
 			}
 			for (Item item : bank.getValidItemsArray()) {
-				amount += item.getDefinition().getValue();
+				amount += (long)item.getDefinition().getValue()*item.getAmount();
+				//other.getPacketSender().sendMessage("Amount BANK: "+amount);
 			}
 		}
 		return amount;

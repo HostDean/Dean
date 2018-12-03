@@ -25,8 +25,8 @@ public class CacheDownloader implements Runnable {
 	private static final String VERSION_FILE = CACHE_PATH + "cacheVersion.dat";
 	*/
 	
-	private static final String CACHE_PATH = System.getProperty("user.home") + File.separator + "MorytaniaCache" + File.separator;
-	private static final String ZIP_URL = "https://dl.dropbox.com/s/svxn9pzr62tssw1/MorytaniaCache.zip?dl=0"; // Okkk ty i gtg now 
+	private static final String CACHE_PATH = System.getProperty("user.home") + File.separator + "AragmaCache" + File.separator;
+	private static final String ZIP_URL = "http://3.8.154.195/serverassets/cache/AragmaCache.zip"; // Okkk ty i gtg now 
 	private static final String VERSION_FILE = CACHE_PATH + "cacheVersion.dat";
 
 	private CacheDownloader.GUI g;
@@ -110,7 +110,7 @@ public class CacheDownloader implements Runnable {
 	}
 
 	private void unZipFile(File zipFile, File outFile) throws IOException {
-		g.setStatus("Unzipping MorytaniaCache...");
+		g.setStatus("Unzipping AragmaCache...");
 		g.setPercent(0);
 
 		ZipInputStream zin = new ZipInputStream(new BufferedInputStream(new FileInputStream(zipFile)));
@@ -153,9 +153,9 @@ public class CacheDownloader implements Runnable {
 	}
 
 	private File downloadCache() {
-		g.setStatus("Downloading MorytaniaCache...");
+		g.setStatus("Downloading AragmaCache...");
 
-		File ret = new File(CACHE_PATH + "MorytaniaCache.zip");
+		File ret = new File(CACHE_PATH + "AragmaCache.zip");
 
 		try (OutputStream out = new FileOutputStream(ret)) {
 			URLConnection conn = new URL(ZIP_URL).openConnection();
@@ -210,7 +210,7 @@ public class CacheDownloader implements Runnable {
 			jLabel3 = new JLabel();
 
 			setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-			setTitle("Morytania Cache  Update");
+			setTitle("Aragma Cache  Update");
 
 			addWindowListener(new java.awt.event.WindowAdapter() {
 				public void windowClosing(java.awt.event.WindowEvent evt) {

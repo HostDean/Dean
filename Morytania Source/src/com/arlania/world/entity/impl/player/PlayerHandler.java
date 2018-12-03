@@ -39,6 +39,7 @@ import com.arlania.world.content.StaffList;
 import com.arlania.world.content.StartScreen;
 import com.arlania.world.content.WellOfGoodwill;
 import com.arlania.world.content.WellOfWealth;
+import com.arlania.world.content.LoyaltyProgramme.LoyaltyTitles;
 import com.arlania.world.content.clan.ClanChatManager;
 import com.arlania.world.content.combat.effect.CombatPoisonEffect;
 import com.arlania.world.content.combat.effect.CombatTeleblockEffect;
