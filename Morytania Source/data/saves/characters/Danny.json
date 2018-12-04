@@ -1,35 +1,35 @@
 {
-  "total-play-time-ms": 841550,
-  "username": "Dean1",
-  "password": "deanpro",
+  "total-play-time-ms": 41679952,
+  "username": "Danny",
+  "password": "red778",
   "email": "null",
-  "staff-rights": "PLAYER",
+  "staff-rights": "OWNER",
   "game-mode": "NORMAL",
-  "boss-points": 0,
+  "boss-points": 7,
   "Aragma-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3088,
-    "y": 3504,
+    "x": 2507,
+    "y": 4718,
     "z": 0
   },
   "online-status": "ON",
-  "given-starter": true,
-  "money-pouch": 0,
-  "donated": 0,
+  "given-starter": false,
+  "money-pouch": 1000000000,
+  "donated": 270,
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 0,
+  "total-gained-exp": -1615868958,
   "prestige-points": 0,
-  "achievement-points": 0,
+  "achievement-points": 7,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 231,
-  "total-loyalty-points": 231.0,
+  "loyalty-points": 12629,
+  "total-loyalty-points": 12615.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
-  "donation-points": 0,
-  "trivia-points": 0,
+  "donation-points": 10,
+  "trivia-points": 10,
   "cluescompleted": 0,
   "player-kills": 0,
   "player-killstreak": 0,
@@ -45,11 +45,11 @@
   "run-energy": 100,
   "music": false,
   "sounds": false,
-  "auto-retaliate": false,
+  "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 24522587,
-  "fight-type": "UNARMED_PUNCH",
+  "last-veng": 536223529,
+  "fight-type": "TWOHANDEDSWORD_SLASH",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -169,17 +169,17 @@
   ],
   "appearance": [
     0,
-    0,
+    3,
     18,
     26,
-    33,
-    36,
+    34,
+    38,
     42,
-    10,
-    0,
-    0,
-    0,
-    0,
+    14,
+    2,
+    14,
+    5,
+    4,
     0
   ],
   "agility-obj": [
@@ -193,221 +193,221 @@
   ],
   "skills": {
     "level": [
-      1,
-      1,
-      1,
-      100,
-      1,
-      10,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
+      99,
+      99,
+      99,
+      489,
+      99,
+      985,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99
     ],
     "maxLevel": [
-      1,
-      1,
-      1,
-      100,
-      1,
-      10,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
+      99,
+      99,
+      99,
+      990,
+      99,
+      990,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99,
+      99
     ],
     "experience": [
-      0,
-      0,
-      0,
-      1184,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      13034431,
+      13034431,
+      16991423,
+      540564023,
+      13162546,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431,
+      13034431
     ]
   },
   "inventory": [
     {
-      "id": 2441,
-      "amount": 10,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 2437,
-      "amount": 10,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 2443,
-      "amount": 10,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 3025,
-      "amount": 10,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 392,
-      "amount": 200,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 995,
-      "amount": 2000000,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1153,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1115,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1067,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1191,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1323,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 4391,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 841,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 882,
-      "amount": 500,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1169,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1129,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1095,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1478,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 579,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 577,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1011,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 1381,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 558,
-      "amount": 1000,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 557,
-      "amount": 1000,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 555,
-      "amount": 1000,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 554,
-      "amount": 1000,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 21003,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -423,7 +423,7 @@
       "slot": 0
     },
     {
-      "id": 21002,
+      "id": 9747,
       "amount": 1,
       "slot": 0
     },
@@ -433,8 +433,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 11694,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -488,7 +488,13 @@
       "slot": 0
     }
   ],
-  "bank-0": [],
+  "bank-0": [
+    {
+      "id": 11694,
+      "amount": 1,
+      "slot": 0
+    }
+  ],
   "bank-1": [],
   "bank-2": [],
   "bank-3": [],
@@ -523,7 +529,11 @@
     0,
     0
   ],
-  "friends": [],
+  "blowpipe-charge-item": 11230,
+  "blowpipe-charge-amount": 99998,
+  "friends": [
+    70774447859356
+  ],
   "ignores": [],
   "loyalty-titles": [
     false,
@@ -531,16 +541,118 @@
     false,
     false,
     false,
-    false,
-    false,
-    false,
+    true,
+    true,
+    true,
     false,
     false,
     false,
     false
   ],
-  "kills": [],
-  "drops": [],
+  "kills": [
+    {
+      "npcName": "Corporeal Beast",
+      "amount": 7,
+      "boss": true
+    },
+    {
+      "npcName": "Lizard man",
+      "amount": 9,
+      "boss": false
+    },
+    {
+      "npcName": "Giant spider",
+      "amount": 6,
+      "boss": false
+    }
+  ],
+  "drops": [
+    {
+      "item": 18891,
+      "amount": 1,
+      "rareDrop": true
+    },
+    {
+      "item": 450,
+      "amount": 650,
+      "rareDrop": false
+    },
+    {
+      "item": 533,
+      "amount": 3000,
+      "rareDrop": false
+    },
+    {
+      "item": 9144,
+      "amount": 2500,
+      "rareDrop": false
+    },
+    {
+      "item": 5105,
+      "amount": 4800,
+      "rareDrop": false
+    },
+    {
+      "item": 11133,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 566,
+      "amount": 200,
+      "rareDrop": false
+    },
+    {
+      "item": 4093,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1249,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 985,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1405,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1407,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1462,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1617,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 1621,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 2944,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 12158,
+      "amount": 39,
+      "rareDrop": false
+    }
+  ],
   "achievements-completion": [
     false,
     false,
@@ -563,9 +675,13 @@
     false,
     false,
     false,
+    true,
+    true,
     false,
+    true,
     false,
     false,
+    true,
     false,
     false,
     false,
@@ -588,6 +704,7 @@
     false,
     false,
     false,
+    true,
     false,
     false,
     false,
@@ -616,6 +733,7 @@
     false,
     false,
     false,
+    true,
     false,
     false,
     false,
@@ -624,13 +742,7 @@
     false,
     false,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
+    true,
     false,
     false,
     false,
@@ -645,6 +757,29 @@
   ],
   "achievements-progress": [
     0,
+    365,
+    439,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    365,
+    439,
     0,
     0,
     0,
@@ -665,38 +800,15 @@
     0,
     0,
     0,
+    365,
+    439,
     0,
+    2,
     0,
+    22,
+    7,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    3
   ],
   "max-cape-colors": [
     65214,
@@ -704,5 +816,5 @@
     65186,
     62995
   ],
-  "player-title": ""
+  "player-title": "@red@The Rt Hon"
 }
